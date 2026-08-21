@@ -1,22 +1,11 @@
-# YZ50 — 1. Hafta
+# YZ50 — Week 1
 
-Sinir ağının temel parçalarının sıfırdan, kütüphane kullanmadan yazılması.
+Assignment solutions for YZ50.
 
-| Dosya | Görev |
-|---|---|
-| `yz1.py` | Tek nöron forward pass (ReLU) |
-| `yz2.py` | Çok nöronlu katman, forward pass'in genişletilmesi |
-| `yz3.py` | MSE loss fonksiyonu |
-| `yz4.py` | Parametreyi tarayarak loss eğrisinin çizilmesi |
-| `yz5.py` | Sayısal türev ile gradient descent döngüsü |
-
-## Notlar
-
-- `yz1`–`yz3` tamamen saf Python; hiçbir import yok.
-- `yz4`–`yz5`'te numpy yalnızca değer aralığı üretmek, matplotlib yalnızca çizim için
-  kullanıldı. İleri geçiş ve loss hesabı elle yazılmış hâliyle duruyor.
-- `yz5` çıktısı `w = 1.9333`. Bu problemin en küçük kareler çözümü
-  `Σx·y / Σx² = 58/30 = 1.9333` olduğu için gradient descent'in doğru çalıştığı
-  bağımsız olarak doğrulanabiliyor.
-
-Python 3.12 ile çalıştırıldı.
+| # | Task | File |
+|---|---|---|
+| 1 | Write a single-neuron forward pass in Python, without libraries. | `yz1.py` |
+| 2 | Build a small layer of multiple neurons and extend the forward pass to it. | `yz2.py` |
+| 3 | Write a simple loss function. | `yz3.py` |
+| 4 | Change the parameters manually to observe how the loss changes, and plot the loss curve. | `yz4.py` |
+| 5 | Set up a basic gradient descent loop using a numerical derivative: lower the loss by updating the parameter in small steps. | `yz5.py` |
