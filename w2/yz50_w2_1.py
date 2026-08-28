@@ -16,4 +16,3 @@ class Value:
     def __mul__(self, other):
             out = Value(self.data * other.data, (self, other),"*")
             return out
-
