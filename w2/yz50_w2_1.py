@@ -17,9 +17,3 @@ class Value:
             out = Value(self.data * other.data, (self, other),"*")
             return out
 
-
-a=Value(2.0)
-b=Value(-3.0)
-c=Value(10.0)
-d= a*b+c 
-
