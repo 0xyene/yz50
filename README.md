@@ -8,6 +8,6 @@ The curriculum follows Andrej Karpathy's *Zero to Hero* path: a single neuron wr
 | Week | Topic | Files |
 |---|---|---|
 | 1 | Single neuron → layer → loss → manual parameter search → numerical gradient descent | [`w1/`](w1/) |
-| 2 | `Value` class: the beginnings of an autograd engine (add, mul) | [`w2/`](w2/) |
+| 2 | Backpropagation: a small micrograd — `Value` autograd engine, `backward()`, and an MLP trained with gradient descent | [`w2/`](w2/) |
 
 Each week's folder has its own README with the assignment list.
