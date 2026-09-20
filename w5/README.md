@@ -13,9 +13,6 @@ hand. `loss.backward()` is used only to produce the answer key to check against.
 
 Both tasks are in one notebook: task 1 builds the forward pass that task 2 differentiates.
 
-Task 3 (Karpathy's exercises 2–4 — cross entropy and BatchNorm each in a single
-expression, then training without `loss.backward()`) was optional and is not included.
-
 ## Data
 
 | File | Contents |
@@ -32,24 +29,6 @@ logprobs · probs · counts_sum_inv · counts_sum · counts · norm_logits · lo
 logits · h · W2 · b2 · hpreact · bngain · bnbias · bnraw · bnvar_inv · bnvar
 bndiff2 · bndiff · bnmeani · hprebn · embcat · W1 · b1 · emb · C
 ```
-
-## Two mistakes worth keeping
-
-Neither of these raised an error. Both were found by reading the number `cmp` prints.
-
-`dlogits` came out with `maxdiff: 1.0`. The second path into `logits` runs through
-`logits.max(1)`, and `max` sends the gradient to the largest element of each row — not
-to the target character. Scattering it at `Yb`'s positions put a 1.0 in the wrong 32
-places.
-
-`dbndiff` came out with `maxdiff: 9.4e-4` while `dhprebn`, computed from it, was exact.
-`dhprebn = dbndiff` names the same tensor instead of copying it, so the `+=` on the
-following line also landed inside `dbndiff`. The size of the difference matched
-`(1/n)·dbnmeani`, which is what pointed at the line; `.clone()` fixes it.
-
-One more thing `cmp` does not catch: it compares values, not shapes. A `(64,)` gradient
-for a `(1, 64)` parameter broadcasts and still reports `exact`, so shapes are worth
-checking separately.
 
 The embedding gradient is an explicit loop over the 96 context positions. `index_add_`
 does the same in one call — the loop is kept here because it shows why the duplicate
