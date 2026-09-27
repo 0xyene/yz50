@@ -12,5 +12,6 @@ The curriculum follows Andrej Karpathy's *Zero to Hero* path: a single neuron wr
 | 3 | Bigram character language model, built by counting and again as a single-layer network trained with gradient descent; negative log likelihood, smoothing, and the same two models rerun on Turkish names | [`w3/`](w3/) |
 | 4 | MLP language model over a three-character context: learned embeddings, minibatch training and a learning rate sweep, then a look inside the network — high initial loss, tanh saturation, Kaiming init and BatchNorm — and the same model on Turkish names | [`w4/`](w4/) |
 | 5 | Backpropagation by hand: the week 4 model written as single operations, the gradient of every intermediate derived manually and checked against autograd | [`w5/`](w5/) |
+| 6 | WaveNet: the week 4 model rebuilt from layer classes, context 3 → 8, characters fused two at a time in a three-level tree, a BatchNorm bug on 3D input found and fixed, and the model on Turkish names | [`w6/`](w6/) |
 
 Each week's folder has its own README with the assignment list.
