@@ -13,5 +13,6 @@ The curriculum follows Andrej Karpathy's *Zero to Hero* path: a single neuron wr
 | 4 | MLP language model over a three-character context: learned embeddings, minibatch training and a learning rate sweep, then a look inside the network — high initial loss, tanh saturation, Kaiming init and BatchNorm — and the same model on Turkish names | [`w4/`](w4/) |
 | 5 | Backpropagation by hand: the week 4 model written as single operations, the gradient of every intermediate derived manually and checked against autograd | [`w5/`](w5/) |
 | 6 | WaveNet: the week 4 model rebuilt from layer classes, context 3 → 8, characters fused two at a time in a three-level tree, a BatchNorm bug on 3D input found and fixed, and the model on Turkish names | [`w6/`](w6/) |
+| 7 | GPT from scratch, part 1: a character tokenizer and bigram baseline on Tiny Shakespeare, averaging over the past with a lower-triangular matrix and softmax, and a single self-attention head with positional embeddings and √head_size scaling, trained inside the language model | [`w7/`](w7/) |
 
 Each week's folder has its own README with the assignment list.
