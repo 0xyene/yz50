@@ -1,5 +1,7 @@
 # YZ50 — Week 7
 
+Walkthrough video (in Turkish): https://youtu.be/d3T2BO2Sm4k
+
 Assignment solutions for YZ50.
 
 Part 1 of building a GPT from scratch, on Tiny Shakespeare. A character tokenizer and

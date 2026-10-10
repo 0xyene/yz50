@@ -1,5 +1,7 @@
 # YZ50 — Week 5
 
+Walkthrough video (in Turkish): https://youtu.be/3EEH55u7EFo
+
 Assignment solutions for YZ50.
 
 No new model this week. The MLP + BatchNorm from week 4 is written out as a chain of

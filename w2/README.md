@@ -1,5 +1,7 @@
 # YZ50 — Week 2
 
+Walkthrough video (in Turkish): https://youtu.be/6lc6fQNhuEE
+
 Assignment solutions for YZ50.
 
 | # | Task | File |

@@ -1,5 +1,7 @@
 # YZ50 — Week 3
 
+Walkthrough video (in Turkish): https://youtu.be/mOg75QSEMgs
+
 Assignment solutions for YZ50.
 
 The first language model of the course: a bigram character model, built twice.

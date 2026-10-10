@@ -1,5 +1,7 @@
 # YZ50 — Week 4
 
+Walkthrough video (in Turkish): https://youtu.be/OmbdkcDRERk
+
 Assignment solutions for YZ50.
 
 The first real neural language model of the course. No table this time: every

@@ -1,5 +1,7 @@
 # YZ50 — Week 6
 
+Walkthrough video (in Turkish): https://youtu.be/lXYEbUDKSLs
+
 Assignment solutions for YZ50.
 
 The week 4 model is rebuilt from layer classes, in the style of `torch.nn`, and the
