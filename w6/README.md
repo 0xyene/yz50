@@ -1,6 +1,7 @@
 # YZ50 — Week 6
 
 Walkthrough video (in Turkish): https://youtu.be/lXYEbUDKSLs
+Animation (in Turkish): https://youtu.be/R4r24PSWNjA — the WaveNet forward pass, characters fused two at a time, and the BatchNorm1d bug
 
 Assignment solutions for YZ50.
 
