@@ -1,5 +1,7 @@
 # YZ50 — Week 8
 
+Walkthrough video (in Turkish): https://youtu.be/Gf4T_sxAcVE
+
 Assignment solutions for YZ50.
 
 Part 2 of building a GPT from scratch. The single head from week 7 becomes multi-head
