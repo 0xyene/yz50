@@ -38,7 +38,11 @@ h2{font-size:50px;line-height:1.08;font-weight:700;letter-spacing:-.025em}
 
 /* kapak */
 .cover h1 span{display:block}
-.tl{position:absolute;left:72px;right:72px;top:600px;height:120px}
+.tl{position:absolute;left:72px;right:72px;top:640px;height:120px}
+.start{margin-top:34px;display:flex;gap:22px;align-items:baseline;max-width:1300px}
+.start b{font:600 14px var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--me);white-space:nowrap}
+.start span{font-size:27px;line-height:1.35;color:var(--ink)}
+.prov{position:absolute;left:72px;top:790px;font-size:15px;color:var(--faint)}
 .tl .base{position:absolute;left:0;right:0;top:40px;height:2px;background:var(--line)}
 .tl .run{position:absolute;left:0;top:40px;height:2px;background:var(--ink);width:0;transition:width 2.2s var(--ease) .4s}
 .live .tl .run{width:100%}
@@ -47,7 +51,9 @@ h2{font-size:50px;line-height:1.08;font-weight:700;letter-spacing:-.025em}
 .tl .wd.end{border-color:var(--me);background:var(--me);width:22px;height:22px;margin-left:-11px;top:30px}
 .tl .wd.end.lit{animation:pulse 1.6s ease-in-out infinite}
 @keyframes pulse{50%{box-shadow:0 0 0 10px rgba(226,85,45,.13)}}
-.tl .lb{position:absolute;top:66px;transform:translateX(-50%);font-size:13px;color:var(--faint);white-space:nowrap}
+.tl .lb{position:absolute;top:66px;transform:translateX(-50%);font-size:13px;color:var(--faint);white-space:nowrap;text-align:center;line-height:1.3}
+.tl .lb small{display:block;font:11px var(--mono);color:var(--line);color:#c4c1b8}
+.tl .lb.first{transform:none;text-align:left}
 .tl .lb.end{color:var(--me);font-weight:600}
 
 /* yolculuk: 12 kart */
@@ -63,17 +69,19 @@ h2{font-size:50px;line-height:1.08;font-weight:700;letter-spacing:-.025em}
 .grid.focus .wk.sel{opacity:1;transform:translateY(-6px) scale(1.04);box-shadow:0 18px 40px rgba(20,22,28,.12);border-color:var(--ink)}
 
 /* model: token şeridi + kod ızgarası */
-.seq{display:flex;flex-wrap:wrap;gap:5px;margin-top:34px;max-width:1460px}
+.seq{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px;max-width:1460px}
+.lbl{font:600 13px var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--mute);margin-top:26px}
+.lbl span{font-weight:400;text-transform:none;letter-spacing:0;color:var(--faint);margin-left:8px}
 .tk{height:40px;min-width:30px;padding:0 9px;border-radius:7px;display:flex;align-items:center;justify-content:center;font:15px var(--mono);background:var(--card);border:1px solid var(--line)}
 .tk.sp{background:var(--ink);color:var(--paper);border-color:var(--ink);font-size:13px}
 .tk.tag{background:var(--me);border-color:var(--me);color:#fff;font-size:13px}
-.gridwrap{display:flex;gap:26px;margin-top:22px;align-items:flex-start}
+.gridwrap{display:flex;gap:26px;margin-top:8px;align-items:flex-start}
 .codes{display:grid;grid-template-rows:repeat(8,22px);grid-auto-flow:column;grid-auto-columns:22px;gap:3px}
 .codes i{border-radius:4px;background:var(--line);opacity:0;transform:scale(.6);transition:opacity .35s var(--ease),transform .35s var(--ease)}
 .codes i.on{opacity:1;transform:none}
 .cbl{display:grid;grid-template-rows:repeat(8,22px);gap:3px;font:12px var(--mono);color:var(--faint);text-align:right}
 .cbl span{line-height:22px}
-.facts{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:30px}
+.facts{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:24px}
 .fact{border-top:2px solid var(--ink);padding-top:12px}
 .fact b{display:block;font:600 30px var(--mono);letter-spacing:-.02em}
 .fact span{font-size:15px;color:var(--mute);line-height:1.4;display:block;margin-top:4px}
@@ -265,6 +273,7 @@ const BENCH = [
   ['Benim modelim', 'eski video sesim', 18.8, 8.8, 'mine voice'],
   ['F5-TTS', '0.3B', 24.3, null, ''],
 ];
+const TOPICS = ['Nöron', 'Backprop', 'Bigram', 'MLP', 'Elle grad', 'WaveNet', 'Attention', 'Transformer', 'Tokenizer', 'GPT-2', 'Hızlandırma', 'Eğitim'];
 const LADDER = [[0, 'adim_000000.wav'], [1000, 'adim_001000.wav'], [3000, 'adim_003000.wav'], [10000, 'adim_010000.wav'], [60000, 'adim_060000.wav']];
 const keys = {};      // sahneye özel tuşlar
 
@@ -273,14 +282,14 @@ const SCENES = [
     const h = el('div', 'cover');
     h.append(el('div', 'kicker in', 'YZ50 · 12 hafta · 15 Kasım 2026'),
       el('h1', 'in', '<span>Tek bir nörondan</span><span>kendi sesimle konuşan</span><span class="me">bir modele.</span>'),
-      el('div', 'sub in', 'Bu sayfadaki her sayı, metin ve ses kendi notebook\'larımdan ve eğitim kayıtlarımdan.'));
+      el('div', 'start in', '<b>Başlarken</b><span>Algoritmaları kavram olarak anlıyordum ama kodunu yazamıyordum. Kodlamadan çok anlamıyordum.</span>'));
     const tl = el('div', 'tl in'); tl.append(el('div', 'base'), el('div', 'run'));
     for (let i = 0; i <= 12; i++){
       const x = (i / 12 * 100) + '%', d = el('div', 'wd' + (i === 12 ? ' end' : '')); d.style.left = x; tl.append(d);
-      const lb = el('div', 'lb' + (i === 12 ? ' end' : ''), i === 12 ? 'Demo Day' : 'H' + (i + 1)); lb.style.left = x; tl.append(lb);
+      const lb = el('div', 'lb' + (i === 12 ? ' end' : ''), i === 12 ? 'Demo Day' : `${TOPICS[i]}<small>H${i + 1}</small>`); lb.style.left = x; tl.append(lb);
       setTimeout(() => d.classList.add('lit'), 400 + 2200 * (1 - Math.pow(1 - i / 12, 3)));
     }
-    root.append(h, tl);
+    root.append(h, tl, el('div', 'prov in', 'Bu sayfadaki her sayı, metin ve ses kendi notebook\'larımdan ve eğitim kayıtlarımdan.'));
  }},
  { name: 'Yolculuk', build(root){
     root.append(el('div', 'kicker in', '12 hafta, her hafta kendi elimle'),
@@ -322,7 +331,8 @@ const SCENES = [
     [['100', 'ses token\'ı / saniye<br>12.5 kare × 8 codebook'], ['99.3M', 'parametre · GPT-2 small gövdesi<br>12 katman, 12 head, 768'],
      ['356 sa', 'Türkçe konuşmayla ön eğitim<br>Alania · CC BY 4.0'], ['60,000', 'adım · tek A100<br>loss yalnız ses token\'larında']]
       .forEach(([b, s]) => facts.append(el('div', 'fact', `<b>${b}</b><span>${s}</span>`)));
-    root.append(seq, wrap, facts);
+    root.append(el('div', 'lbl in', '① Metin <span>kaydın yazısı, harf harf</span>'), seq,
+      el('div', 'lbl in', '② Aynı kaydın sesi <span>Mimi kodları · her sütun 80 ms · her satır bir codebook</span>'), wrap, facts);
     setTimeout(() => cells.forEach((c, i) => setTimeout(() => c.classList.add('on'), Math.floor(i / 8) * 55 + (i % 8) * 6)), 900);
  }},
  { name: 'Öğrenme', build(root){
