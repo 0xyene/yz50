@@ -6,7 +6,16 @@
 # Hangi checkpoint varsa onu puanlar; olmayanı atlar.
 
 # %% [colab]
-!pip -q install faster-whisper jiwer
+!pip -q install faster-whisper jiwer nvidia-cublas-cu12 "nvidia-cudnn-cu12==9.*"
+# faster-whisper (CTranslate2) CUDA 12 kütüphanelerini arar; Colab'ın yeni imajında yoklar -> pip'ten gelenleri önceden yükle
+import ctypes, glob, site
+_libs = [p for d in site.getsitepackages() for pat in ('nvidia/cublas/lib/libcublasLt.so.12', 'nvidia/cublas/lib/libcublas.so.12', 'nvidia/cudnn/lib/libcudnn*.so.9')
+         for p in sorted(glob.glob(f'{d}/{pat}'))]
+for _ in range(2):                                     # cuDNN parçaları birbirine bağlı: iki tur dene
+    for p in _libs:
+        try: ctypes.CDLL(p, mode=ctypes.RTLD_GLOBAL)
+        except OSError: pass
+print(len(_libs), 'CUDA 12 kütüphanesi yüklendi')
 from google.colab import drive
 drive.mount('/content/drive')
 
@@ -23,9 +32,9 @@ from jiwer import wer, cer
 
 # %% [config]
 ROOT = '/content/drive/MyDrive/yz50-demo-day'
-RUNS = [('pretrain', f'{ROOT}/ckpt/pretrain_last.pt', MALE),          # (ad, checkpoint, ses etiketi)
-        ('finetune_me_best', f'{ROOT}/ckpt/finetune_me_best.pt', ME),
-        ('finetune_me_last', f'{ROOT}/ckpt/finetune_me_last.pt', ME)]
+RUNS = [('finetune_read_best', f'{ROOT}/ckpt/finetune_read_best.pt', ME),     # (ad, checkpoint, ses etiketi)
+        ('finetune_read_last', f'{ROOT}/ckpt/finetune_read_last.pt', ME)]
+# Daha önce puanlananlar (pretrain, finetune_me_*) eval/ içindeki json'lardan tabloya eklenir; yeniden koşmaz.
 LIMIT = None                              # hızlı deneme için ilk N cümle
 MAX_SECONDS, TEMP, TOP_K, SEED = 15, 0.8, 80, 0
 SAVE_WAVS = 20                            # ilk 20 cümlenin sesi Drive'a
@@ -82,6 +91,8 @@ if ASR == 'faster-whisper':
         def transcribe(a):
             segs, _ = judge.transcribe(to_judge_band(a), language='tr', beam_size=5)
             return ' '.join(s.text for s in segs).strip()
+        transcribe(np.random.default_rng(0).normal(0, 0.05, SR).astype(np.float32))   # deneme: GPU kütüphaneleri gerçekten çalışıyor mu
+        print('hakem: faster-whisper', WHISPER)
     except Exception as e:
         print('faster-whisper açılamadı, transformers ile devam:', repr(e)[:200]); ASR = 'transformers'
 if ASR == 'transformers':
@@ -222,7 +233,10 @@ for name, ckpt, tag in RUNS:
 # %%
 # Tablo (Freya'nın README'sindeki sayılarla yan yana)
 table = [('FreyaTTS-small (183M)', 0.080, 0.030), ('XTTS-v2 (0.5B)', 0.111, None), ('F5-TTS (0.3B)', 0.243, None)]
-table += [(f'Benim modelim: {n} ({r["params"] / 1e6:.0f}M, adım {r["step"]})', r['wer'], r['cer']) for n, r in summary.items()]
+import glob as _g
+for p in sorted(_g.glob(f'{ROOT}/eval/*_freya_tr_eval.json')):
+    r = json.load(open(p)); summary.setdefault(r['run'], r)
+table += [(f'Benim modelim: {n} ({r.get("params", 99310080) / 1e6:.0f}M, adım {r["step"]})', r['wer'], r['cer']) for n, r in summary.items()]
 print(f'{"model":45s} {"WER":>7s} {"CER":>7s}')
 for n, w, c in table: print(f'{n:45s} {w:7.1%} {(f"{c:.1%}" if c is not None else "-"):>7s}')
 json.dump([dict(model=n, wer=w, cer=c) for n, w, c in table], open(f'{ROOT}/eval/table.json', 'w'), ensure_ascii=False, indent=1)

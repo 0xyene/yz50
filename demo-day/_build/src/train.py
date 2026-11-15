@@ -26,6 +26,9 @@ while step < MAX_STEPS:
         evaluate(step, float(np.mean(recent)), tok_s)
     if step % CKPT_EVERY == 0 or step == MAX_STEPS:
         save_ckpt()
+    if globals().get('SAVE_EVERY') and step % SAVE_EVERY == 0:        # 04c: her N adımda ayrı, küçük (bf16) checkpoint
+        torch.save(dict(model={k: v.to(torch.bfloat16) for k, v in raw.state_dict().items()}, step=step, cfg=cfg),
+                   f'{ROOT}/ckpt/{RUN}_step{step:05d}.pt')
 print('bitti. checkpoint:', CKPT)
 
 # %%

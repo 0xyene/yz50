@@ -5,7 +5,7 @@ import json, os, re, sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 SRC, OUT = os.path.join(HERE, 'src'), os.path.dirname(HERE)
 NOTEBOOKS = {'01_prep.py': '01_prep_alania.ipynb', '02_pretrain.py': '02_pretrain.ipynb', '03_my_voice.py': '03_my_voice.ipynb',
-             '04_finetune.py': '04_finetune_me.ipynb', '05_eval.py': '05_freya_eval.ipynb'}
+             '04_finetune.py': '04_finetune_me.ipynb', '04b_finetune_read.py': '04b_finetune_read.ipynb', '04c_finetune_sweep.py': '04c_finetune_sweep.ipynb', '05b_sweep.py': '05b_sweep_eval.ipynb', '05_eval.py': '05_freya_eval.ipynb', '06_speak.py': '06_speak_prompt.ipynb'}
 
 def cells(name):
     out, buf, tag = [], [], 'code'

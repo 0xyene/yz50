@@ -1,0 +1,3002 @@
+[
+{
+"id": "r0001",
+"text": "Merhaba, ben Alperen. Bu sesi ben kaydediyorum.",
+"src": "own",
+"cat": "demo"
+},
+{
+"id": "r0002",
+"text": "Biraz daha bekleme yapmamı istiyor musunuz?",
+"src": "alania",
+"cat": "questions"
+},
+{
+"id": "r0003",
+"text": "Yüzde on gümrük vergisi uygulanmıştır.",
+"src": "alania",
+"cat": "ecommerce_cargo"
+},
+{
+"id": "r0004",
+"text": "Bunu söylediğim için pişmanım.",
+"src": "alania",
+"cat": "confirmations_acks"
+},
+{
+"id": "r0005",
+"text": "Saat ne zaman aktarılacak?",
+"src": "alania",
+"cat": "numbers_codes"
+},
+{
+"id": "r0006",
+"text": "Tercihlerinizde öncelik ne olmalı?",
+"src": "alania",
+"cat": "questions"
+},
+{
+"id": "r0007",
+"text": "İfade edilecek şey, fotoğrafçısının bir durum karşısındaki tutumudur.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0008",
+"text": "On iki hafta boyunca her hafta bir sinir ağını sıfırdan yazdım.",
+"src": "own",
+"cat": "demo"
+},
+{
+"id": "r0009",
+"text": "Yarın yirmi beş Ağustos, yeni ürün çıkıyor!",
+"src": "alania",
+"cat": "numbers_codes"
+},
+{
+"id": "r0010",
+"text": "Hülya, Airbnb rezervasyonunuz tamam mı?",
+"src": "alania",
+"cat": "addresses_names"
+},
+{
+"id": "r0011",
+"text": "Ataşehir temsilcisi Küçükbakkalköyspor ise on puanda kaldı.",
+"src": "alania",
+"cat": "number"
+},
+{
+"id": "r0012",
+"text": "Görünüşte hızlı, ama içten sabırlı.",
+"src": "alania",
+"cat": "emotional_empathetic"
+},
+{
+"id": "r0013",
+"text": "Şimdi bir çözüm sunayım, lütfen bekleyin.",
+"src": "alania",
+"cat": "emotional_empathetic"
+},
+{
+"id": "r0014",
+"text": "Türkiye çok zor günlerden geçmektedir.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0015",
+"text": "YZ elli dersinde ilk hafta tek bir nöronla başladık.",
+"src": "own",
+"cat": "demo"
+},
+{
+"id": "r0016",
+"text": "Anketlerinizi hangi amaçla yapıyorsunuz?",
+"src": "alania",
+"cat": "questions"
+},
+{
+"id": "r0017",
+"text": "Döviz kuru bugün yüzde on altı arttı.",
+"src": "alania",
+"cat": "banking"
+},
+{
+"id": "r0018",
+"text": "Devrenin temel öğesi beş yüz elli beş entegresidir.",
+"src": "alania",
+"cat": "number"
+},
+{
+"id": "r0019",
+"text": "Kripto para birimleri düşüşe devam ediyor!",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0020",
+"text": "Hepsi bize ait, iade edebiliriz.",
+"src": "alania",
+"cat": "ecommerce_cargo"
+},
+{
+"id": "r0021",
+"text": "Easybackup ile Android cihazınızdaki verilerin yedeğini kolayca alabilirsiniz.",
+"src": "alania",
+"cat": "names"
+},
+{
+"id": "r0022",
+"text": "Bir nöron girdileri ağırlıklarla çarpar ve sonucu toplar.",
+"src": "own",
+"cat": "demo"
+},
+{
+"id": "r0023",
+"text": "Bu model, yeni teknolojik özellikleri ve güçlü performansıyla dikkat çekmektedir.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0024",
+"text": "İade süresi doldu mu, hâlâ işlem yapabilir miyim?",
+"src": "alania",
+"cat": "ecommerce_cargo"
+},
+{
+"id": "r0025",
+"text": "Yozgat'ta üç yüz altmış lira ödeme yapıldı.",
+"src": "alania",
+"cat": "addresses_names"
+},
+{
+"id": "r0026",
+"text": "Kaderimin Oyunu dizisinin kolaj bölümü yayınlanacak.",
+"src": "alania",
+"cat": "names"
+},
+{
+"id": "r0027",
+"text": "Bu hizmet tamamen ücretsiz mi?",
+"src": "alania",
+"cat": "questions"
+},
+{
+"id": "r0028",
+"text": "Kayıp kart başvurusu sonrası kartınızın kopyası alınır mı?",
+"src": "alania",
+"cat": "banking"
+},
+{
+"id": "r0029",
+"text": "Geri yayılım, hatanın her ağırlığa ne kadar bağlı olduğunu hesaplar.",
+"src": "own",
+"cat": "demo"
+},
+{
+"id": "r0030",
+"text": "İşlem süreçleri esnasında yaşadığınız zorluklar oldu mu?",
+"src": "alania",
+"cat": "questions"
+},
+{
+"id": "r0031",
+"text": "Haliyle devamı çorap söküğü gibi geldi.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0032",
+"text": "Boğazımın üstünde bir şey var.",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0033",
+"text": "Askeri Mahkemede yargılanma sürecine devam ediyor oluşumuz, teknik bir prosüdür.",
+"src": "alania",
+"cat": "names"
+},
+{
+"id": "r0034",
+"text": "Maalesef işlem eksik, özür dileriz.",
+"src": "alania",
+"cat": "confirmations_acks"
+},
+{
+"id": "r0035",
+"text": "Kitabı birçok açıdan tasvir edebiliriz.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0036",
+"text": "Kayıp düştükçe model veriyi daha iyi tahmin etmeye başlar.",
+"src": "own",
+"cat": "demo"
+},
+{
+"id": "r0037",
+"text": "Hoş geldin, ne istiyorsun?",
+"src": "alania",
+"cat": "confirmations_acks"
+},
+{
+"id": "r0038",
+"text": "E-arşiv sisteminde fatura görünmüyor, kontrol edelim.",
+"src": "alania",
+"cat": "ecommerce_cargo"
+},
+{
+"id": "r0039",
+"text": "Çocuklarına iyi bir gelecek hazırlamaktı bütün amacı.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0040",
+"text": "Sağlıklı bir bambu seçmek ofis ortamında hayatta kalması için oldukça kritiktir.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0041",
+"text": "Bilimsel olan açıklama(materyalizm), maddenin ruhun başlıca öğesi olduğunu söyler.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0042",
+"text": "Excel'deki veriler doğru mu?",
+"src": "alania",
+"cat": "addresses_names"
+},
+{
+"id": "r0043",
+"text": "Önce harfleri sayarak basit bir dil modeli kurdum.",
+"src": "own",
+"cat": "demo"
+},
+{
+"id": "r0044",
+"text": "Bilinenin aksine, kooperatiften ayrılma taleplerine hiçbir kısıtlama söz konusu değil.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0045",
+"text": "Hala yirmi kırk beşte aynı problem var, internetimiz kesik.",
+"src": "alania",
+"cat": "customer_support"
+},
+{
+"id": "r0046",
+"text": "Bunu başka nasıl sormak mümkün?",
+"src": "alania",
+"cat": "questions"
+},
+{
+"id": "r0047",
+"text": "Kan grubunuzun bilinmesi gerekiyor.",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0048",
+"text": "Bitcoin Miner'ı nasıl kullanıyorsunuz?",
+"src": "alania",
+"cat": "question"
+},
+{
+"id": "r0049",
+"text": "Sigorta durumunuza göre ödeme değişir.",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0050",
+"text": "Sonra çok katmanlı bir ağ ile isim üreten bir model eğittim.",
+"src": "own",
+"cat": "demo"
+},
+{
+"id": "r0051",
+"text": "Tavsiye edilen kullanım süresi ne kadar?",
+"src": "alania",
+"cat": "questions"
+},
+{
+"id": "r0052",
+"text": "Tarife değişimi ile hem tasarruf hem hız.",
+"src": "alania",
+"cat": "customer_support"
+},
+{
+"id": "r0053",
+"text": "Kredi kartı ile alışverişinizi yüzde iki buçuk kazançla yapın!",
+"src": "alania",
+"cat": "banking"
+},
+{
+"id": "r0054",
+"text": "Siz bu diyalog hakkında ne düşünüyorsunuz?",
+"src": "alania",
+"cat": "question"
+},
+{
+"id": "r0055",
+"text": "Garanti Bankası güvenli sayfalardan ödeme!",
+"src": "alania",
+"cat": "names"
+},
+{
+"id": "r0056",
+"text": "Yakın zamanda size ulaşan mesajlarda en dikkat çekici olan neydi?",
+"src": "alania",
+"cat": "questions"
+},
+{
+"id": "r0057",
+"text": "Dikkat mekanizması her kelimenin diğer kelimelere bakmasını sağlar.",
+"src": "own",
+"cat": "demo"
+},
+{
+"id": "r0058",
+"text": "İlacı kesmeden önce eczacıya danışmalı mıyım?",
+"src": "alania",
+"cat": "questions"
+},
+{
+"id": "r0059",
+"text": "Mehmet Güler, bana yardımcı olabilir misiniz?",
+"src": "alania",
+"cat": "customer_support"
+},
+{
+"id": "r0060",
+"text": "Mastercard'la ödeme yapmak gerçekten keyifli!",
+"src": "alania",
+"cat": "emotional_empathetic"
+},
+{
+"id": "r0061",
+"text": "Üç altı iki üç sıfır sıfır numarasıyla ilgili bilgiyi alabilirsiniz.",
+"src": "alania",
+"cat": "numbers_codes"
+},
+{
+"id": "r0062",
+"text": "Unvanlar için gerekli yetkinlikler belirlidir.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0063",
+"text": "Hesabınızda şüpheli girişler var, özür dileriz.",
+"src": "alania",
+"cat": "banking"
+},
+{
+"id": "r0064",
+"text": "Transformer, dikkat katmanlarının üst üste dizilmesiyle oluşur.",
+"src": "own",
+"cat": "demo"
+},
+{
+"id": "r0065",
+"text": "Bu canlıların benzer ve farklı yönleri nelerdir?",
+"src": "alania",
+"cat": "question"
+},
+{
+"id": "r0066",
+"text": "Gümüşhane'deki kahvaltı sofrası on kasım iki bin yirmi beşte çok güzeldi!",
+"src": "alania",
+"cat": "numbers_codes"
+},
+{
+"id": "r0067",
+"text": "Merhaba, otomatik ödeme talimatım güncellendi mi?",
+"src": "alania",
+"cat": "banking"
+},
+{
+"id": "r0068",
+"text": "Sizinle bu sohbeti yapan biri, böyle bir soru sorduğunda nasıl tepki verirsiniz?",
+"src": "alania",
+"cat": "questions"
+},
+{
+"id": "r0069",
+"text": "Işıklar içinde uyu sevgili Kemal, yetenekli hemşerim...",
+"src": "alania",
+"cat": "names"
+},
+{
+"id": "r0070",
+"text": "Halbuki haysiyet ve itibar, yalnızca, Allah'ı öğretmenimiz edindiğimiz zaman gelir.",
+"src": "alania",
+"cat": "names"
+},
+{
+"id": "r0071",
+"text": "Token, modelin okuduğu en küçük metin parçasıdır.",
+"src": "own",
+"cat": "demo"
+},
+{
+"id": "r0072",
+"text": "Gerçekten bir vahyin öznesi olan tanrısal zeka yok mudur?",
+"src": "alania",
+"cat": "question"
+},
+{
+"id": "r0073",
+"text": "Annelerin çocuklarından, hatta bazen kendilerinden sakladıkları sırların hikâyeleri...",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0074",
+"text": "Duymayı bilen kulaklara, görmeyi bilen gözlere sesleniyor.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0075",
+"text": "İlacın ömrü ne kadar sürecek?",
+"src": "alania",
+"cat": "questions"
+},
+{
+"id": "r0076",
+"text": "Saat sekiz on beşi gösteriyor.",
+"src": "alania",
+"cat": "numbers_codes"
+},
+{
+"id": "r0077",
+"text": "Bu döviz kuru, Waikiki tatilim için maliyetimi çok artırıyor.",
+"src": "alania",
+"cat": "banking"
+},
+{
+"id": "r0078",
+"text": "Bu model metni okuyor ve ardından sesi tahmin ediyor.",
+"src": "own",
+"cat": "demo"
+},
+{
+"id": "r0079",
+"text": "Hemen gelir, biraz daha sabret!",
+"src": "alania",
+"cat": "confirmations_acks"
+},
+{
+"id": "r0080",
+"text": "Aşı takviminizde bir değişiklik oldu.",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0081",
+"text": "Bu faturada yüzde on sekiz kdv yer alıyor ama yanlışlıkla yüzde sekiz yazıldı!",
+"src": "alania",
+"cat": "customer_support"
+},
+{
+"id": "r0082",
+"text": "Hepsi bu dizide fazlasıyla var, izlerken dünyadan soyutlayan mucizevi bir dizi.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0083",
+"text": "Memnuniyet anketi soruları nasıl olmalı?",
+"src": "alania",
+"cat": "questions"
+},
+{
+"id": "r0084",
+"text": "Teheye biletini e-Devlet'te alabilirsin.",
+"src": "alania",
+"cat": "addresses_names"
+},
+{
+"id": "r0085",
+"text": "Ses, codec ile saniyede yüz küçük parçaya dönüştürülüyor.",
+"src": "own",
+"cat": "demo"
+},
+{
+"id": "r0086",
+"text": "Efsanenin saptamaları başlığını seçildi.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0087",
+"text": "Türkcell hattınızla iade yapabilirsiniz.",
+"src": "alania",
+"cat": "ecommerce_cargo"
+},
+{
+"id": "r0088",
+"text": "Bunları hemen e-arşivden erişebilirsiniz.",
+"src": "alania",
+"cat": "ecommerce_cargo"
+},
+{
+"id": "r0089",
+"text": "Herkesin röportaj vermek için sıraya girdiği bir dönemde bu kadar uzak durmak niye?",
+"src": "alania",
+"cat": "question"
+},
+{
+"id": "r0090",
+"text": "Hayırlı uğurlu olsun ifadelerini kullandı.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0091",
+"text": "Şu anki en çok tercih edilen ürün hangisi?",
+"src": "alania",
+"cat": "questions"
+},
+{
+"id": "r0092",
+"text": "Modeli Colab'de tek bir ekran kartıyla eğittim.",
+"src": "own",
+"cat": "demo"
+},
+{
+"id": "r0093",
+"text": "Tabii bu durum ceza hukukumuz ve anayasa açısından kabul edilemez, müthiş bir hata idi.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0094",
+"text": "Özge Duman, beş beş dokuz üç altı numaralı konumda, ınstagram'da canlı olarak bekliyor!",
+"src": "alania",
+"cat": "addresses_names"
+},
+{
+"id": "r0095",
+"text": "Plaka numarası otuz dört je ka le dokuz yüz seksen yedi ile ilgili raporunuzu istiyorum.",
+"src": "alania",
+"cat": "numbers_codes"
+},
+{
+"id": "r0096",
+"text": "Gereksinmelerin tacıdır hayal gücü tasarımda...",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0097",
+"text": "Egzama için bu krem ne kadar süreyle kullanılmalı?",
+"src": "alania",
+"cat": "questions"
+},
+{
+"id": "r0098",
+"text": "Bilmek, öğrenmek, araştırmak fitne ve fesat değildir.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0099",
+"text": "Ön eğitimde üç yüz elli saatten fazla konuşma kullandım.",
+"src": "own",
+"cat": "demo"
+},
+{
+"id": "r0100",
+"text": "Her sene başa dönüp aynı konu üzerinde ezbere gidiyor.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0101",
+"text": "Feasete internetle birlikte tarife avantajı elde edin.",
+"src": "alania",
+"cat": "customer_support"
+},
+{
+"id": "r0102",
+"text": "Kullanılan kredi borcunun tahsili ne şekilde gerçekleşir?",
+"src": "alania",
+"cat": "question"
+},
+{
+"id": "r0103",
+"text": "Akşam yemeğinden önce tekrar bir ara öğün tüketmelisiniz.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0104",
+"text": "Sürekli karıştırarak, koyu bir kıvam alana kadar pişirin.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0105",
+"text": "PayPal ile yapılan ödeme, poliçe numaranızla eşleşiyor mu?",
+"src": "alania",
+"cat": "numbers_codes"
+},
+{
+"id": "r0106",
+"text": "Doğrulama kaybı düşmeyi bırakınca eğitimi durdurmak gerekir.",
+"src": "own",
+"cat": "demo"
+},
+{
+"id": "r0107",
+"text": "Maksadın hâsıl olması için bir imkanın bulunması lazımdır.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0108",
+"text": "Bu kokulara tahammül edemeyen kadın ise sevişmekten kaçar.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0109",
+"text": "Sayfanın en altındaki Bitti düğmesini vurgulayın ve seçin.",
+"src": "alania",
+"cat": "names"
+},
+{
+"id": "r0110",
+"text": "Kuaför ziyareti, yüzde altmış oranında kişinin stresini azaltır.",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0111",
+"text": "Apple'dan henüz olayı doğrulayan veya yalanlayan bir haber gelmedi.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0112",
+"text": "İki Kasım iki bin yirmi altı tarihinde bu durum bana çok kötü geldi.",
+"src": "alania",
+"cat": "customer_support"
+},
+{
+"id": "r0113",
+"text": "Ezberleyen bir model yeni cümlelerde zorlanır.",
+"src": "own",
+"cat": "demo"
+},
+{
+"id": "r0114",
+"text": "Ebeveynlerin çoğu, daha anne karnındayken bebeklerine müzik dinletirler.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0115",
+"text": "Bu hükümet hızlı şekilde önce geçici bütçe, daha sonra da reform gündemi...",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0116",
+"text": "Bunun içinse piyasada farklı markaların kaş ve kirpik serumları satılmaktadır.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0117",
+"text": "En nihayetinde beka sorunu ortaya çıktı, bu toprakları işgal etmeye kalktılar.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0118",
+"text": "Altın yatırımınızın risklerini en aza indirmek için stratejik öneriler sunuyoruz.",
+"src": "alania",
+"cat": "banking"
+},
+{
+"id": "r0119",
+"text": "Dolayısıyla işyerleri için zam oranlarında konutlardaki gibi bir sınırlama yoktur.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0120",
+"text": "Kendi sesimle konuşan bir model yapmak istedim.",
+"src": "own",
+"cat": "demo"
+},
+{
+"id": "r0121",
+"text": "Kontörünüzün yüzde yedisi kullanılmıştır, yeni bir talep için kredi kullanılabilir.",
+"src": "alania",
+"cat": "numbers_codes"
+},
+{
+"id": "r0122",
+"text": "Vip çeşme transfer hizmeti, her detayı düşünerek size ayrıcalıklı bir deneyim sunar.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0123",
+"text": "Yurt dışına alışveriş yaparken döviz kuru, harcama tutarınızı önemli ölçüde etkiler.",
+"src": "alania",
+"cat": "banking"
+},
+{
+"id": "r0124",
+"text": "Yasemin Öztürk, kavekaka kapsamında veri talebinizin geçerli olduğunu, özür dilerim.",
+"src": "alania",
+"cat": "addresses_names"
+},
+{
+"id": "r0125",
+"text": "Ayşe Kara, e-Devlet hesabında bir hata bildirmişti, siz de aynı durum mu yaşıyorsunuz?",
+"src": "alania",
+"cat": "customer_support"
+},
+{
+"id": "r0126",
+"text": "Kesintisiz güç kaynağının kapasitesi, ihtiyaç duyduğunuz güç miktarını karşılamalıdır.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0127",
+"text": "Bu cümleyi söyleyen ben değilim, benim eğittiğim model.",
+"src": "own",
+"cat": "demo"
+},
+{
+"id": "r0128",
+"text": "Kılıçer, araçta tartıştığı eşini tabancayla öldürdükten sonra aynı silahla intihar etti.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0129",
+"text": "Hocam, daire kırkı bulmakta zorlanıyorum, on birinci kattaki yön levhalarına nasıl ulaşırım?",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0130",
+"text": "Güvenilirlik ile ilgili Blockchain'de ilk akla takılan soru kişilerin kendi gizliliği oluyor.",
+"src": "alania",
+"cat": "names"
+},
+{
+"id": "r0131",
+"text": "Bunun sebebi ise hayvan sağlığının korunması ve yol boyunca istenmeyen bir şey yaşanmaması adınadır.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0132",
+"text": "Hasta, yeni bir depresif aşama yeni bir şeyin sinyalini verene kadar yeniden tamamen canlı hisseder.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0133",
+"text": "Trabzon'da yaşayan hastalarımız için, elektronik reçete sistemiyle birlikte ilaç teslimatı düzenlenecektir.",
+"src": "alania",
+"cat": "numbers_codes"
+},
+{
+"id": "r0134",
+"text": "Freya ekibinin Türkçe test cümleleriyle modelimi ölçtüm.",
+"src": "own",
+"cat": "demo"
+},
+{
+"id": "r0135",
+"text": "Sosyal medyada paylaştığın içeriğin çekici olmasının en önemli unsuru nedir, görsel mi, metin mi yoksa sesli içerik mi?",
+"src": "alania",
+"cat": "questions"
+},
+{
+"id": "r0136",
+"text": "Gelelim dizinin-cemaatin-seyircinin söyleminde Kürt meselesine.",
+"src": "alania",
+"cat": "names"
+},
+{
+"id": "r0137",
+"text": "Bir gül dikeninin tene batması, şehvetli haz veren hafif bir acıdır.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0138",
+"text": "Koskoca bir genel başkana yakışır mı bu yaptığı?",
+"src": "alania",
+"cat": "question"
+},
+{
+"id": "r0139",
+"text": "Samsun'dan gelen stoklar bugün ulaşacak.",
+"src": "alania",
+"cat": "ecommerce_cargo"
+},
+{
+"id": "r0140",
+"text": "Yatış zamanı saat on dört, sonraki doz on üç gün sonra yine on dörtte olacak.",
+"src": "alania",
+"cat": "numbers_codes"
+},
+{
+"id": "r0141",
+"text": "Demo Day için iki dakikalık bir konuşma hazırladım.",
+"src": "own",
+"cat": "demo"
+},
+{
+"id": "r0142",
+"text": "Ali Bulut, bu konuda size destek sağlar.",
+"src": "alania",
+"cat": "customer_support"
+},
+{
+"id": "r0143",
+"text": "İçindeki huzuru bulmak işte şimdi.",
+"src": "alania",
+"cat": "emotional_empathetic"
+},
+{
+"id": "r0144",
+"text": "Yaptığımız süreçte bir hata olabilir, özür dileriz.",
+"src": "alania",
+"cat": "customer_support"
+},
+{
+"id": "r0145",
+"text": "Kredi başvurusu yaparken sadece gelir belgesi yeterli midir?",
+"src": "alania",
+"cat": "banking"
+},
+{
+"id": "r0146",
+"text": "Bu kap, özellikle kötü huylu olduğu tespit edilirse hastalık ilerlemesi riskini ortadan kaldırır.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0147",
+"text": "Kusura bakmayınız, sisteme yanlış bilgi girilmişti, şimdi düzeltiyoruz.",
+"src": "alania",
+"cat": "emotional_empathetic"
+},
+{
+"id": "r0148",
+"text": "Başlarken türevin ne işe yaradığını bile tam bilmiyordum.",
+"src": "own",
+"cat": "demo"
+},
+{
+"id": "r0149",
+"text": "Sonuçlarımı bir daha kontrol ettiriyorum.",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0150",
+"text": "Saat on altı ellide iletişime geçeceğim, işlem tamamlanması yaklaşık yirmi beş dakika sürer.",
+"src": "alania",
+"cat": "numbers_codes"
+},
+{
+"id": "r0151",
+"text": "İdeal gerilim aralığı içinde çalışması, batarya yönetim sistemi tarafından yönetilir.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0152",
+"text": "İki kişi farklı düşünceleri nasıl paylaşır?",
+"src": "alania",
+"cat": "questions"
+},
+{
+"id": "r0153",
+"text": "Batman'da doğan biri, Fethiye'ye taşındı mı?",
+"src": "alania",
+"cat": "addresses_names"
+},
+{
+"id": "r0154",
+"text": "Merhaba, bekleyişinizi özür dilerim, biraz gecikme yaşandı.",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0155",
+"text": "En çok öğrendiğim an, kaybın neden patladığını bulduğum gündü.",
+"src": "own",
+"cat": "demo"
+},
+{
+"id": "r0156",
+"text": "Pedefe dosyası eksik, tekrar gönderin.",
+"src": "alania",
+"cat": "customer_support"
+},
+{
+"id": "r0157",
+"text": "Paketlerinizi gümrükten çıkarmak biraz zaman alıyor.",
+"src": "alania",
+"cat": "ecommerce_cargo"
+},
+{
+"id": "r0158",
+"text": "Bu yüzden otuz üç fe ye bin yirmi bir tarihindeki randevuyu yenilemeye çalışıyorum.",
+"src": "alania",
+"cat": "numbers_codes"
+},
+{
+"id": "r0159",
+"text": "Feasete hizmeti, özellikle acil ödeme durumlarında tercih edilir.",
+"src": "alania",
+"cat": "banking"
+},
+{
+"id": "r0160",
+"text": "Sadece yüzde ellilik katkı payı gerekiyor.",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0161",
+"text": "Lütfen saat yedide bir randevu için uygunluk kontrolü yapın.",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0162",
+"text": "Şimdi bir modeli veriden ölçüme kadar kendim kurabiliyorum.",
+"src": "own",
+"cat": "demo"
+},
+{
+"id": "r0163",
+"text": "Selam, huzur içinde olmamızı istiyorum.",
+"src": "alania",
+"cat": "confirmations_acks"
+},
+{
+"id": "r0164",
+"text": "Dört- Satılmaya çalışılan ürünle tamamen alakasız bir hikaye.",
+"src": "alania",
+"cat": "number"
+},
+{
+"id": "r0165",
+"text": "Hatalı sipariş için iade süreci hızlıdır.",
+"src": "alania",
+"cat": "ecommerce_cargo"
+},
+{
+"id": "r0166",
+"text": "Tamam, isteğin yerine geldi.",
+"src": "alania",
+"cat": "confirmations_acks"
+},
+{
+"id": "r0167",
+"text": "Sabırla dinle, anlayışla cevap ver.",
+"src": "alania",
+"cat": "emotional_empathetic"
+},
+{
+"id": "r0168",
+"text": "Kargo teslimatı yedinci katta daire yirmiye göre on üç saatte gerçekleşecek.",
+"src": "alania",
+"cat": "numbers_codes"
+},
+{
+"id": "r0169",
+"text": "Sırada daha iyi bir veri seti ve daha temiz bir ses var.",
+"src": "own",
+"cat": "demo"
+},
+{
+"id": "r0170",
+"text": "Hastane dışındaki bir klinik olarak çalışıyoruz.",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0171",
+"text": "Günde üç kez kullanılan ilacınız için mutlaka randevunuzu tutunuz.",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0172",
+"text": "Kasım ayı sonunda yapılan ankete bin üç yüz elli kişi katıldı.",
+"src": "alania",
+"cat": "number"
+},
+{
+"id": "r0173",
+"text": "Merhaba, üzgünüm ama bu durum gerçekten memnuniyetsizliğe yol açtı.",
+"src": "alania",
+"cat": "customer_support"
+},
+{
+"id": "r0174",
+"text": "Mehmet Gök'ün adresi, sıfır iki yüz on iki, yüz altmış bir, altmış dört, yetmiş numaralı telefona bildirilmiştir.",
+"src": "alania",
+"cat": "addresses_names"
+},
+{
+"id": "r0175",
+"text": "Gündüz ve bazı durumlarda gece çekimlerinde araçların kameraları okunabiliyor.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0176",
+"text": "Öğrenme oranı çok büyük olursa eğitim dağılır.",
+"src": "own",
+"cat": "demo"
+},
+{
+"id": "r0177",
+"text": "Şu anda on bir otuzdan sonra ilaç verilmemeli.",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0178",
+"text": "Doktorlarımız deneyimli ve kaliteli.",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0179",
+"text": "Böylece bölgeye giden Türk vatandaşları da bölgede rahatlıkla çalışabilir.",
+"src": "alania",
+"cat": "names"
+},
+{
+"id": "r0180",
+"text": "Aynı zamanda bağışıklığı güçlendirici destek de sağlar.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0181",
+"text": "Güvenli bir süreç, hiçbir tehlike yok.",
+"src": "alania",
+"cat": "emotional_empathetic"
+},
+{
+"id": "r0182",
+"text": "Düzeltme sürecine başladım, özür dilerim.",
+"src": "alania",
+"cat": "emotional_empathetic"
+},
+{
+"id": "r0183",
+"text": "Küçük bir hata bütün eğitimi boşa çıkarabilir.",
+"src": "own",
+"cat": "demo"
+},
+{
+"id": "r0184",
+"text": "Yedi mililitre kan, yeterli oldu.",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0185",
+"text": "Yazdığınız şeyi doğru anladım mı?",
+"src": "alania",
+"cat": "questions"
+},
+{
+"id": "r0186",
+"text": "Tunceli'dan gelen ürünlerde stok sıkıntısı var, ön sipariş önerilir.",
+"src": "alania",
+"cat": "ecommerce_cargo"
+},
+{
+"id": "r0187",
+"text": "Sonrasında ise bir şey yemek kesinlikle yasak.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0188",
+"text": "Çocuk hastalarda, diş çürüğünden sonra karşılaşılan en önemli sorun yaralanmalardır.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0189",
+"text": "Bazı ürünlerdeki yüzde kırk dördü aşan oranlar, alım kararlarını etkileyebilir, bu yüzden detaylı bilgi alın.",
+"src": "alania",
+"cat": "numbers_codes"
+},
+{
+"id": "r0190",
+"text": "Grafik çizmeden önce sayılara bakmayı öğrendim.",
+"src": "own",
+"cat": "demo"
+},
+{
+"id": "r0191",
+"text": "Su tesisatı onarımı Osmaniye'de başladı.",
+"src": "alania",
+"cat": "customer_support"
+},
+{
+"id": "r0192",
+"text": "Yeni oturum on sekiz otuzda başlıyor.",
+"src": "alania",
+"cat": "numbers_codes"
+},
+{
+"id": "r0193",
+"text": "Bu şarkıyı çok seviyor musun?",
+"src": "alania",
+"cat": "questions"
+},
+{
+"id": "r0194",
+"text": "Pay, doğrulama sonrası aktif.",
+"src": "alania",
+"cat": "ecommerce_cargo"
+},
+{
+"id": "r0195",
+"text": "Yeni sisteme aktarma işlemi başarıyla tamamlandı.",
+"src": "alania",
+"cat": "customer_support"
+},
+{
+"id": "r0196",
+"text": "Burak Ekincinin otomatik ödeme talimatını kontrol ettiniz mi?",
+"src": "alania",
+"cat": "banking"
+},
+{
+"id": "r0197",
+"text": "Her hafta kodu yazdım, videoyu çektim ve teslim ettim.",
+"src": "own",
+"cat": "demo"
+},
+{
+"id": "r0198",
+"text": "Paket gümrükten geçerken neye dikkat edilmeli?",
+"src": "alania",
+"cat": "ecommerce_cargo"
+},
+{
+"id": "r0199",
+"text": "Antalya'ya gönderim için hazırlanıyor.",
+"src": "alania",
+"cat": "ecommerce_cargo"
+},
+{
+"id": "r0200",
+"text": "Kartım kaybetti mi? bedaş'la hemen dondur!",
+"src": "alania",
+"cat": "banking"
+},
+{
+"id": "r0201",
+"text": "Ömer Ateş, bunu neden vurguladı?",
+"src": "alania",
+"cat": "questions"
+},
+{
+"id": "r0202",
+"text": "Aydın, bu işlem adım adım daha mı açık anlatılmalıydı?",
+"src": "alania",
+"cat": "questions"
+},
+{
+"id": "r0203",
+"text": "Siparişinizin teslim süresi üç iş günü, dikkat edin.",
+"src": "alania",
+"cat": "ecommerce_cargo"
+},
+{
+"id": "r0204",
+"text": "Sinir ağları sihir değil, sadece çok sayıda çarpma ve toplama.",
+"src": "own",
+"cat": "demo"
+},
+{
+"id": "r0205",
+"text": "Kartınız kayıp olsa bile, banka tarafından bloke edilirse, kimsenin kullanamayacağını unutmayın.",
+"src": "alania",
+"cat": "banking"
+},
+{
+"id": "r0206",
+"text": "Merhaba, ne zaman yapabileceğimi öğrenelim mi?",
+"src": "alania",
+"cat": "confirmations_acks"
+},
+{
+"id": "r0207",
+"text": "Kütüphanenizden satın aldığınız steam oyununu bulup indirmeye başlayabilirsiniz.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0208",
+"text": "Yüzde yetmiş sekizlik bir oranla hizmet verilemiyor.",
+"src": "alania",
+"cat": "customer_support"
+},
+{
+"id": "r0209",
+"text": "Aşı takvimine göre yapılan uygulamalar, ciddi hastalıkları önler.",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0210",
+"text": "Hem daha önce hiçbir kızla aynı ilişki de bulunmadım ve arkadaşım da karşımda idi.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0211",
+"text": "Eğitim verisi ne kadar temizse model o kadar iyi konuşur.",
+"src": "own",
+"cat": "demo"
+},
+{
+"id": "r0212",
+"text": "Aracınızda lastikten gelen sesler var mı?",
+"src": "alania",
+"cat": "customer_support"
+},
+{
+"id": "r0213",
+"text": "Doktorunuzun önerilerini takip ederek iyi olmaya devam edin.",
+"src": "alania",
+"cat": "emotional_empathetic"
+},
+{
+"id": "r0214",
+"text": "Bunun içinde her zaman nasıl hareket etmeniz gerektiğini bilmenizde fayda vardır.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0215",
+"text": "Varsayın ki müşterileriniz size hiç sormadan stoklarınız hakkında bilgi alabilmek istiyor.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0216",
+"text": "Kargomun son konumu ne, nerede kalıyor?",
+"src": "alania",
+"cat": "ecommerce_cargo"
+},
+{
+"id": "r0217",
+"text": "Stokta olan ürünlerle ilgili yüzde on iki indirim var mı?",
+"src": "alania",
+"cat": "ecommerce_cargo"
+},
+{
+"id": "r0218",
+"text": "Yapay zekâ mühendisliği benim için yeni bir başlangıç.",
+"src": "own",
+"cat": "demo"
+},
+{
+"id": "r0219",
+"text": "Yukarı da değinildiği üzere, Kılavuz ilkeleri sanal duruşmalara da atıf yapar.",
+"src": "alania",
+"cat": "names"
+},
+{
+"id": "r0220",
+"text": "Özgüveni olan, bakımlı, yakışıklı beyler, değişik tatlar istemez misiniz?",
+"src": "alania",
+"cat": "question"
+},
+{
+"id": "r0221",
+"text": "On beş hafta beklediğim için üzgünüm.",
+"src": "alania",
+"cat": "ecommerce_cargo"
+},
+{
+"id": "r0222",
+"text": "Sorunuzun çözümü için destekçiyim, heyecanlanmayın.",
+"src": "alania",
+"cat": "emotional_empathetic"
+},
+{
+"id": "r0223",
+"text": "Aktarım için en fazla on dört hafta bekletme yapılabilir.",
+"src": "alania",
+"cat": "customer_support"
+},
+{
+"id": "r0224",
+"text": "Rahat bir koltukta oturmak önemli.",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0225",
+"text": "Bu proje okul, iş ve ders arasında üç günde bitti.",
+"src": "own",
+"cat": "demo"
+},
+{
+"id": "r0226",
+"text": "Güzellikler size layık, tebrikler.",
+"src": "alania",
+"cat": "emotional_empathetic"
+},
+{
+"id": "r0227",
+"text": "Dünya Savaşı deneyimi kadınları siyasallaştırdı ve militanlaştırdı.",
+"src": "alania",
+"cat": "names"
+},
+{
+"id": "r0228",
+"text": "İlaç kullanımında iki saatlik aralıklar tut.",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0229",
+"text": "Kart kaybı bildirimi, yüzde on komisyonla mı işlem göreceğiniz?",
+"src": "alania",
+"cat": "banking"
+},
+{
+"id": "r0230",
+"text": "Bu yüzden doğal olarak hizmet verirken hiçbir ayrım yapmaması gerekmektedir.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0231",
+"text": "Başvurunuz on iki Mart'ta onaylandı.",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0232",
+"text": "Modelin ilk sesleri sadece gürültüydü.",
+"src": "own",
+"cat": "demo"
+},
+{
+"id": "r0233",
+"text": "Siparişiniz üçüncü kat, daire kırk adresine teslim edilecek, burayı unutmayın.",
+"src": "alania",
+"cat": "ecommerce_cargo"
+},
+{
+"id": "r0234",
+"text": "Bunlar, bunun karşılığını, bunun bedelini ödemeyecekler mi?",
+"src": "alania",
+"cat": "question"
+},
+{
+"id": "r0235",
+"text": "Bilgi aktarımı süreci sabır gerektirir.",
+"src": "alania",
+"cat": "emotional_empathetic"
+},
+{
+"id": "r0236",
+"text": "Yüzde yetmiş iki oranında başarı, genellikle yüksek bir performansı gösterir.",
+"src": "alania",
+"cat": "numbers_codes"
+},
+{
+"id": "r0237",
+"text": "Yurt dışı gönderilerde vergi oranları her zaman belli olur.",
+"src": "alania",
+"cat": "ecommerce_cargo"
+},
+{
+"id": "r0238",
+"text": "Bu belediyeler üzerinden teröristlere ve terör örgütüne kaynak mı aktarılsın, bunlar mı yapılsın?",
+"src": "alania",
+"cat": "question"
+},
+{
+"id": "r0239",
+"text": "Birkaç bin adım sonra mırıltı kelimelere dönüşmeye başladı.",
+"src": "own",
+"cat": "demo"
+},
+{
+"id": "r0240",
+"text": "Her ay beş dört altı bir üç üç tutarında otomatik ödeme alınacak şekilde bir talimat oluşturabilirsiniz.",
+"src": "alania",
+"cat": "banking"
+},
+{
+"id": "r0241",
+"text": "Bekle, beni aramayın, hemen geliyorum!",
+"src": "alania",
+"cat": "confirmations_acks"
+},
+{
+"id": "r0242",
+"text": "O kadar da zor değil yapılması gerekenler, gerçekten...",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0243",
+"text": "Öğretmenler günü için hediye yapımı sağlayarak ona özel bir plaket hazırlatabilirsiniz.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0244",
+"text": "Uzun süre yatağa bağımlı hastalar için pozisyon ayarlaması yağabilmek önemli bir özelliktir.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0245",
+"text": "On Haziran'da yeni adresime teslimat yapılması şart!",
+"src": "alania",
+"cat": "ecommerce_cargo"
+},
+{
+"id": "r0246",
+"text": "Şimdi model cümleyi bitirince kendisi duruyor.",
+"src": "own",
+"cat": "demo"
+},
+{
+"id": "r0247",
+"text": "Üzgünüm, daire otuz dörtte kalacağım ama yanlış yazdım.",
+"src": "alania",
+"cat": "numbers_codes"
+},
+{
+"id": "r0248",
+"text": "Keşke asker darbe yapmak zorunda kalmasa.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0249",
+"text": "Geri gönderimin anlaşmalı olduğumuz kargo firması ile yapılması gerekmektedir.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0250",
+"text": "Elimizdeki en büyük sermayedir Anadolu mayası.",
+"src": "alania",
+"cat": "names"
+},
+{
+"id": "r0251",
+"text": "Bankamızın güvenli hizmeti sizinle.",
+"src": "alania",
+"cat": "banking"
+},
+{
+"id": "r0252",
+"text": "Belirtilenlerden aşırı tereddüte girmeden önce farkına varabilmeniz büyük bir artı olabilir.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0253",
+"text": "Dinlediğiniz için teşekkür ederim.",
+"src": "own",
+"cat": "demo"
+},
+{
+"id": "r0254",
+"text": "Gönderdiğiniz paketin ağırlığı arttıkça, gümrük vergisinin de yüzdesi yükselmeye başlayabilir.",
+"src": "alania",
+"cat": "ecommerce_cargo"
+},
+{
+"id": "r0255",
+"text": "Ahbaplık (Özet): Ahbaplık, her şeyden önce bir düzen demektir.",
+"src": "alania",
+"cat": "names"
+},
+{
+"id": "r0256",
+"text": "Neredeyse bayılır gibi oldum!",
+"src": "alania",
+"cat": "emotional_empathetic"
+},
+{
+"id": "r0257",
+"text": "Zorluk parametresi, yetenek ölçeğinde doğru yanıt olasılığının sıfır virgül beş olduğu noktadır.",
+"src": "alania",
+"cat": "number"
+},
+{
+"id": "r0258",
+"text": "Yavaş yavaş iyileşiyor olmana sevindim.",
+"src": "alania",
+"cat": "emotional_empathetic"
+},
+{
+"id": "r0259",
+"text": "İban numaramın formatı doğru mu, nasıl anlarım?",
+"src": "alania",
+"cat": "banking"
+},
+{
+"id": "r0260",
+"text": "Sorularınız varsa memnuniyetle cevaplarım.",
+"src": "own",
+"cat": "demo"
+},
+{
+"id": "r0261",
+"text": "Amazon'dan sipariş verirken kredi kartı bilgilerimizi güvenle girdik.",
+"src": "alania",
+"cat": "addresses_names"
+},
+{
+"id": "r0262",
+"text": "Yeni bir ilacın teslimi için kat ve daire numaranızı belirtir misiniz?",
+"src": "alania",
+"cat": "numbers_codes"
+},
+{
+"id": "r0263",
+"text": "Anayasa tartışmalarının birinci etabı tamamlandı..",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0264",
+"text": "Otel rezervasyonunu yapalım, her şey hazır!",
+"src": "alania",
+"cat": "customer_support"
+},
+{
+"id": "r0265",
+"text": "Özellikle kız çocukların kesintisiz zorunlu eğitim almasını sağlayacaksınız. dedi.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0266",
+"text": "Bu konuyu daha çok açıklamak ister misin?",
+"src": "alania",
+"cat": "questions"
+},
+{
+"id": "r0267",
+"text": "Kod ve sonuçlar GitHub sayfamda açık.",
+"src": "own",
+"cat": "demo"
+},
+{
+"id": "r0268",
+"text": "Bu markanın en yeni koleksiyonu ne zaman gelecek?",
+"src": "alania",
+"cat": "questions"
+},
+{
+"id": "r0269",
+"text": "Saat on iki on, hemen devam edelim!",
+"src": "alania",
+"cat": "numbers_codes"
+},
+{
+"id": "r0270",
+"text": "İhaleye katılan bir firma sınır değerin altında teklif vermiştir.",
+"src": "alania",
+"cat": "number"
+},
+{
+"id": "r0271",
+"text": "Şu an tüm sorumluluğu üzerine alıyorum, üzgünüm.",
+"src": "alania",
+"cat": "emotional_empathetic"
+},
+{
+"id": "r0272",
+"text": "Bu seanslar yaklaşık iki saat sürmektedir.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0273",
+"text": "Manisa'da yeni evime gidecekler mi?",
+"src": "alania",
+"cat": "ecommerce_cargo"
+},
+{
+"id": "r0274",
+"text": "Bir sonraki adım bu modeli daha az veriyle daha iyi yapmak.",
+"src": "own",
+"cat": "demo"
+},
+{
+"id": "r0275",
+"text": "Gizemli olmak her zaman karşınızdaki insana karşı bir çekicilik yaratacaktır.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0276",
+"text": "İlginiz için teşekkür ederim, sağlıklı kalın.",
+"src": "alania",
+"cat": "confirmations_acks"
+},
+{
+"id": "r0277",
+"text": "İyi bir haberle dolu, tebrikler!",
+"src": "alania",
+"cat": "emotional_empathetic"
+},
+{
+"id": "r0278",
+"text": "Kredi kartı kendi istediğim kadar kullanabilir miyim?",
+"src": "alania",
+"cat": "banking"
+},
+{
+"id": "r0279",
+"text": "Cansu Aydın, duyduklarımın tadı hâlâ tadında!",
+"src": "alania",
+"cat": "confirmations_acks"
+},
+{
+"id": "r0280",
+"text": "Beni üç dakika içinde ara.",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0281",
+"text": "Bahsettiğimiz bu yıllar içerisinde, pazar sadece üç yıl on bin adedin altında kalmış.",
+"src": "alania",
+"cat": "number"
+},
+{
+"id": "r0282",
+"text": "Bir dakika bekleyin, muayenehane hâlâ hazır değil.",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0283",
+"text": "Annelik, doğada isteyen ve dileyen her dişinin hakkıdır ancak bu bir zorunluluk olamaz.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0284",
+"text": "Bu ayın on ikisi, yani bugün.",
+"src": "alania",
+"cat": "numbers_codes"
+},
+{
+"id": "r0285",
+"text": "Bu durumda ne yapılması gerektiğini tam olarak anlayabildim miyim?",
+"src": "alania",
+"cat": "questions"
+},
+{
+"id": "r0286",
+"text": "Siparişinizi on dört dakika içinde kargoya veriyoruz.",
+"src": "alania",
+"cat": "numbers_codes"
+},
+{
+"id": "r0287",
+"text": "Gecikme durumunda bir iş günü içinde bildirim yaparız, özür dilerim.",
+"src": "alania",
+"cat": "numbers_codes"
+},
+{
+"id": "r0288",
+"text": "Çanakkale'deki hizmetimizi deneyimlemek ister misiniz?",
+"src": "alania",
+"cat": "questions"
+},
+{
+"id": "r0289",
+"text": "Yarış oyunlarının tamamını sitesinden oynayabilirsiniz.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0290",
+"text": "Ateme, banka hesabınızdan nakit çekebileceğiniz cihazdır.",
+"src": "alania",
+"cat": "addresses_names"
+},
+{
+"id": "r0291",
+"text": "Instagram'dan yapılan başvuru nedeniyle zaman çakışması oldu.",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0292",
+"text": "Hıristiyanlık da insan canına kıymayı büyük günahlardan biri olarak kabul eder.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0293",
+"text": "Müşteri memnuniyet puanınız, yüksek seviyede tutuldu.",
+"src": "alania",
+"cat": "emotional_empathetic"
+},
+{
+"id": "r0294",
+"text": "Siparişinizin tutarı dokuz bin altı yüz seksen üç lira, yüzde beş indirimle ödendi.",
+"src": "alania",
+"cat": "ecommerce_cargo"
+},
+{
+"id": "r0295",
+"text": "Bu fiyat gerçekten geçerli mi, yoksa geçici mi?",
+"src": "alania",
+"cat": "questions"
+},
+{
+"id": "r0296",
+"text": "Soruları yanıtlamak istiyor musunuz?",
+"src": "alania",
+"cat": "questions"
+},
+{
+"id": "r0297",
+"text": "Sigorta şirketi, hasar dosyasının eksikliğini bildirir.",
+"src": "alania",
+"cat": "customer_support"
+},
+{
+"id": "r0298",
+"text": "Mobil hat eklemek istiyor musunuz?",
+"src": "alania",
+"cat": "customer_support"
+},
+{
+"id": "r0299",
+"text": "Beş yüz elli lira yirmi beş kuruşluk yatırımınız, büyük gelir getiriyor, neden beklemeyin?",
+"src": "alania",
+"cat": "banking"
+},
+{
+"id": "r0300",
+"text": "Sıcak suyu uzun süre açık bırakmak hem su hem de ısıtma maliyetini artırır.",
+"src": "alania",
+"cat": "customer_support"
+},
+{
+"id": "r0301",
+"text": "Yüzdelik oranlar ne kadar önemli?",
+"src": "alania",
+"cat": "numbers_codes"
+},
+{
+"id": "r0302",
+"text": "Altı gün boyunca kalacağım, uygun bir oda var mı?",
+"src": "alania",
+"cat": "customer_support"
+},
+{
+"id": "r0303",
+"text": "Hastane rehberine göre neyi unutmamalıyım?",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0304",
+"text": "Bekletmeyi bitirip aktarmak istiyorum.",
+"src": "alania",
+"cat": "customer_support"
+},
+{
+"id": "r0305",
+"text": "Elektrik kesintisi nedeniyle yaşadığınız sıkıntılar için özür dileriz.",
+"src": "alania",
+"cat": "customer_support"
+},
+{
+"id": "r0306",
+"text": "Bu hafta da oynaması bekleniyor ilk on birde..",
+"src": "alania",
+"cat": "number"
+},
+{
+"id": "r0307",
+"text": "Beni bir uzmana yönlendirin, lütfen!",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0308",
+"text": "Merve Uçar, abe standartlarında bir iş yerinde çalışıyor, hâlâ memleketin tadını çıkarıyor.",
+"src": "alania",
+"cat": "addresses_names"
+},
+{
+"id": "r0309",
+"text": "Üzgünüm ama sisteme kayıtlı olan kurum adı ile tarafınızın bildirdiğiniz ad arasında fark var, lütfen onaylayınız.",
+"src": "alania",
+"cat": "addresses_names"
+},
+{
+"id": "r0310",
+"text": "Geçtiğimiz yıl başlayan projede son otuz metreye gelindi.",
+"src": "alania",
+"cat": "number"
+},
+{
+"id": "r0311",
+"text": "Sistemle ilgili bir sıkıntı yaşadınız mı?",
+"src": "alania",
+"cat": "questions"
+},
+{
+"id": "r0312",
+"text": "Lütfen beklemek zorunda kalın.",
+"src": "alania",
+"cat": "confirmations_acks"
+},
+{
+"id": "r0313",
+"text": "Test sonuçlarınızı kontrol etmek için sizi yarın sabah bir saatte bekliyoruz.",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0314",
+"text": "Mustafa Kaya'ya güveniyorum, gerçekten iyi.",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0315",
+"text": "Kibri yanımıza yaklaştırmadık yaklaştırmayacağız.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0316",
+"text": "Sizinle olan randevunuz, yüzde seksen başarı oranı ile beklenen sonuçları veriyor, günde üç kez uygun şekilde kullanın.",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0317",
+"text": "Ordu'da birbirinden farklı stil seçenekleri, her tercihe uygun.",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0318",
+"text": "Bekletme için özür dilerim, sadece on iki sıfır beşe kadar bekleyebilirim.",
+"src": "alania",
+"cat": "customer_support"
+},
+{
+"id": "r0319",
+"text": "Otomotiv, makine ve ekipmanlar, elektrikli ürünler, mineral yakıtlar, plastik ve plastik eşyalar.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0320",
+"text": "Stok bittiğinde ön siparişlerimiz için tahmini teslimat zamanı belirlenir.",
+"src": "alania",
+"cat": "ecommerce_cargo"
+},
+{
+"id": "r0321",
+"text": "Aziz Aslan hangi diziler de oynadı?",
+"src": "alania",
+"cat": "question"
+},
+{
+"id": "r0322",
+"text": "Kullanımınız artarsa tarife yeniden değerlendirilebilir.",
+"src": "alania",
+"cat": "customer_support"
+},
+{
+"id": "r0323",
+"text": "Taksitli ödeme için biraz daha zaman istiyorum, üzgünüm.",
+"src": "alania",
+"cat": "banking"
+},
+{
+"id": "r0324",
+"text": "Randevunuz on altı ellide belirlenmiştir.",
+"src": "alania",
+"cat": "numbers_codes"
+},
+{
+"id": "r0325",
+"text": "Birkaç saniye daha, devam ediyoruz.",
+"src": "alania",
+"cat": "confirmations_acks"
+},
+{
+"id": "r0326",
+"text": "Dünyanın en itibarlı dergisinde bilimsel makale olarak yayınlanırdı.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0327",
+"text": "Üç numaralı hastane girişinden içeri girin.",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0328",
+"text": "Dosyam üç gün içinde çözülecek mi?",
+"src": "alania",
+"cat": "customer_support"
+},
+{
+"id": "r0329",
+"text": "Yirmi sekiz Nisan iki bin yirmi altı tarihli siparişinizi ararken bir hata yaptığımız için özür dilerim.",
+"src": "alania",
+"cat": "numbers_codes"
+},
+{
+"id": "r0330",
+"text": "Tutarlar güncellenmiş olabilir, lütfen doğrulayın.",
+"src": "alania",
+"cat": "numbers_codes"
+},
+{
+"id": "r0331",
+"text": "Sizinle tanışmaktan mutluluk duyuyorum.",
+"src": "alania",
+"cat": "confirmations_acks"
+},
+{
+"id": "r0332",
+"text": "Siz bu işi yapamayacaksınız, bari biz yardımcı olalım der gibi.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0333",
+"text": "Tercihlerinizin değişmesini ister misiniz?",
+"src": "alania",
+"cat": "questions"
+},
+{
+"id": "r0334",
+"text": "Dört iş gün içinde işlem tamamlanır mı?",
+"src": "alania",
+"cat": "customer_support"
+},
+{
+"id": "r0335",
+"text": "Şu anda onay için kontrol ediliyor, sabırlı olmanız önemli.",
+"src": "alania",
+"cat": "confirmations_acks"
+},
+{
+"id": "r0336",
+"text": "Hemen on dokuzda geçerli rezervasyon yapmak istiyorum.",
+"src": "alania",
+"cat": "customer_support"
+},
+{
+"id": "r0337",
+"text": "Ürünün renk tonu resimdekiyle aynı değil, iade sürecini başlatmak istiyorum.",
+"src": "alania",
+"cat": "ecommerce_cargo"
+},
+{
+"id": "r0338",
+"text": "Biraz yükseliş var, ama normal.",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0339",
+"text": "Otuzda vereceğimiz haber, büyük mutluluk!",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0340",
+"text": "Adana saldırılarında olduğu gibi.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0341",
+"text": "Bilgi topluyorum, sizin için en doğru kararı veriyorum.",
+"src": "alania",
+"cat": "emotional_empathetic"
+},
+{
+"id": "r0342",
+"text": "Bu konuyu anlamam zor, fizik tedavi seansları hakkında net bilgi veremem, özür dilerim.",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0343",
+"text": "Aşı bölümlerinde on dokuz Mayıs'ta özel servis çalışacak.",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0344",
+"text": "Daire altı, üçüncü kat daire, ilgili dosya numarası eksik.",
+"src": "alania",
+"cat": "numbers_codes"
+},
+{
+"id": "r0345",
+"text": "Merhaba! Kargo paketinizin takibi için ne yapmalıyız?",
+"src": "alania",
+"cat": "confirmations_acks"
+},
+{
+"id": "r0346",
+"text": "Evli ve bu evliliğinden iki evladı vardır.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0347",
+"text": "Tahlil sonuçlarım yirmi birde gelir mi?",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0348",
+"text": "Havale ile gönderim süresi kaç dakika?",
+"src": "alania",
+"cat": "banking"
+},
+{
+"id": "r0349",
+"text": "Şimdi bu kavramın sözlük veya uygulamadaki karşılıkları ne?",
+"src": "alania",
+"cat": "question"
+},
+{
+"id": "r0350",
+"text": "Kimlik doğrulama sorularının tekrar doğrulanmasını isterseniz?",
+"src": "alania",
+"cat": "questions"
+},
+{
+"id": "r0351",
+"text": "Sizin için hazırladığımız rapor, bin miligramlık dozun etkisini değerlendirmek için önem taşıyor.",
+"src": "alania",
+"cat": "numbers_codes"
+},
+{
+"id": "r0352",
+"text": "Dinlemeniz beni çok etkiledi.",
+"src": "alania",
+"cat": "emotional_empathetic"
+},
+{
+"id": "r0353",
+"text": "Yeni yerde teslimat bekliyor.",
+"src": "alania",
+"cat": "ecommerce_cargo"
+},
+{
+"id": "r0354",
+"text": "Ahmet Ünal, dokuz bin dört yüz on üç koduyla başvuru yapmış.",
+"src": "alania",
+"cat": "banking"
+},
+{
+"id": "r0355",
+"text": "Bugün on beş Mart, sizi seviyorum.",
+"src": "alania",
+"cat": "numbers_codes"
+},
+{
+"id": "r0356",
+"text": "Yüzde doksan beşten fazla şikayetim hâlâ çözülmedi, üzgünüm.",
+"src": "alania",
+"cat": "customer_support"
+},
+{
+"id": "r0357",
+"text": "İyi niyetliyim, size zarar vermem.",
+"src": "alania",
+"cat": "emotional_empathetic"
+},
+{
+"id": "r0358",
+"text": "Güncelleme yapıldı, sistemde görünüyor.",
+"src": "alania",
+"cat": "confirmations_acks"
+},
+{
+"id": "r0359",
+"text": "Bundan dolayı endüstriyel lazer kesim firmaları ve üretici firmaların tercihi olmaktadır.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0360",
+"text": "Açlık durumunda olmanız gerekiyor, su bile içmemelisiniz.",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0361",
+"text": "İnternet tarayıcınızın önbelleğini temizleyin.",
+"src": "alania",
+"cat": "customer_support"
+},
+{
+"id": "r0362",
+"text": "Sorunuzun çözümüne olan katkılardan dolayı teşekkürler.",
+"src": "alania",
+"cat": "confirmations_acks"
+},
+{
+"id": "r0363",
+"text": "Hemen yatırım yapın, beklemeyin.",
+"src": "alania",
+"cat": "banking"
+},
+{
+"id": "r0364",
+"text": "Gecikme olursa ne yapacağız?",
+"src": "alania",
+"cat": "questions"
+},
+{
+"id": "r0365",
+"text": "İşlemi başarıyla tamamlamak için ne yapmalıyım?",
+"src": "alania",
+"cat": "customer_support"
+},
+{
+"id": "r0366",
+"text": "İlk adım atıldı, bu yol uzun ama güzel!",
+"src": "alania",
+"cat": "emotional_empathetic"
+},
+{
+"id": "r0367",
+"text": "Nato'ya üyelik, Türkiye'deki segeka ve petete süreçlerini etkiliyor.",
+"src": "alania",
+"cat": "addresses_names"
+},
+{
+"id": "r0368",
+"text": "Gene de koyu kahverengi saçlarınızı açık ton bir renge yani sarıya boyatmak istiyorsanız.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0369",
+"text": "Yeni bir gün, yine bir prensesi kurtarma görevi.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0370",
+"text": "Bunu bir yıllık süreçte ancak gerçekleştirebildik.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0371",
+"text": "Dolayısıyla beş yüz doksan altı virgül sekiz milyon ton petrol ithal etmiştir.",
+"src": "alania",
+"cat": "number"
+},
+{
+"id": "r0372",
+"text": "Randevunuz dokuz saat önceden iptal edilirse ücret alınmaz.",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0373",
+"text": "Petete'den çekilen para üç yüz lira.",
+"src": "alania",
+"cat": "numbers_codes"
+},
+{
+"id": "r0374",
+"text": "Şimdilik çare bulmaya çalışıyoruz.",
+"src": "alania",
+"cat": "emotional_empathetic"
+},
+{
+"id": "r0375",
+"text": "Lütfen sabırla bekleyin, Amasya merkezinden gelen bir uzman, sizinle hemen konuşacak.",
+"src": "alania",
+"cat": "customer_support"
+},
+{
+"id": "r0376",
+"text": "Söz verdiğimiz tutarları hiçbir şekilde aşılmıyor!",
+"src": "alania",
+"cat": "numbers_codes"
+},
+{
+"id": "r0377",
+"text": "Biraz daha bekleme zamanı geçer, lütfen gergin olmayın.",
+"src": "alania",
+"cat": "confirmations_acks"
+},
+{
+"id": "r0378",
+"text": "Saat dokuz kırk beşte bir randevu bekliyor.",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0379",
+"text": "Anladım, notlarım çok düzgün!",
+"src": "alania",
+"cat": "confirmations_acks"
+},
+{
+"id": "r0380",
+"text": "Altı yüz otuz dört lira ödeme alındı.",
+"src": "alania",
+"cat": "ecommerce_cargo"
+},
+{
+"id": "r0381",
+"text": "Bakalım altmış dört bit desteği sağlamak üreticiler için zorlu bir süreç olacak mı?",
+"src": "alania",
+"cat": "number"
+},
+{
+"id": "r0382",
+"text": "Feasete hizmetinizin aktif olduğunu mu teyit etmek istiyorsunuz?",
+"src": "alania",
+"cat": "questions"
+},
+{
+"id": "r0383",
+"text": "Not aldım, öylece bırakmayacağım.",
+"src": "alania",
+"cat": "confirmations_acks"
+},
+{
+"id": "r0384",
+"text": "İsmail Gündüz'ün ekibinde gecikme, bekle.",
+"src": "alania",
+"cat": "confirmations_acks"
+},
+{
+"id": "r0385",
+"text": "Otelinize ulaşım kolaylığı konusunda bilgi verebilirim.",
+"src": "alania",
+"cat": "customer_support"
+},
+{
+"id": "r0386",
+"text": "Bu yöntem sayesinde, akne probleminden kısa sürede kurtulabilirsiniz.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0387",
+"text": "Bu bir anlamda solu mücadelede birlikte hareket etmeye ikna etmek oluyor aslında...",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0388",
+"text": "Ve bu gene açıkça görülebilir hale gelir.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0389",
+"text": "Yeni bir kod istemek istiyorsanız, lütfen yeniden deneyin.",
+"src": "alania",
+"cat": "numbers_codes"
+},
+{
+"id": "r0390",
+"text": "Sağlıkla yeniden yoluna devam etmenizi temenni ederiz.",
+"src": "alania",
+"cat": "emotional_empathetic"
+},
+{
+"id": "r0391",
+"text": "Miktarı biraz daha artırabiliriz.",
+"src": "alania",
+"cat": "numbers_codes"
+},
+{
+"id": "r0392",
+"text": "Her şey yolunda, durum kontrol altındadır.",
+"src": "alania",
+"cat": "emotional_empathetic"
+},
+{
+"id": "r0393",
+"text": "Ne güzel bir konuşma oldu, teşekkürler.",
+"src": "alania",
+"cat": "confirmations_acks"
+},
+{
+"id": "r0394",
+"text": "Farklı bir teslimat günü isterseniz, hangi günü tercih edersiniz?",
+"src": "alania",
+"cat": "questions"
+},
+{
+"id": "r0395",
+"text": "Şu ana kadar tüm memurlarımız için kazanımlar sağladık, daha da sağlamaya devam edeceğiz. dedi.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0396",
+"text": "Yeni adresi girdikten sonra doksan dokuz liralık paket hemen yola mı çıkar?",
+"src": "alania",
+"cat": "ecommerce_cargo"
+},
+{
+"id": "r0397",
+"text": "Hangi seçenekle daha çok mutlu olacaksın?",
+"src": "alania",
+"cat": "questions"
+},
+{
+"id": "r0398",
+"text": "Böylece korsanların denizleri ele geçirdiği ve herkesin hazineyi aradığı bir dünya yaratmış olur.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0399",
+"text": "Birlikte olmak, müşterilerimizle daha iyi.",
+"src": "alania",
+"cat": "numbers_codes"
+},
+{
+"id": "r0400",
+"text": "Kerem Bey'in bu yazıda ne işi var?",
+"src": "alania",
+"cat": "question"
+},
+{
+"id": "r0401",
+"text": "Deniz ulaşımında aksaklıklar sürerken, bazı vapurlar denizin ortasında kaldı.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0402",
+"text": "Bana Türkiye'nin durumunu bir kelimeyle anlatın derseniz iyidir derim.",
+"src": "alania",
+"cat": "names"
+},
+{
+"id": "r0403",
+"text": "Abede'den hızlı ödeme yapmak ister misiniz?",
+"src": "alania",
+"cat": "questions"
+},
+{
+"id": "r0404",
+"text": "Sivas'taki bankalar daha iyi mi?",
+"src": "alania",
+"cat": "banking"
+},
+{
+"id": "r0405",
+"text": "Sizleri çok değerli buluyorum, iyi günler.",
+"src": "alania",
+"cat": "confirmations_acks"
+},
+{
+"id": "r0406",
+"text": "Hadi, hemen sol taraftaki kapıdan içeri girin, bir iş günü içinde istenen tüm işlemleriniz yapılacak!",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0407",
+"text": "Güncel randevu ne zaman açılır?",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0408",
+"text": "Otel rezervasyonum sekiz bin altı yüz doksan üç numaralı odada mı olacak?",
+"src": "alania",
+"cat": "customer_support"
+},
+{
+"id": "r0409",
+"text": "Gecikmenin nedenini anlatabiliriz, lütfen sabretmek.",
+"src": "alania",
+"cat": "emotional_empathetic"
+},
+{
+"id": "r0410",
+"text": "Teslimat dokuz hafta içinde tamamlanacak.",
+"src": "alania",
+"cat": "ecommerce_cargo"
+},
+{
+"id": "r0411",
+"text": "Bu yazımızda sizler için elma sirkesi ile cilt bakımının nasıl yapılacağını yazdık.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0412",
+"text": "Beşiktaş'taki doktor muayenesi için e-Devlet üzerinden kimlik doğrulaması gerekir.",
+"src": "alania",
+"cat": "addresses_names"
+},
+{
+"id": "r0413",
+"text": "Sivillerin orduyu kontrolüne zarar verdi' dedi.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0414",
+"text": "Tolga Demir, bu kısa onay sürecini son bir kez kontrol etti.",
+"src": "alania",
+"cat": "confirmations_acks"
+},
+{
+"id": "r0415",
+"text": "Aldığımız ürünlerin adetleri ve yüklenecek olan sipariş kanalları bellidir.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0416",
+"text": "Oysaki ikili opsiyon piyasalarında işlem yapmak için çok fazla bilgiye ihtiyaç yoktur.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0417",
+"text": "Hemen hemen kırk gündür doktorumuz yok.",
+"src": "alania",
+"cat": "number"
+},
+{
+"id": "r0418",
+"text": "Bartın'da yolda kalmış olmamdan dolayı özür dilerim.",
+"src": "alania",
+"cat": "emotional_empathetic"
+},
+{
+"id": "r0419",
+"text": "Bu işlem için izin verdiğiniz kişiyi tanıyor musunuz?",
+"src": "alania",
+"cat": "questions"
+},
+{
+"id": "r0420",
+"text": "Döviz ve altın piyasaları bu kadar hareketli, yüzde yirmi birlik artışla birlikte gerçekten sinir bozucu.",
+"src": "alania",
+"cat": "banking"
+},
+{
+"id": "r0421",
+"text": "Diş kliniğinizde estetik diş kaplaması yaptırabilir miyim?",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0422",
+"text": "Belki de şarabı bu yüzden tüm diğer içeceklere tercih ediyordu.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0423",
+"text": "Yedi saat açık, her zaman mutlu.",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0424",
+"text": "Ya, bir yedek seçebilirsiniz.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0425",
+"text": "Fizik tedaviyle gününüz daha iyi geçer!",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0426",
+"text": "Teslimat saatiniz on dokuz on beşe kadar uzatıldı, sizin için uygun bir süre seçildi.",
+"src": "alania",
+"cat": "ecommerce_cargo"
+},
+{
+"id": "r0427",
+"text": "Yarın sadece bir kez alacağım, değil mi?",
+"src": "alania",
+"cat": "questions"
+},
+{
+"id": "r0428",
+"text": "Gerçekçi ise yelkenlerini esen rüzgara göre ayarlar.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0429",
+"text": "Yedi yüz doksan yedi virgül elli lira gönderimi için iban onaylanmalı.",
+"src": "alania",
+"cat": "banking"
+},
+{
+"id": "r0430",
+"text": "Adresimi doğru şekilde girin.",
+"src": "alania",
+"cat": "ecommerce_cargo"
+},
+{
+"id": "r0431",
+"text": "Su istasyonunda bir arıza var!",
+"src": "alania",
+"cat": "customer_support"
+},
+{
+"id": "r0432",
+"text": "Siz sabırlı olduğunuz için rahatlayabilirsiniz.",
+"src": "alania",
+"cat": "emotional_empathetic"
+},
+{
+"id": "r0433",
+"text": "Siparişim on dört otuzda on birinci kat, daire yirmi üçe gitmeli.",
+"src": "alania",
+"cat": "ecommerce_cargo"
+},
+{
+"id": "r0434",
+"text": "Hastanemizde yapılan analizler, her şeyin yolunda olduğunu gösteriyor.",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0435",
+"text": "Hiç bir şey olmayan yerde, kral, başka her zor gibi, haklarını yitirir.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0436",
+"text": "Çeşme'deki kentsel dönüşüm projeleri, yüzde kırk iki oranında ilerlemiş durumda.",
+"src": "alania",
+"cat": "addresses_names"
+},
+{
+"id": "r0437",
+"text": "Maltepe'deki bir eğitim merkezinde, e-Nabız sistemiyle yapılan uygulama, hemşirelerin işini kolaylaştırdı.",
+"src": "alania",
+"cat": "addresses_names"
+},
+{
+"id": "r0438",
+"text": "Yeni konumum ne zaman kaydedilir?",
+"src": "alania",
+"cat": "ecommerce_cargo"
+},
+{
+"id": "r0439",
+"text": "İlaçları kuru yerde saklamak önemlidir, nemden kaçının.",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0440",
+"text": "Salatalıkları ve sarımsakları yıkadıktan sonra rendeleyin.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0441",
+"text": "Hasarın teknik açıdan analizi tamamlandı.",
+"src": "alania",
+"cat": "ecommerce_cargo"
+},
+{
+"id": "r0442",
+"text": "Adres değişikliği talep edildi, işlem devam ediyor.",
+"src": "alania",
+"cat": "ecommerce_cargo"
+},
+{
+"id": "r0443",
+"text": "Hizmet süresi yüzde on dört virgül iki arttı.",
+"src": "alania",
+"cat": "numbers_codes"
+},
+{
+"id": "r0444",
+"text": "Yasemin Yıldırım, aveme'deki elektronik aletin markasının yabancı olduğunu fark etti.",
+"src": "alania",
+"cat": "addresses_names"
+},
+{
+"id": "r0445",
+"text": "Yabancı marka ürünlerin etiketlerini dikkatlice okuyoruz.",
+"src": "alania",
+"cat": "addresses_names"
+},
+{
+"id": "r0446",
+"text": "Netleştirme soruları, hasta tarafından ilaçlar arasında zaman farkı bırakılması gerekip gerekmediğini sorgular mı?",
+"src": "alania",
+"cat": "questions"
+},
+{
+"id": "r0447",
+"text": "Döviz alışverişlerinde her zaman yanınızdayız.",
+"src": "alania",
+"cat": "banking"
+},
+{
+"id": "r0448",
+"text": "Kurulum sırasında programı sizden bir sayı girmenizi istiyor.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0449",
+"text": "İşlem iptal edilmedi, devam ediyor.",
+"src": "alania",
+"cat": "confirmations_acks"
+},
+{
+"id": "r0450",
+"text": "Fatma Kara, segeka'da bir dört iki sıfır altı numaralı dosyasını sorguladı.",
+"src": "alania",
+"cat": "addresses_names"
+},
+{
+"id": "r0451",
+"text": "Biliyoruz ki yeniden olacak, ülkemizden geçen kırılmayı bekleyen birçok fay hattı var.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0452",
+"text": "Belki bir daha bu parayı hiç kazanamayacağız.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0453",
+"text": "Endişelenmeyin, bu geçici bir durum, her şey yolunda.",
+"src": "alania",
+"cat": "emotional_empathetic"
+},
+{
+"id": "r0454",
+"text": "Tutarlar, alışveriş süresince sabit kalır.",
+"src": "alania",
+"cat": "numbers_codes"
+},
+{
+"id": "r0455",
+"text": "Hasar nedeniyle teslimat ertelendi.",
+"src": "alania",
+"cat": "ecommerce_cargo"
+},
+{
+"id": "r0456",
+"text": "Geçen sezonun borçları da yirmi Milyon lira kadardı.",
+"src": "alania",
+"cat": "number"
+},
+{
+"id": "r0457",
+"text": "Bitkilerde üreme de en önemli unsur erkek üreme organının üretmiş olduğu polendir.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0458",
+"text": "Kayıp kız çocuğunu arama çalışmaları, gece saatlerinde de sürdürüldü.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0459",
+"text": "İptal etmek istiyorsanız, sadece bir şey söyleyin, gerisini biz yaparız.",
+"src": "alania",
+"cat": "customer_support"
+},
+{
+"id": "r0460",
+"text": "Yukarıda saydığım detaylara, bu davaları size getiren avukatlar dikkat etmiyorsa siz edin.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0461",
+"text": "Borcumun bir kısmını nasıl ödeyebilirim?",
+"src": "alania",
+"cat": "questions"
+},
+{
+"id": "r0462",
+"text": "Hadi bu fırsatı değerlendirelim!",
+"src": "alania",
+"cat": "emotional_empathetic"
+},
+{
+"id": "r0463",
+"text": "Murat Kılıç, bu ürünün fiyatları diğerlerinden yüzde yirmi üç daha yüksek olduğunu söyledi.",
+"src": "alania",
+"cat": "addresses_names"
+},
+{
+"id": "r0464",
+"text": "Bir taksit planı hazırlayabilir misiniz?",
+"src": "alania",
+"cat": "banking"
+},
+{
+"id": "r0465",
+"text": "Hesabınızda biriken bakiyeniz yüzde yirmi arttı, ne kadar güzel!",
+"src": "alania",
+"cat": "emotional_empathetic"
+},
+{
+"id": "r0466",
+"text": "Mağazamızın düzeni ve alışveriş deneyiminiz nasıl geçti?",
+"src": "alania",
+"cat": "questions"
+},
+{
+"id": "r0467",
+"text": "Meharese sistemi, her zaman güncel verilerle çalışıyor.",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0468",
+"text": "Size yardımcı olmada ne kadar memnun kaldınız?",
+"src": "alania",
+"cat": "questions"
+},
+{
+"id": "r0469",
+"text": "Şimdi'nin geçmişten çok daha önemli olduğunun hatırlanması gerekir.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0470",
+"text": "Yüzde beş yüzlük artış, gerçekten mi?",
+"src": "alania",
+"cat": "numbers_codes"
+},
+{
+"id": "r0471",
+"text": "Daire otuz beşe bir bardak su gönderebilir misiniz?",
+"src": "alania",
+"cat": "ecommerce_cargo"
+},
+{
+"id": "r0472",
+"text": "Depremde hayatını kaybeden vatandaşlarımıza Allah'tan rahmet, yaralılarımıza acil şifalar diliyorum.",
+"src": "alania",
+"cat": "names"
+},
+{
+"id": "r0473",
+"text": "Öyle kadınlar vardırki yaptığınız çok güzel bir espiriden bile darılıp küsebilir.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0474",
+"text": "Hala ekonomik durum düzeltilemedi, ırkçılıkla ilgili birçok sorunumuz var.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0475",
+"text": "Hasta kayıtları ikinci kata.",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0476",
+"text": "Ateşin otuz sekiz dereceyi geçti mi?",
+"src": "alania",
+"cat": "questions"
+},
+{
+"id": "r0477",
+"text": "Yurt dışı gönderimde en küçük hatayı bile dikkatle kontrol et.",
+"src": "alania",
+"cat": "ecommerce_cargo"
+},
+{
+"id": "r0478",
+"text": "Bana yedi yüz seksen altı liralık ürünün ön siparişini alabilir misiniz?",
+"src": "alania",
+"cat": "ecommerce_cargo"
+},
+{
+"id": "r0479",
+"text": "Altı yedi dokuz beş dört sıfır numaralı hatla iletişime geçin.",
+"src": "alania",
+"cat": "ecommerce_cargo"
+},
+{
+"id": "r0480",
+"text": "İşlemimiz tamamlanıyor, lütfen bekleyin.",
+"src": "alania",
+"cat": "confirmations_acks"
+},
+{
+"id": "r0481",
+"text": "Barış Güneş, yüz doları çevirdi mi?",
+"src": "alania",
+"cat": "addresses_names"
+},
+{
+"id": "r0482",
+"text": "Çok anlamlı bir soru sordunuz.",
+"src": "alania",
+"cat": "confirmations_acks"
+},
+{
+"id": "r0483",
+"text": "Göz muayenesi için beş saat beklemek normal.",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0484",
+"text": "Bir soruyu netleştirmeden önce neye dikkat etmeliyim?",
+"src": "alania",
+"cat": "questions"
+},
+{
+"id": "r0485",
+"text": "On beş Ağustos'ta ilaç alımı yapın.",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0486",
+"text": "Gönderim süresi yüzde on beş fazla mı oldu?",
+"src": "alania",
+"cat": "questions"
+},
+{
+"id": "r0487",
+"text": "Kurye on yedi otuzda kapıda olacak.",
+"src": "alania",
+"cat": "ecommerce_cargo"
+},
+{
+"id": "r0488",
+"text": "Bir başka ilaçla beraber kullanılmaması gereken ilaçlar olabilir, bunu biliyor musunuz?",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0489",
+"text": "Yemeklerinizin yanında su koyun.",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0490",
+"text": "İnternetimde anormal durum var.",
+"src": "alania",
+"cat": "customer_support"
+},
+{
+"id": "r0491",
+"text": "Merve Önal, e-Devlet'te sağlık dosyasını güncelliyor.",
+"src": "alania",
+"cat": "addresses_names"
+},
+{
+"id": "r0492",
+"text": "Otuz beş projenin on dokuzunun ihalesi yapılmış durumda.",
+"src": "alania",
+"cat": "number"
+},
+{
+"id": "r0493",
+"text": "İngilterede bir parkta bulunan bu yaratık tüm dünyada büyük yankı yaratmıştı.",
+"src": "alania",
+"cat": "general"
+},
+{
+"id": "r0494",
+"text": "Yüzde üçü geçmez bu ürünlerde yan etki.",
+"src": "alania",
+"cat": "addresses_names"
+},
+{
+"id": "r0495",
+"text": "Yüzde doksan sekiz oranında çözüm oranı yüksek, sizi de bu yüzdeye dahil etmek istiyorum.",
+"src": "alania",
+"cat": "customer_support"
+},
+{
+"id": "r0496",
+"text": "Segeka ile özel sigorta, birlikte kullanılabilmek üzere tasarlanabilir.",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0497",
+"text": "Sizler için en uygun saatleri öneriyoruz.",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0498",
+"text": "Hastalık nedeniyle önemli bir randevum var, unutmadan hatırlatır mısınız?",
+"src": "alania",
+"cat": "appointments_clinics"
+},
+{
+"id": "r0499",
+"text": "Lütfen özür dileyerek düzeltiyorum.",
+"src": "alania",
+"cat": "confirmations_acks"
+},
+{
+"id": "r0500",
+"text": "İnternet hizmetimiz şu an kullanılamıyor.",
+"src": "alania",
+"cat": "customer_support"
+}
+]

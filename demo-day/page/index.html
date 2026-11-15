@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<title>YZ50 Demo Day — Alperen</title>
+<style>
+:root{
+  --paper:#f5f3ee; --ink:#15171c; --mute:#6c7080; --faint:#a3a6b0; --line:#e2ded4; --card:#fffdf9;
+  --blue:#2b59e8; --blue-soft:#e3e9fd; --me:#e2552d; --me-soft:#fbe5dd; --green:#178f62;
+  --ease:cubic-bezier(.2,.8,.2,1);
+  --sans:-apple-system,BlinkMacSystemFont,"SF Pro Display","Helvetica Neue",Arial,sans-serif;
+  --mono:"SF Mono",ui-monospace,Menlo,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;background:#e9e6df;overflow:hidden;font-family:var(--sans);color:var(--ink);-webkit-font-smoothing:antialiased}
+#stage{position:absolute;left:0;top:0;width:1600px;height:900px;background:var(--paper);transform-origin:0 0;overflow:hidden}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums}
+
+/* üst ve alt şerit */
+#top{position:absolute;left:72px;right:72px;top:36px;display:flex;justify-content:space-between;align-items:center;font-size:15px;color:var(--mute);letter-spacing:.02em;z-index:3}
+#top b{color:var(--ink);font-weight:600}
+#dots{display:flex;gap:8px}
+#dots i{width:26px;height:4px;border-radius:2px;background:var(--line);transition:background .5s var(--ease)}
+#dots i.on{background:var(--ink)}
+#foot{position:absolute;left:72px;right:72px;bottom:30px;display:flex;justify-content:space-between;font-size:13px;color:var(--faint);z-index:3}
+
+/* sahne geçişi */
+.scene{position:absolute;inset:0;padding:112px 72px 72px}
+.in{opacity:0;transform:translateY(14px);transition:opacity .7s var(--ease),transform .7s var(--ease)}
+.live .in{opacity:1;transform:none}
+.scene.out{opacity:0;transition:opacity .35s ease}
+.kicker{font-size:15px;letter-spacing:.14em;text-transform:uppercase;color:var(--mute);margin-bottom:14px}
+h1{font-size:92px;line-height:1.02;font-weight:700;letter-spacing:-.035em}
+h2{font-size:50px;line-height:1.08;font-weight:700;letter-spacing:-.025em}
+.sub{font-size:22px;color:var(--mute);margin-top:14px;max-width:1000px;line-height:1.45}
+.note{font-size:15px;color:var(--mute);line-height:1.5}
+.me{color:var(--me)} .blue{color:var(--blue)}
+
+/* kapak */
+.cover h1 span{display:block}
+.tl{position:absolute;left:72px;right:72px;top:600px;height:120px}
+.tl .base{position:absolute;left:0;right:0;top:40px;height:2px;background:var(--line)}
+.tl .run{position:absolute;left:0;top:40px;height:2px;background:var(--ink);width:0;transition:width 2.2s var(--ease) .4s}
+.live .tl .run{width:100%}
+.tl .wd{position:absolute;top:33px;width:16px;height:16px;margin-left:-8px;border-radius:50%;background:var(--paper);border:2px solid var(--faint);transition:border-color .3s, background .3s}
+.tl .wd.lit{border-color:var(--ink);background:var(--ink)}
+.tl .wd.end{border-color:var(--me);background:var(--me);width:22px;height:22px;margin-left:-11px;top:30px}
+.tl .wd.end.lit{animation:pulse 1.6s ease-in-out infinite}
+@keyframes pulse{50%{box-shadow:0 0 0 10px rgba(226,85,45,.13)}}
+.tl .lb{position:absolute;top:66px;transform:translateX(-50%);font-size:13px;color:var(--faint);white-space:nowrap}
+.tl .lb.end{color:var(--me);font-weight:600}
+
+/* yolculuk: 12 kart */
+.grid{display:grid;grid-template-columns:repeat(6,1fr);gap:14px;margin-top:30px}
+.wk{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 16px 14px;height:262px;display:flex;flex-direction:column;cursor:pointer;
+    transition:transform .45s var(--ease),box-shadow .45s var(--ease),border-color .3s,opacity .45s}
+.wk .n{font:600 13px var(--mono);color:var(--faint)}
+.wk .t{font-size:18px;font-weight:650;margin:6px 0 10px;line-height:1.2}
+.wk .a{flex:1;font:14px/1.45 var(--mono);color:#3a3e48;white-space:pre-wrap;overflow:hidden}
+.wk .k{margin-top:8px;font:600 22px var(--mono);letter-spacing:-.02em}
+.wk .k small{font:500 12px var(--sans);color:var(--mute);display:block;letter-spacing:0}
+.grid.focus .wk{opacity:.32}
+.grid.focus .wk.sel{opacity:1;transform:translateY(-6px) scale(1.04);box-shadow:0 18px 40px rgba(20,22,28,.12);border-color:var(--ink)}
+
+/* model: token şeridi + kod ızgarası */
+.seq{display:flex;flex-wrap:wrap;gap:5px;margin-top:34px;max-width:1460px}
+.tk{height:40px;min-width:30px;padding:0 9px;border-radius:7px;display:flex;align-items:center;justify-content:center;font:15px var(--mono);background:var(--card);border:1px solid var(--line)}
+.tk.sp{background:var(--ink);color:var(--paper);border-color:var(--ink);font-size:13px}
+.tk.tag{background:var(--me);border-color:var(--me);color:#fff;font-size:13px}
+.gridwrap{display:flex;gap:26px;margin-top:22px;align-items:flex-start}
+.codes{display:grid;grid-template-rows:repeat(8,22px);grid-auto-flow:column;grid-auto-columns:22px;gap:3px}
+.codes i{border-radius:4px;background:var(--line);opacity:0;transform:scale(.6);transition:opacity .35s var(--ease),transform .35s var(--ease)}
+.codes i.on{opacity:1;transform:none}
+.cbl{display:grid;grid-template-rows:repeat(8,22px);gap:3px;font:12px var(--mono);color:var(--faint);text-align:right}
+.cbl span{line-height:22px}
+.facts{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:30px}
+.fact{border-top:2px solid var(--ink);padding-top:12px}
+.fact b{display:block;font:600 30px var(--mono);letter-spacing:-.02em}
+.fact span{font-size:15px;color:var(--mute);line-height:1.4;display:block;margin-top:4px}
+
+/* ses kartı */
+.au{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;display:flex;flex-direction:column;gap:10px;cursor:pointer;transition:border-color .3s, box-shadow .3s}
+.au:hover{border-color:var(--faint)}
+.au.playing{border-color:var(--ink);box-shadow:0 10px 26px rgba(20,22,28,.08)}
+.au .h{display:flex;align-items:center;gap:12px}
+.au .pl{width:38px;height:38px;border-radius:50%;background:var(--ink);flex:none;position:relative}
+.au .pl:after{content:"";position:absolute;left:15px;top:12px;border-left:12px solid var(--paper);border-top:7px solid transparent;border-bottom:7px solid transparent}
+.au.playing .pl:after{left:13px;top:12px;width:4px;height:14px;border:0;background:var(--paper);box-shadow:8px 0 0 var(--paper)}
+.au .ti{font-size:16px;font-weight:650;line-height:1.25}
+.au .ti small{display:block;font-weight:400;color:var(--mute);font-size:13px;margin-top:2px}
+.au canvas{width:100%;height:54px;display:block}
+.au.missing{border-style:dashed;cursor:default}
+.au.missing canvas{display:none}
+.au .miss{display:none;font:12px var(--mono);color:var(--faint)}
+.au.missing .miss{display:block}
+.au.me .pl{background:var(--me)}
+
+/* loss grafiği */
+.chart{position:absolute;left:72px;top:250px;width:960px;height:560px}
+.chart svg{overflow:visible}
+.ax{stroke:var(--line);stroke-width:1}
+.axl{font:12px var(--mono);fill:var(--faint)}
+.pv{fill:none;stroke:var(--blue);stroke-width:3;stroke-linejoin:round}
+.pt{fill:none;stroke:var(--faint);stroke-width:1.6;stroke-linejoin:round}
+.draw{transition:stroke-dashoffset 2.6s var(--ease) .3s}
+.mk{cursor:pointer}
+.mk circle.o{fill:var(--paper);stroke:var(--ink);stroke-width:2;transition:r .3s var(--ease),fill .3s}
+.mk.sel circle.o{fill:var(--ink)}
+.mk text{font:600 13px var(--mono);fill:var(--ink)}
+.ann{font:13px var(--sans);fill:var(--mute)}
+.side{position:absolute;left:1090px;top:250px;width:438px;display:flex;flex-direction:column;gap:12px}
+.side .q{font-size:15px;color:var(--mute);line-height:1.45}
+.side .q b{color:var(--ink);font-weight:600}
+
+/* benchmark */
+.bars{margin-top:40px;display:flex;flex-direction:column;gap:12px;width:1010px}
+.br{display:grid;grid-template-columns:330px 1fr 92px 80px;align-items:center;gap:16px;font-size:18px}
+.br .nm small{color:var(--mute);font-size:13px;margin-left:6px}
+.br .tr{height:30px;background:transparent;position:relative}
+.br .tr i{position:absolute;left:0;top:0;bottom:0;width:0;border-radius:5px;background:#cfd2da;transition:width 1.1s var(--ease)}
+.br.mine .tr i{background:var(--blue)}
+.br.mine.voice .tr i{background:var(--me)}
+.br .v{font:600 20px var(--mono);text-align:right}
+.br .c{font:14px var(--mono);color:var(--mute);text-align:right}
+.br.mine .nm{font-weight:650}
+.bhead{display:grid;grid-template-columns:330px 1fr 92px 80px;gap:16px;font-size:13px;color:var(--faint);letter-spacing:.06em;text-transform:uppercase}
+.bhead span:nth-child(3),.bhead span:nth-child(4){text-align:right}
+.caveat{position:absolute;left:1150px;top:300px;width:380px;border-left:3px solid var(--ink);padding-left:20px}
+.caveat p{font-size:17px;line-height:1.5;margin-bottom:14px;color:#33363f}
+.caveat p b{color:var(--ink)}
+
+/* kendi verim */
+.vs{display:grid;grid-template-columns:1fr 70px 1fr;align-items:center;margin-top:36px;width:1120px}
+.blk{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px 26px}
+.blk .l{font-size:16px;color:var(--mute)}
+.blk .big{font:700 66px var(--sans);font-variant-numeric:tabular-nums;letter-spacing:-.03em;margin-top:6px}
+.blk .big small{font:500 18px var(--sans);color:var(--mute);letter-spacing:0;margin-left:8px}
+.blk.good{border-color:var(--ink)}
+.arrow{text-align:center;font-size:34px;color:var(--faint)}
+.vs.compact{margin-top:26px;width:1456px;grid-template-columns:1fr 60px 1fr}
+.vs.compact .blk{padding:14px 22px;display:flex;align-items:baseline;justify-content:space-between;gap:20px}
+.vs.compact .big{font-size:46px;margin-top:0;white-space:nowrap}
+.sw{position:absolute;left:72px;top:385px;width:960px;height:380px}
+.sw svg{overflow:visible}
+.sw .lw{fill:none;stroke:var(--blue);stroke-width:2.6;stroke-linejoin:round}
+.sw .ls{fill:none;stroke:var(--me);stroke-width:2.6;stroke-linejoin:round}
+.sw .ref{stroke-width:1.2;stroke-dasharray:3 5}
+.sw .hit{fill:transparent;cursor:pointer}
+.sw .hit:hover{fill:rgba(20,22,28,.035)}
+.sw .col.sel .hit{fill:rgba(20,22,28,.06)}
+.sw .pw,.sw .ps{transition:r .3s var(--ease)}
+.sw .col.sel .pw,.sw .col.sel .ps{r:8}
+.sw .lab{font:600 13px var(--sans)}
+.readout{position:absolute;left:72px;top:782px;width:960px;font-size:15px;color:var(--mute);line-height:1.4}
+.readout b{color:var(--ink);font-weight:600}
+.readout q{color:var(--ink);font-style:italic}
+.side6{position:absolute;left:1080px;top:372px;width:448px;display:flex;flex-direction:column;gap:12px}
+
+/* kapanış */
+.end h1{font-size:110px}
+.recap{display:flex;gap:56px;margin-top:70px}
+.recap div b{display:block;font:700 56px var(--mono);letter-spacing:-.04em}
+.recap div span{font-size:16px;color:var(--mute)}
+.repo{margin-top:80px;font:500 30px var(--mono)}
+.repo span{color:var(--mute)}
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="top"><div><b>YZ50</b> · Demo Day · Alperen</div><div id="dots"></div></div>
+  <div id="view"></div>
+  <div id="foot"><div id="ft"></div><div>→ ileri · ← geri · F tam ekran</div></div>
+</div>
+<script>
+const $ = s => document.querySelector(s);
+const stage = $('#stage'), view = $('#view');
+function fit(){ const s = Math.min(innerWidth / 1600, innerHeight / 900);
+  stage.style.transform = `translate(${(innerWidth - 1600 * s) / 2}px,${(innerHeight - 900 * s) / 2}px) scale(${s})`; }
+addEventListener('resize', fit); fit();
+const el = (tag, cls, html) => { const d = document.createElement(tag); if (cls) d.className = cls; if (html != null) d.innerHTML = html; return d; };
+let DATA, cur = -1, gen = 0;
+
+/* ---------- ses: dalga formu + çalma ---------- */
+const AC = new (window.AudioContext || window.webkitAudioContext)();
+const peaksCache = {};
+let playing = null;
+async function peaks(url, n){
+  if (peaksCache[url]) return peaksCache[url];
+  const buf = await AC.decodeAudioData(await (await fetch(url)).arrayBuffer());
+  const x = buf.getChannelData(0), step = Math.floor(x.length / n), p = [];
+  for (let i = 0; i < n; i++){ let m = 0; for (let j = i * step; j < (i + 1) * step; j++) m = Math.max(m, Math.abs(x[j])); p.push(m); }
+  const mx = Math.max(...p) || 1;
+  return peaksCache[url] = { p: p.map(v => v / mx), dur: buf.duration };
+}
+function drawWave(cv, pk, prog, color){
+  const r = devicePixelRatio || 1, w = cv.clientWidth, h = cv.clientHeight;
+  if (cv.width !== w * r){ cv.width = w * r; cv.height = h * r; }
+  const g = cv.getContext('2d'); g.setTransform(r, 0, 0, r, 0, 0); g.clearRect(0, 0, w, h);
+  const n = pk.p.length, bw = w / n;
+  pk.p.forEach((v, i) => { const bh = Math.max(2, v * (h - 6));
+    g.fillStyle = i / n <= prog ? color : '#d7d4cc'; g.fillRect(i * bw + .5, (h - bh) / 2, Math.max(1, bw - 1.5), bh); });
+}
+function audioCard(file, title, small, opts = {}){
+  const c = el('div', 'au' + (opts.me ? ' me' : ''));
+  c.innerHTML = `<div class="h"><div class="pl"></div><div class="ti">${title}${small ? `<small>${small}</small>` : ''}</div></div><canvas></canvas><div class="miss">ses dosyası bekleniyor: audio/${file}</div>`;
+  const url = 'audio/' + file, cv = c.querySelector('canvas'), color = opts.me ? '#e2552d' : '#15171c';
+  if (!DATA.have[file]){ c.classList.add('missing'); return c; }
+  let pk = null;
+  peaks(url, 90).then(p => { pk = p; drawWave(cv, pk, 0, color); });
+  c.play = () => {
+    if (playing){ playing.stop(); if (playing.card === c){ playing = null; return; } }
+    const a = new Audio(url); c.classList.add('playing'); AC.resume();
+    const tick = () => { if (!pk) return; drawWave(cv, pk, a.currentTime / pk.dur, color); if (!a.paused) requestAnimationFrame(tick); };
+    const stop = () => { a.pause(); c.classList.remove('playing'); pk && drawWave(cv, pk, 0, color); };
+    a.onended = () => { stop(); if (playing && playing.card === c) playing = null; };
+    a.play(); requestAnimationFrame(tick); playing = { card: c, stop };
+  };
+  c.onclick = () => c.play();
+  return c;
+}
+
+/* ---------- sahneler ---------- */
+const WEEKS = [
+  ['Tek nöron', 'girdi × ağırlık + bias\n→ aktivasyon\n\nMSE loss, sayısal türevle\ngradient descent', '1', 'nöron, kütüphanesiz'],
+  ['Backprop', 'kendi autograd motorum:\nValue, backward()\n\nPyTorch ile aynı gradyan', '✓', 'micrograd'],
+  ['Bigram', 'güsu.\noçmerslbi.\nören.\nyhimur.', '2.476', 'loss · 1 harf bağlam'],
+  ['MLP', 'hemdirzar.\nmauygun.\nmerzık.\nilbeyduma.', '2.077', 'dev loss · 3 harf'],
+  ['Elle backprop', 'loss.backward() yok:\nher gradyanı elle\nyazdım ve PyTorch\nile karşılaştırdım', '✓', 'tensör tensör'],
+  ['WaveNet', 'gümüşgar.\nzülkif.\nulakbey.\nalpertunga.', '2.282', 'dev loss · 77,038 parametre'],
+  ['Attention', 'Romeo:\nAyo fromyod bubrnchad\nthers I than ghh may', '2.344', 'val · tek head (bigram 2.491)'],
+  ['Transformer', 'NE ZAMAN ADAM OLURUZ?\nBir süresinde anımsal\nolmadığı zaman', '1.312', 'val · Türkçe · 10.8M'],
+  ['Tokenizer', 'kendi BPE\'m\n\nGPT-4 tokenizer:\nTürkçe 3.35 token/kelime\nİngilizce 1.08', '3.1×', 'Türkçe daha pahalı'],
+  ['GPT-2 yükle', 'kendi modülüm +\nOpenAI ağırlıkları\n\nlogits = Hugging Face', '124M', '124,439,808 parametre'],
+  ['GPT-2 hızlandır', 'TF32, bfloat16,\ntorch.compile,\nflash attention,\nvocab 50,304', '11.1×', '1039 → 93 ms / adım'],
+  ['GPT-2 sıfırdan', 'adım 0: "iggs Socialism\nYangointment rodents"\nadım 599: "I had a\nteacher of the same"', '28.4%', 'HellaSwag (GPT-2: 33.6%)'],
+];
+const BENCH = [
+  ['Benim modelim', 'ön eğitim, 60k adım', 3.5, 1.0, 'mine'],
+  ['FreyaTTS-small', '183M', 8.0, 3.0, ''],
+  ['Benim modelim', 'benim sesim, adım 200', 8.4, 2.8, 'mine voice'],
+  ['XTTS-v2', '0.5B', 11.1, null, ''],
+  ['Benim modelim', 'eski video sesim', 18.8, 8.8, 'mine voice'],
+  ['F5-TTS', '0.3B', 24.3, null, ''],
+];
+const LADDER = [[0, 'adim_000000.wav'], [1000, 'adim_001000.wav'], [3000, 'adim_003000.wav'], [10000, 'adim_010000.wav'], [60000, 'adim_060000.wav']];
+const keys = {};      // sahneye özel tuşlar
+
+const SCENES = [
+ { name: 'Kapak', build(root){
+    const h = el('div', 'cover');
+    h.append(el('div', 'kicker in', 'YZ50 · 12 hafta · 15 Kasım 2026'),
+      el('h1', 'in', '<span>Tek bir nörondan</span><span>kendi sesimle konuşan</span><span class="me">bir modele.</span>'),
+      el('div', 'sub in', 'Bu sayfadaki her sayı, metin ve ses kendi notebook\'larımdan ve eğitim kayıtlarımdan.'));
+    const tl = el('div', 'tl in'); tl.append(el('div', 'base'), el('div', 'run'));
+    for (let i = 0; i <= 12; i++){
+      const x = (i / 12 * 100) + '%', d = el('div', 'wd' + (i === 12 ? ' end' : '')); d.style.left = x; tl.append(d);
+      const lb = el('div', 'lb' + (i === 12 ? ' end' : ''), i === 12 ? 'Demo Day' : 'H' + (i + 1)); lb.style.left = x; tl.append(lb);
+      setTimeout(() => d.classList.add('lit'), 400 + 2200 * (1 - Math.pow(1 - i / 12, 3)));
+    }
+    root.append(h, tl);
+ }},
+ { name: 'Yolculuk', build(root){
+    root.append(el('div', 'kicker in', '12 hafta, her hafta kendi elimle'),
+      el('h2', 'in', 'Her hafta bir model, <span class="mute" style="color:var(--mute)">her modelin bir çıktısı.</span>'));
+    const g = el('div', 'grid');
+    WEEKS.forEach(([t, a, k, ks], i) => {
+      const c = el('div', 'wk in', `<div class="n">HAFTA ${String(i + 1).padStart(2, '0')}</div><div class="t">${t}</div><div class="a"></div><div class="k">${k}<small>${ks}</small></div>`);
+      c.querySelector('.a').textContent = a; c.style.transitionDelay = (180 + i * 60) + 'ms';
+      c.onclick = () => focusWeek(i); g.append(c);
+    });
+    root.append(g, el('div', 'note in', 'Bir haftayı öne çıkarmak için tıkla ya da 1–9, 0, Q, W tuşları · Esc: hepsi'));
+    root.querySelector('.note').style.marginTop = '18px';
+    let sel = -1;
+    function focusWeek(i){ sel = sel === i ? -1 : i; g.classList.toggle('focus', sel >= 0);
+      [...g.children].forEach((c, k) => c.classList.toggle('sel', k === sel)); }
+    const map = { Digit1:0, Digit2:1, Digit3:2, Digit4:3, Digit5:4, Digit6:5, Digit7:6, Digit8:7, Digit9:8, Digit0:9, KeyQ:10, KeyW:11 };
+    Object.entries(map).forEach(([code, i]) => keys[code] = () => focusWeek(i));
+    keys.Escape = () => { sel = 0; focusWeek(0); };
+ }},
+ { name: 'Model', build(root){
+    root.append(el('div', 'kicker in', 'Demo Day projesi'),
+      el('h2', 'in', 'Metin girer, ses çıkar: <span class="blue">tek bir GPT.</span>'));
+    const seq = el('div', 'seq in');
+    const T = DATA.codes.text;
+    seq.append(el('div', 'tk sp', 'BOS'), el('div', 'tk tag', 'BEN'));
+    [...T].forEach(ch => seq.append(el('div', 'tk', ch === ' ' ? '␣' : ch)));
+    seq.append(el('div', 'tk sp', 'SEP'));
+    const wrap = el('div', 'gridwrap in'), lab = el('div', 'cbl'), codes = el('div', 'codes');
+    for (let k = 0; k < 8; k++) lab.append(el('span', '', 'cb' + (k + 1)));
+    const F = DATA.codes.frames, cells = [];
+    F.forEach(fr => fr.forEach((v, k) => { const c = el('i'); const l = 92 - (v / 2047) * 52;
+      c.style.background = `hsl(${226 - k * 3}, ${55 + k * 3}%, ${l}%)`; codes.append(c); cells.push(c); }));
+    const right = el('div', ''); right.style.width = '420px';
+    right.append(audioCard('ben_gercek.wav', 'Bu kodlar benim sesimden', 'Mimi codec · kare kare 8 kod · "Merhaba, ben Alperen…"', { me: 1 }));
+    const ex = el('div', 'note', 'Model önce harfleri okur, sonra ses kodlarını <b>tek tek</b> tahmin eder: GPT\'nin bir sonraki kelimeyi tahmin etmesi gibi. Kodlar Mimi ile tekrar sese döner.');
+    ex.style.marginTop = '14px'; right.append(ex);
+    wrap.append(lab, codes, right);
+    const facts = el('div', 'facts in');
+    [['100', 'ses token\'ı / saniye<br>12.5 kare × 8 codebook'], ['99.3M', 'parametre · GPT-2 small gövdesi<br>12 katman, 12 head, 768'],
+     ['356 sa', 'Türkçe konuşmayla ön eğitim<br>Alania · CC BY 4.0'], ['60,000', 'adım · tek A100<br>loss yalnız ses token\'larında']]
+      .forEach(([b, s]) => facts.append(el('div', 'fact', `<b>${b}</b><span>${s}</span>`)));
+    root.append(seq, wrap, facts);
+    setTimeout(() => cells.forEach((c, i) => setTimeout(() => c.classList.add('on'), Math.floor(i / 8) * 55 + (i % 8) * 6)), 900);
+ }},
+ { name: 'Öğrenme', build(root){
+    root.append(el('div', 'kicker in', 'Ön eğitim · 60,000 adım'),
+      el('h2', 'in', 'Gürültüden konuşmaya: <span class="blue">loss düştükçe ses netleşiyor.</span>'));
+    const C = DATA.curve, W = 960, H = 520, x0 = 56, y0 = 10, pw = W - x0 - 10, ph = H - 60;
+    const ly = v => Math.log(v), lo = ly(2.6), hi = ly(10.5);
+    const X = s => x0 + s / 60000 * pw, Y = v => y0 + (hi - ly(v)) / (hi - lo) * ph;
+    const path = key => C.filter(p => p[key] != null).map((p, i) => (i ? 'L' : 'M') + X(p.s).toFixed(1) + ',' + Y(p[key]).toFixed(1)).join('');
+    let svg = `<svg width="${W}" height="${H}">`;
+    [3, 4, 6, 8, 10].forEach(v => svg += `<line class="ax" x1="${x0}" x2="${x0 + pw}" y1="${Y(v)}" y2="${Y(v)}"/><text class="axl" x="${x0 - 10}" y="${Y(v) + 4}" text-anchor="end">${v}</text>`);
+    [0, 10000, 20000, 30000, 40000, 50000, 60000].forEach(s => svg += `<text class="axl" x="${X(s)}" y="${y0 + ph + 24}" text-anchor="middle">${s ? s / 1000 + 'k' : '0'}</text>`);
+    svg += `<line class="ax" x1="${X(16000)}" x2="${X(16000)}" y1="${y0}" y2="${y0 + ph}" stroke-dasharray="4 5"/>`;
+    svg += `<text class="ann" x="${X(16000) + 8}" y="${y0 + 18}">veri 2.5× büyüdü (140 → 356 saat)</text>`;
+    svg += `<path class="pt draw" d="${path('t')}"/><path class="pv draw" d="${path('v')}"/>`;
+    svg += `<text class="ann" x="${x0 + pw - 30}" y="${Y(C[C.length - 1].v) - 14}" text-anchor="end" fill="#2b59e8">val ${C[C.length - 1].v.toFixed(2)}</text>`;
+    svg += `<text class="ann" x="${x0 + pw}" y="${Y(C[C.length - 1].t) + 22}" text-anchor="end">train</text>`;
+    LADDER.forEach(([s], i) => { const p = C.find(q => q.s === s) || C[C.length - 1];
+      svg += `<g class="mk" data-i="${i}"><circle class="o" cx="${X(s)}" cy="${Y(p.v)}" r="9"/><text x="${X(s)}" y="${Y(p.v) - 18}" text-anchor="middle">${i + 1}</text></g>`; });
+    svg += '</svg>';
+    const ch = el('div', 'chart in', svg); root.append(ch);
+    ch.querySelectorAll('.draw').forEach(p => { const L = p.getTotalLength(); p.style.strokeDasharray = L; p.style.strokeDashoffset = L;
+      requestAnimationFrame(() => requestAnimationFrame(() => p.style.strokeDashoffset = 0)); });
+    const side = el('div', 'side in');
+    side.append(el('div', 'q', 'Her 1,000 adımda model aynı cümleyi okudu:<br><b>"Merhaba, ben sıfırdan eğitilmiş bir konuşma modeliyim."</b>'));
+    const cards = LADDER.map(([s, f], i) => { const c = audioCard(f, `${i + 1} · adım ${s.toLocaleString('en-US')}`,
+      `val loss ${(C.find(q => q.s === s) || C[C.length - 1]).v.toFixed(2)}`); side.append(c); return c; });
+    root.append(side);
+    const pick = i => { ch.querySelectorAll('.mk').forEach(m => m.classList.toggle('sel', +m.dataset.i === i)); cards[i].play && cards[i].play(); };
+    ch.querySelectorAll('.mk').forEach(m => m.onclick = () => pick(+m.dataset.i));
+    ['Digit1', 'Digit2', 'Digit3', 'Digit4', 'Digit5'].forEach((k, i) => keys[k] = () => pick(i));
+ }},
+ { name: 'Ölçüm', build(root){
+    root.append(el('div', 'kicker in', 'Freya-TR-Eval · 495 Türkçe cümle · Freya\'nın kendi protokolü'),
+      el('h2', 'in', 'Ne kadar anlaşılır? <span style="color:var(--mute)">Whisper dinledi, hatayı saydı.</span>'));
+    const bars = el('div', 'bars in');
+    bars.append(el('div', 'bhead', '<span></span><span></span><span>WER</span><span>CER</span>'));
+    const rows = BENCH.map(([n, s, w, c, cls]) => { const r = el('div', 'br ' + cls,
+      `<div class="nm">${n}<small>${s}</small></div><div class="tr"><i></i></div><div class="v">%${w.toFixed(1)}</div><div class="c">${c == null ? '–' : '%' + c.toFixed(1)}</div>`);
+      bars.append(r); return [r, w]; });
+    root.append(bars);
+    setTimeout(() => rows.forEach(([r, w], i) => setTimeout(() => r.querySelector('i').style.width = (w / 26 * 100) + '%', i * 120)), 700);
+    const cv = el('div', 'caveat in');
+    cv.append(el('p', '', '<b>Ölçü:</b> model 495 cümleyi okur, Whisper large-v3 yazıya döker, kelime hatası sayılır. Düşük daha iyi.'),
+      el('p', '', '<b>Dürüst not:</b> ön eğitim verisi VoxCPM2 (2B) ile üretilmiş sentetik konuşma. Netliğin bir kısmı bu büyük öğretmenden geliyor. Ölçü yalnız anlaşılırlık, doğallık değil.'),
+      el('p', 'note', 'Test cümlelerinden hiçbiri eğitim verisinde yok (kontrol edildi). FreyaTTS, XTTS, F5 sayıları Freya README\'sinden.'));
+    const a = audioCard('freya_0000.wav', 'Test cümlesi · hatasız', '"Yemekten sonra bulaşıkları makineye dizme işini bugün ben hallederim."');
+    a.style.marginTop = '8px'; cv.append(a);
+    root.append(cv);
+ }},
+ { name: 'Kendi verim', build(root){
+    root.append(el('div', 'kicker in', 'Kendi verim: kendi sesim'),
+      el('h2', 'in', 'Az ama temiz veri yendi. <span class="me">Sonra netlik ile ses yarıştı.</span>'));
+    const vs = el('div', 'vs compact in');
+    vs.append(el('div', 'blk', '<div class="l">12 haftalık ödev videolarımın sesi<br>Whisper metni · 2.6 saat</div><div class="big">%18.8<small>WER</small></div>'),
+      el('div', 'arrow', '→'),
+      el('div', 'blk good', '<div class="l">Kayıt sayfamla okuduğum 300 cümle<br>birebir metin · 15 dakika</div><div class="big me">%8.4<small>WER</small></div>'));
+    root.append(vs);
+    // tarama: her 100 adımda bir checkpoint, WER (sol eksen) ve bana benzerlik (sağ eksen)
+    const S = DATA.sweep, P = S.steps, W = 960, H = 360, x0 = 50, x1 = W - 64, y0 = 14, y1 = H - 34;
+    const X = s => x0 + (s - 100) / 1400 * (x1 - x0);
+    const YW = w => y1 - w / 0.18 * (y1 - y0), YS = v => y1 - (v - 0.875) / (0.945 - 0.875) * (y1 - y0);
+    let g = `<svg width="${W}" height="${H}">`;
+    [0, .05, .10, .15].forEach(w => g += `<line class="ax" x1="${x0}" x2="${x1}" y1="${YW(w)}" y2="${YW(w)}"/><text class="axl" x="${x0 - 10}" y="${YW(w) + 4}" text-anchor="end" fill="#2b59e8">%${w * 100}</text>`);
+    [.88, .90, .92, .94].forEach(v => g += `<text class="axl" x="${x1 + 10}" y="${YS(v) + 4}" fill="#e2552d">${v.toFixed(2)}</text>`);
+    P.forEach(p => { if (p.s % 300 === 0 || p.s === 100) g += `<text class="axl" x="${X(p.s)}" y="${y1 + 24}" text-anchor="middle">${p.s}</text>`; });
+    g += `<text class="axl" x="${x1}" y="${y1 + 24}" text-anchor="end" dx="56">adım</text>`;
+    g += `<line class="ref" x1="${x0}" x2="${x1}" y1="${YS(S.real)}" y2="${YS(S.real)}" stroke="#e2552d"/><text class="ann" x="${x0 + 6}" y="${YS(S.real) - 7}" fill="#e2552d">gerçek ben ${S.real.toFixed(3)}</text>`;
+    g += `<line class="ref" x1="${x0}" x2="${x1}" y1="${YS(S.pretrain.sim)}" y2="${YS(S.pretrain.sim)}" stroke="#a3a6b0"/><text class="ann" x="${x1 - 6}" y="${YS(S.pretrain.sim) + 17}" text-anchor="end">ön eğitimdeki başka erkek sesi ${S.pretrain.sim.toFixed(3)}</text>`;
+    const line = (f, Y) => P.map((p, i) => (i ? 'L' : 'M') + X(p.s).toFixed(1) + ',' + Y(p[f]).toFixed(1)).join('');
+    g += `<path class="lw draw" d="${line('wer', YW)}"/><path class="ls draw" d="${line('sim', YS)}"/>`;
+    const half = (x1 - x0) / 28;
+    P.forEach((p, i) => g += `<g class="col" data-i="${i}"><rect class="hit" x="${X(p.s) - half}" y="${y0 - 6}" width="${half * 2}" height="${y1 - y0 + 12}" rx="4"/>` +
+      `<circle class="pw" cx="${X(p.s)}" cy="${YW(p.wer)}" r="4.5" fill="#2b59e8"/><circle class="ps" cx="${X(p.s)}" cy="${YS(p.sim)}" r="4.5" fill="#e2552d"/></g>`);
+    const best = P.reduce((a, p) => p.wer < a.wer ? p : a), last = P[P.length - 1];
+    g += `<text class="lab" x="${X(best.s)}" y="${YW(best.wer) + 24}" text-anchor="middle" fill="#2b59e8">en net</text>`;
+    g += `<text class="lab" x="${X(last.s)}" y="${YS(last.sim) - 14}" text-anchor="middle" fill="#e2552d">en çok ben</text>`;
+    g += `<text class="ann" x="${x0}" y="${y0 - 2}" fill="#2b59e8" dy="-8">WER ↓ net</text><text class="ann" x="${x1}" y="${y0 - 2}" dy="-8" text-anchor="end" fill="#e2552d">bana benzerlik ↑</text>`;
+    g += '</svg>';
+    const ch = el('div', 'sw in', g); root.append(ch);
+    ch.querySelectorAll('.draw').forEach(p => { const L = p.getTotalLength(); p.style.strokeDasharray = L; p.style.strokeDashoffset = L;
+      requestAnimationFrame(() => requestAnimationFrame(() => p.style.strokeDashoffset = 0)); });
+    const ro = el('div', 'readout in', 'Her 100 adımda bir checkpoint. Bir adıma tıkla: <b>"Merhaba, ben Alperen ve bu model benim sesimle konuşuyor."</b> cümlesini okur, Whisper ne duyduğunu yazar.<br><span style="color:var(--faint)">Ölçü: 99 Freya cümlesi · benzerlik = WavLM konuşmacı vektörü, kosinüs.</span>');
+    root.append(ro);
+    const clips = {}; P.forEach(p => clips[p.s] = audioCard(p.f, '', ''));
+    const pick = i => { const p = P[i];
+      ch.querySelectorAll('.col').forEach(c => c.classList.toggle('sel', +c.dataset.i === i));
+      ro.innerHTML = `<b>Adım ${p.s}</b> · WER %${(p.wer * 100).toFixed(1)} · benzerlik ${p.sim.toFixed(3)} · Whisper duydu: <q>${p.heard}</q>`;
+      clips[p.s].play && clips[p.s].play(); };
+    ch.querySelectorAll('.col').forEach(c => c.onclick = () => pick(+c.dataset.i));
+    const side = el('div', 'side6 in');
+    const cards = [audioCard('ben_gercek.wav', 'Ben', 'gerçek kayıt', { me: 1 }),
+      audioCard(best.f, `Model · adım ${best.s} · en net`, `WER %${(best.wer * 100).toFixed(1)} · benzerlik ${best.sim.toFixed(3)}`),
+      audioCard(last.f, `Model · adım ${last.s} · en çok ben`, `benzerlik ${last.sim.toFixed(3)} (gerçek ${S.real.toFixed(3)}) · WER %${(last.wer * 100).toFixed(1)}`, { me: 1 })];
+    cards.forEach(c => side.append(c));
+    side.append(el('div', 'note', 'Bu kadar az veriyle netlik ve ton hâlâ birbirini itiyor. Çözülmemiş kısım bu.'));
+    root.append(side);
+    ['Digit1', 'Digit2', 'Digit3'].forEach((k, i) => keys[k] = () => cards[i].play && cards[i].play());
+ }},
+ { name: 'Kapanış', build(root){
+    const e = el('div', 'end');
+    e.append(el('div', 'kicker in', 'YZ50 · Demo Day · 15 Kasım 2026'), el('h1', 'in', 'Teşekkürler.'));
+    const r = el('div', 'recap in');
+    [['12', 'hafta, sıfırdan'], ['99M', 'parametre, kendi GPT\'m'], ['356 sa', 'konuşmayla ön eğitim'], ['%3.5', 'WER, Freya-TR-Eval'], ['15 dk', 'kendi sesim, temiz']]
+      .forEach(([b, s]) => r.append(el('div', '', `<b>${b}</b><span>${s}</span>`)));
+    e.append(r, el('div', 'repo in', 'github.com/0xyene/<b>yz50</b> <span>· demo-day/</span>'));
+    root.append(e);
+ }},
+];
+
+/* ---------- gezinme ---------- */
+const dots = $('#dots'); SCENES.forEach(() => dots.append(el('i')));
+function show(i){
+  if (i < 0 || i >= SCENES.length || i === cur) return;
+  cur = i; gen++; if (playing){ playing.stop(); playing = null; }
+  Object.keys(keys).forEach(k => delete keys[k]);
+  [...dots.children].forEach((d, k) => d.className = k <= i ? 'on' : '');
+  $('#ft').textContent = `${i + 1} / ${SCENES.length} · ${SCENES[i].name}`;
+  [...view.children].forEach(o => { o.classList.add('out'); setTimeout(() => o.remove(), 360); });
+  const root = el('div', 'scene'); SCENES[i].build(root);
+  root.querySelectorAll(':scope > .in, :scope .cover > .in').forEach((n, k) => { if (!n.style.transitionDelay) n.style.transitionDelay = (k * 90) + 'ms'; });
+  view.append(root); requestAnimationFrame(() => requestAnimationFrame(() => root.classList.add('live')));
+  history.replaceState(null, '', '#' + (i + 1));
+}
+addEventListener('keydown', e => {
+  if (e.metaKey || e.ctrlKey || e.altKey) return;
+  if (e.code === 'ArrowRight' || e.code === 'Space' || e.code === 'PageDown'){ e.preventDefault(); show(cur + 1); }
+  else if (e.code === 'ArrowLeft' || e.code === 'PageUp'){ e.preventDefault(); show(cur - 1); }
+  else if (e.code === 'KeyF'){ document.fullscreenElement ? document.exitFullscreen() : document.documentElement.requestFullscreen(); }
+  else if (keys[e.code]){ e.preventDefault(); keys[e.code](); }
+});
+fetch('data.json', { cache: 'no-store' }).then(r => r.json()).then(d => { DATA = d; show(Math.max(0, (parseInt(location.hash.slice(1)) || 1) - 1)); });
+</script>
+</body>
+</html>

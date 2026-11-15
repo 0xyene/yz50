@@ -1,0 +1,32 @@
+[
+ {
+  "model": "FreyaTTS-small (183M)",
+  "wer": 0.08,
+  "cer": 0.03
+ },
+ {
+  "model": "XTTS-v2 (0.5B)",
+  "wer": 0.111,
+  "cer": null
+ },
+ {
+  "model": "F5-TTS (0.3B)",
+  "wer": 0.243,
+  "cer": null
+ },
+ {
+  "model": "Benim modelim: pretrain (99M, adım 60000)",
+  "wer": 0.0345,
+  "cer": 0.0098
+ },
+ {
+  "model": "Benim modelim: finetune_me_best (99M, adım 500)",
+  "wer": 0.1884,
+  "cer": 0.0877
+ },
+ {
+  "model": "Benim modelim: finetune_me_last (99M, adım 1500)",
+  "wer": 0.3089,
+  "cer": 0.154
+ }
+]

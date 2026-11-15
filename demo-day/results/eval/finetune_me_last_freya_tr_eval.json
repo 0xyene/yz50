@@ -1,0 +1,4469 @@
+{
+ "run": "finetune_me_last",
+ "step": 1500,
+ "tag": 6,
+ "params": 99310080,
+ "sentences": 495,
+ "asr": "faster-whisper",
+ "wer": 0.3089,
+ "cer": 0.154,
+ "rtf": 0.133,
+ "eos_rate": 1.0,
+ "rows": [
+  {
+   "id": "0000",
+   "text": "Yemekten sonra bulaşıkları makineye dizme işini bugün ben hallederim.",
+   "hyp": "Yemekten sonra dolaşıkları makineye dizme işini bugün ben hallederim.",
+   "wer": 0.1111111111111111,
+   "cer": 0.029411764705882353,
+   "seconds": 5.52,
+   "eos": true
+  },
+  {
+   "id": "0001",
+   "text": "Çocuğun kıvırcık saçları ve kocaman kara gözleri vardı.",
+   "hyp": "Çocuğun çuburcuk saçları ve kocaman kara gözleri vardı.",
+   "wer": 0.125,
+   "cer": 0.09259259259259259,
+   "seconds": 3.44,
+   "eos": true
+  },
+  {
+   "id": "0002",
+   "text": "Bahar ayları gelince polen alerjim yüzünden sürekli hapşırıp duruyorum.",
+   "hyp": "Bahar ayları gelince toplanan enerji müziğimden sürekli aktarıyorum.",
+   "wer": 0.5555555555555556,
+   "cer": 0.32857142857142857,
+   "seconds": 4.0,
+   "eos": true
+  },
+  {
+   "id": "0003",
+   "text": "Uzun yola çıkmadan önce arabanın bakımlarını mutlaka yaptırmamız lazım.",
+   "hyp": "Uzun yola çıkmadan setinden önce arabanın bakımlarını mutlaka yaptırmamız.",
+   "wer": 0.2222222222222222,
+   "cer": 0.21428571428571427,
+   "seconds": 6.96,
+   "eos": true
+  },
+  {
+   "id": "0004",
+   "text": "Misafirler gelmeden önce şu salondaki dağınıklığı toplamama kim yardım edecek?",
+   "hyp": "Misafirler gelmeden önce şu salonundaki dağınıklığı toplaman kim yardım edecek?",
+   "wer": 0.2,
+   "cer": 0.05194805194805195,
+   "seconds": 4.48,
+   "eos": true
+  },
+  {
+   "id": "0005",
+   "text": "Boğaz ağrın geçmediyse neden hala sıcak bir ıhlamur kaynatmıyorsun?",
+   "hyp": "Boğazın geçmediği zaman, hızlıca bir yıllarını kaynatmışım.",
+   "wer": 0.8888888888888888,
+   "cer": 0.4393939393939394,
+   "seconds": 3.36,
+   "eos": true
+  },
+  {
+   "id": "0006",
+   "text": "Yanıma kalın bir kazak almayı unuttuğum için bütün gece üşüdüm.",
+   "hyp": "Yanıma kalın bir kazak almayı unuttuğum için bütün gece üşüdüm.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 4.48,
+   "eos": true
+  },
+  {
+   "id": "0007",
+   "text": "Sabahları otobüs tıklım tıklım dolu olduğu için ayakta gidiyorum.",
+   "hyp": "Sampanzara otobüs tıkım tıkım dolu olduğu için ayakta gidiyorum.",
+   "wer": 0.3333333333333333,
+   "cer": 0.109375,
+   "seconds": 3.36,
+   "eos": true
+  },
+  {
+   "id": "0008",
+   "text": "Çadır kurmak için ormanın içindeki o gizli şelaleye nasıl gideceğiz?",
+   "hyp": "Çadır kurmak için ormanın içindeki o gizli şelaleye nasıl gideceğiz?",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.68,
+   "eos": true
+  },
+  {
+   "id": "0009",
+   "text": "Akşam için köşedeki balıkçıda güzel bir masa ayırtalım.",
+   "hyp": "Akşama şimdi köşedeki babiş... ee... ki babişin adı.  Güzel bir masaya tamam.",
+   "wer": 1.125,
+   "cer": 0.5555555555555556,
+   "seconds": 5.12,
+   "eos": true
+  },
+  {
+   "id": "0010",
+   "text": "Yarınki piknik için bütün hazırlıkları erkenden bitirdik!",
+   "hyp": "Yarın kirpik için  bütün hazırlıkları  bitirdik.",
+   "wer": 0.42857142857142855,
+   "cer": 0.25,
+   "seconds": 4.48,
+   "eos": true
+  },
+  {
+   "id": "0011",
+   "text": "Kitabın sonunu kimin kime ihanet ettiğini daha ortasına gelmeden nasıl anladın?",
+   "hyp": "Kitabın sonunda kimin kime ihanet ettiğini daha ortasına gelmeden nasıl anladım?",
+   "wer": 0.18181818181818182,
+   "cer": 0.038461538461538464,
+   "seconds": 4.08,
+   "eos": true
+  },
+  {
+   "id": "0012",
+   "text": "Marketten almamı istediğin başka bir şey var mıydı?",
+   "hyp": "marketten alanı istediğin başka şey var mıydı?",
+   "wer": 0.25,
+   "cer": 0.12,
+   "seconds": 3.04,
+   "eos": true
+  },
+  {
+   "id": "0013",
+   "text": "Haftanın üç günü neden bu kadar erken kalkmak zorundasın?",
+   "hyp": "Haftanın 3 günü neden bu kadar erken kalkmak zorundasın?",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.04,
+   "eos": true
+  },
+  {
+   "id": "0014",
+   "text": "Trafik saatine kalmadan yola çıkarsak akşam yemeğine yetişir miyiz?",
+   "hyp": "Türk saatine kalmadan yola çıkarsak aşağı yemeğine yetişir miyiz?",
+   "wer": 0.2222222222222222,
+   "cer": 0.10606060606060606,
+   "seconds": 4.24,
+   "eos": true
+  },
+  {
+   "id": "0015",
+   "text": "Radyoda en sevdiğim şarkı çalınca yolculuk bir anda çok daha keyifli hale geldi.",
+   "hyp": "Ve burada en sevdiğim şarkı çalınca yolculuk bir anda çok daha keyifli hale geldi.",
+   "wer": 0.15384615384615385,
+   "cer": 0.08860759493670886,
+   "seconds": 4.88,
+   "eos": true
+  },
+  {
+   "id": "0016",
+   "text": "Uzun zaman sonra sesini duymak ne kadar güzel!",
+   "hyp": "Uzun zaman sonra sesini duymak ne kadar güzel.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.68,
+   "eos": true
+  },
+  {
+   "id": "0017",
+   "text": "Çocukların okul alışverişi için teyzemden yardım istesek mi acaba?",
+   "hyp": "Çocukların okul alışverişi için teyzemle yardım istesek mi acaba?",
+   "wer": 0.1111111111111111,
+   "cer": 0.03076923076923077,
+   "seconds": 4.96,
+   "eos": true
+  },
+  {
+   "id": "0018",
+   "text": "Bugün işte o kadar çok yoruldum ki hemen uyumak istiyorum.",
+   "hyp": "Birisi de o kadar çok yoruldum ki hemen uyumak istiyorum.",
+   "wer": 0.2,
+   "cer": 0.12280701754385964,
+   "seconds": 3.52,
+   "eos": true
+  },
+  {
+   "id": "0019",
+   "text": "Parktaki yavru köpekler birbirleriyle o kadar tatlı oynuyorlardı ki izlemeye doyamadım.",
+   "hyp": "Parktaki yavru köpekler birbirleriyle o kadar tatlı oynuyorlardı ki izlemeye doyamadım.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 5.04,
+   "eos": true
+  },
+  {
+   "id": "0020",
+   "text": "Benim mavi kazağımı yıkamadan önce ceplerini kontrol ettin mi?",
+   "hyp": "Benim mavi kazamı yıkamadan önce ceplerini kontrol ettin mi?",
+   "wer": 0.1111111111111111,
+   "cer": 0.03278688524590164,
+   "seconds": 3.12,
+   "eos": true
+  },
+  {
+   "id": "0021",
+   "text": "Metroya binmek yerine vapurla karşıya geçmek bana hep huzur verir.",
+   "hyp": "Atraya binmek yerine raporla karşıya geçmek bana huzur verir.",
+   "wer": 0.3,
+   "cer": 0.13846153846153847,
+   "seconds": 4.8,
+   "eos": true
+  },
+  {
+   "id": "0022",
+   "text": "Bütün gün ayakta durmaktan belime öyle bir ağrı girdi ki anlatamam.",
+   "hyp": "Bütün gün ayakta durmaktan benim öyle bir fikir aldım.",
+   "wer": 0.45454545454545453,
+   "cer": 0.2878787878787879,
+   "seconds": 2.88,
+   "eos": true
+  },
+  {
+   "id": "0023",
+   "text": "Dışarıda yemek yiyeceğimiz zaman nereye gideceğimize karar vermek saatlerimizi alıyor.",
+   "hyp": "Dışarıda yemek yiyeceğimiz zaman nereye gideceğimize karar vermek saatlerimiz alıyor.",
+   "wer": 0.1,
+   "cer": 0.011764705882352941,
+   "seconds": 3.76,
+   "eos": true
+  },
+  {
+   "id": "0024",
+   "text": "Küçükken her pazar babamla erkenden kalkıp fırından sıcak simit alırdık.",
+   "hyp": "Küçükken her pazar babamla erkenden kalkıp fırından sıcak simit alırdık.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 4.4,
+   "eos": true
+  },
+  {
+   "id": "0025",
+   "text": "Şu karşıdaki çınar ağacının yaprakları ne kadar da güzel sararmış!",
+   "hyp": "Şu karşıdaki Çınar Ağacı'nın ekranları da güzel saranmış.",
+   "wer": 0.5,
+   "cer": 0.23076923076923078,
+   "seconds": 2.56,
+   "eos": true
+  },
+  {
+   "id": "0026",
+   "text": "Perdeleri asarken bana yardım etmek için sandalyeyi biraz tutabilir misin?",
+   "hyp": "Merdeleri asarken bana yardım etmek için sandalyeyi biraz tutabilir misin?",
+   "wer": 0.1,
+   "cer": 0.0136986301369863,
+   "seconds": 3.92,
+   "eos": true
+  },
+  {
+   "id": "0027",
+   "text": "Akşam yemeğinden sonra televizyonun karşısında uyuyakalmak artık klasik oldu.",
+   "hyp": "Akşam yemeğinden sonra televizyonun karşısında uyuyakalmak artık klasik oldu.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 5.28,
+   "eos": true
+  },
+  {
+   "id": "0028",
+   "text": "Kışlık kıyafetleri hurçlara yerleştirmek cidden çok yorucu bir iş.",
+   "hyp": "Kışlık kıyafetleri, uçları yerleştirmek cidden çok yorucu bir iş.",
+   "wer": 0.1111111111111111,
+   "cer": 0.046153846153846156,
+   "seconds": 3.6,
+   "eos": true
+  },
+  {
+   "id": "0029",
+   "text": "Akşamüstü müsait olursan sahilde biraz yürüyüş yapalım mı?",
+   "hyp": "Akşamüstü müsait olursan sayede biraz yürüyüş yapalım.",
+   "wer": 0.25,
+   "cer": 0.10526315789473684,
+   "seconds": 2.88,
+   "eos": true
+  },
+  {
+   "id": "0030",
+   "text": "Muhabbet o kadar koyuydu ki saatin nasıl geçtiğini hiç anlamamışız.",
+   "hyp": "Muhabbet o kadar koyu ki  saatin nasıl  geçtiğini",
+   "wer": 0.3,
+   "cer": 0.2878787878787879,
+   "seconds": 5.68,
+   "eos": true
+  },
+  {
+   "id": "0031",
+   "text": "Sabah karşılaştığımızda hiç keyfi yok gibi geldi bana.",
+   "hyp": "Sabah karşılaştığımızda hiç keyfi yok gibi geldi.",
+   "wer": 0.125,
+   "cer": 0.09433962264150944,
+   "seconds": 2.72,
+   "eos": true
+  },
+  {
+   "id": "0032",
+   "text": "İnsanların bu kadar bencil olmasını nasıl açıklayabiliriz?",
+   "hyp": "İnsanların bu kadar bencil olmasını nasıl açıklayabiliriz?",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.12,
+   "eos": true
+  },
+  {
+   "id": "0033",
+   "text": "Sokağın başındaki sarman kediye dün akşam kim su verdi?",
+   "hyp": "Sokağın başındaki sarman kediye dün akşam su verdi.",
+   "wer": 0.1111111111111111,
+   "cer": 0.07407407407407407,
+   "seconds": 3.68,
+   "eos": true
+  },
+  {
+   "id": "0034",
+   "text": "İki aydır düzenli olarak yüzmeye gittiğim için kendimi çok dinç hissediyorum.",
+   "hyp": "2 aydır düzenli olarak yüzmeye gittiğim için kendimi çok dinçi hissediyorum.",
+   "wer": 0.09090909090909091,
+   "cer": 0.013157894736842105,
+   "seconds": 4.48,
+   "eos": true
+  },
+  {
+   "id": "0035",
+   "text": "Annemin yaptığı o meşhur mercimek köftesinin tadını hiçbir yerde bulamıyorum.",
+   "hyp": "Annemin yaptığı o meşhur mercimek köftesinin tadını, köftesinin tadını hiçbir yerde bulamıyorum.",
+   "wer": 0.2,
+   "cer": 0.23684210526315788,
+   "seconds": 6.4,
+   "eos": true
+  },
+  {
+   "id": "0036",
+   "text": "Lisedeyken arka sırada oturup kıkır kıkır güldüğümüz günleri hatırlıyor musun?",
+   "hyp": "Deseleken arka sırada kıkır kıkır kıkır küldüğümüz günleri hatırlıyor musun?",
+   "wer": 0.3,
+   "cer": 0.14285714285714285,
+   "seconds": 3.84,
+   "eos": true
+  },
+  {
+   "id": "0037",
+   "text": "Dikkat et, elindeki o tepsi sandığından çok daha ağır!",
+   "hyp": "Dikkat et. İlimdeki olu tipi sandığımda çok daha iyi.",
+   "wer": 0.5555555555555556,
+   "cer": 0.23076923076923078,
+   "seconds": 3.44,
+   "eos": true
+  },
+  {
+   "id": "0038",
+   "text": "Yarın akşam iş çıkışı bizimle sinemaya gelir misin?",
+   "hyp": "Yarın akşam bizimle sinemaya gelir misin?",
+   "wer": 0.25,
+   "cer": 0.2,
+   "seconds": 4.08,
+   "eos": true
+  },
+  {
+   "id": "0039",
+   "text": "Geçen hafta yolda yürürken birden lise arkadaşımla burun buruna geldim.",
+   "hyp": "Geçen hafta yolda yürürken arkadaşımla duruma geldim.",
+   "wer": 0.4,
+   "cer": 0.2857142857142857,
+   "seconds": 3.2,
+   "eos": true
+  },
+  {
+   "id": "0040",
+   "text": "Kuzeninin düğünü tam olarak hangi gün yapılacak?",
+   "hyp": "Kuzenin düğünü tam olarak hangi gün yapılacak?",
+   "wer": 0.14285714285714285,
+   "cer": 0.0425531914893617,
+   "seconds": 2.24,
+   "eos": true
+  },
+  {
+   "id": "0041",
+   "text": "Bizimkilerle dışarı çıkarken yanıma mutlaka kalın bir ceket alırım.",
+   "hyp": "Biz ikilerle dışarı çıkarken ceket alırım, iyi ceket alırım, ceket alırım.",
+   "wer": 0.7777777777777778,
+   "cer": 0.3939393939393939,
+   "seconds": 6.16,
+   "eos": true
+  },
+  {
+   "id": "0042",
+   "text": "Babam emekli olduktan sonra bütün vaktini bahçedeki sebzelerle geçirmeye başladı.",
+   "hyp": "Ban emekli olduktan sonra bütün vaktini Bahçeli'deki sebzelerle geçirmeye başladı.",
+   "wer": 0.3,
+   "cer": 0.075,
+   "seconds": 4.88,
+   "eos": true
+  },
+  {
+   "id": "0043",
+   "text": "Dün akşam eski okul arkadaşlarıyla toplanıp uzun uzun sohbet ettik.",
+   "hyp": "Dün akşam eski okul arkadaşlarıyla toplanıp uzun uzun sohbet ettik.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 4.32,
+   "eos": true
+  },
+  {
+   "id": "0044",
+   "text": "Yıllar önce sinemada izlediğimiz o filmin sonunda hepimiz hüngür hüngür ağlamıştık.",
+   "hyp": "Yıllar önce sinemada izlediğimiz o filmin sonunda hepimiz hüngür hüngür ağlamıştık.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 4.24,
+   "eos": true
+  },
+  {
+   "id": "0045",
+   "text": "Birdenbire bastıran dolu yüzünden sırılsıklam olduk, inanamıyorum!",
+   "hyp": "Bizden bir araba bastığında o yüzden sıra sıkıntı olduk, inanamıyorum.",
+   "wer": 1.1428571428571428,
+   "cer": 0.34375,
+   "seconds": 2.96,
+   "eos": true
+  },
+  {
+   "id": "0046",
+   "text": "O kadar koşudan sonra bacaklarım nasıl ağrıyor inanamazsın!",
+   "hyp": "O kadar koşudan sonra bacaklarım nasıl ağrıyor inanamazsın.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.52,
+   "eos": true
+  },
+  {
+   "id": "0047",
+   "text": "Sabah yolda karşılaştık ama acelesi vardı herhalde, hiç durmadı.",
+   "hyp": "Sabah yolda karşılaştık ama becerisi vardı. Herhalde hiç durmadı. Hiç durmadı.",
+   "wer": 0.3333333333333333,
+   "cer": 0.25806451612903225,
+   "seconds": 5.84,
+   "eos": true
+  },
+  {
+   "id": "0048",
+   "text": "O şarkıyı duyduğum an lise yıllarıma geri dönüyorum resmen.",
+   "hyp": "Şarkıyı duyduğum an  Yıllarıma geliniyorum resmen",
+   "wer": 0.4444444444444444,
+   "cer": 0.20689655172413793,
+   "seconds": 4.32,
+   "eos": true
+  },
+  {
+   "id": "0049",
+   "text": "İki gün önce arabayı servise bıraktım ama hala haber vermediler.",
+   "hyp": "İki gün önce arabayı servise bıraktım ama hala haber vermediler.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 4.0,
+   "eos": true
+  },
+  {
+   "id": "0050",
+   "text": "Dün aldığım ayakkabının numarası büyük gelince bugün gidip küçüğüyle değiştirdim.",
+   "hyp": "Dün aldığım ayakkabının numarası büyük değilince bugün gidip küçüğü de değiştirdim.",
+   "wer": 0.3,
+   "cer": 0.0625,
+   "seconds": 4.96,
+   "eos": true
+  },
+  {
+   "id": "0051",
+   "text": "Uçak bileti fiyatları o kadar artmış ki arabayla gitmeye karar verdik.",
+   "hyp": "Uçak üreti fiyatları o kadar artış ki arabayla gitmeye karar verdik.",
+   "wer": 0.18181818181818182,
+   "cer": 0.057971014492753624,
+   "seconds": 4.8,
+   "eos": true
+  },
+  {
+   "id": "0052",
+   "text": "Bu kutu oyununu oynamak gerçekten çok eğlenceliymiş!",
+   "hyp": "Bu kütüphane oyunu oynamak gerçekten çok eğlenceciymiş.",
+   "wer": 0.42857142857142855,
+   "cer": 0.19607843137254902,
+   "seconds": 2.56,
+   "eos": true
+  },
+  {
+   "id": "0053",
+   "text": "Pazar sabahı ormanda yürüyüş yapmak bütün stresimi alıp götürüyor.",
+   "hyp": "Tazar sabahı ormanda yürüyüş yapmak bütün stresimi alıp götürüyor.",
+   "wer": 0.1111111111111111,
+   "cer": 0.015384615384615385,
+   "seconds": 4.0,
+   "eos": true
+  },
+  {
+   "id": "0054",
+   "text": "Mis gibi tarçın kokusu bütün evi sarmış resmen!",
+   "hyp": "İz gibi taşlı kokusu bütün evi sarmış yasam.",
+   "wer": 0.375,
+   "cer": 0.21739130434782608,
+   "seconds": 3.04,
+   "eos": true
+  },
+  {
+   "id": "0055",
+   "text": "Terziye bırakılacak pantolonları çantaya koydum, sen geçerken onları teslim edersin.",
+   "hyp": "Erciye'ye bırakacak pantolonları.  Tantalonları çantaya koydum.  Teslim edersin.",
+   "wer": 0.7,
+   "cer": 0.4024390243902439,
+   "seconds": 6.72,
+   "eos": true
+  },
+  {
+   "id": "0056",
+   "text": "Bu mekanın porsiyonları ne kadar da büyükmüş!",
+   "hyp": "Bu mekanın porsiyonları ne kadar da büyükmüş.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 2.88,
+   "eos": true
+  },
+  {
+   "id": "0057",
+   "text": "Dün gece hiç uyuyamadığım için bugün kendimi çok yorgun hissediyorum.",
+   "hyp": "Türkiye'de hiçbir şey yapmadığım için bugün kendimi çok yoruldum hissediyorum.",
+   "wer": 0.6,
+   "cer": 0.2647058823529412,
+   "seconds": 4.56,
+   "eos": true
+  },
+  {
+   "id": "0058",
+   "text": "Deniz kenarında kiralık ev bulmak sence ne kadar sürer?",
+   "hyp": "Deniz kenarında kiralık ev bulmak sence ne kadar sürer?",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.04,
+   "eos": true
+  },
+  {
+   "id": "0059",
+   "text": "Sabahları erkenden sahilde tempolu yürümek güne harika başlatıyor.",
+   "hyp": "Sabahları erkenden sahilde, tempolu yürümek güne harika başlatıyor.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 4.4,
+   "eos": true
+  },
+  {
+   "id": "0060",
+   "text": "Siparişimiz neredeyse bir saat gecikince garson bizden defalarca özür diledi.",
+   "hyp": "siparişimiz neredeyse bir saat gecikince  dersimizden nefalar çözüldü",
+   "wer": 0.5,
+   "cer": 0.21052631578947367,
+   "seconds": 3.84,
+   "eos": true
+  },
+  {
+   "id": "0061",
+   "text": "Kamp alanına giderken yanımıza fazladan bir el feneri alsak mı sence?",
+   "hyp": "Kamp alanına giderken yanımıza fazladan bir fener alsak mı sence?",
+   "wer": 0.18181818181818182,
+   "cer": 0.058823529411764705,
+   "seconds": 4.24,
+   "eos": true
+  },
+  {
+   "id": "0062",
+   "text": "O kadar heyecanlanmıştım ki ilk bisikletime bindiğim o anı hiç unutamıyorum!",
+   "hyp": "O kadar heyecanlanmıştım ki ilk bisikletime bindiğim o anı hiç unutamıyorum.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.68,
+   "eos": true
+  },
+  {
+   "id": "0063",
+   "text": "Hayatımda yediğim en lezzetli mantı kesinlikle buydu!",
+   "hyp": "Hayatımda yediğim en lezzetli mantı kesim de buydu.",
+   "wer": 0.2857142857142857,
+   "cer": 0.09615384615384616,
+   "seconds": 3.2,
+   "eos": true
+  },
+  {
+   "id": "0064",
+   "text": "Hafta sonu kahvaltı için deniz kenarında güzel bir yer buldum.",
+   "hyp": "Hafta sonu kahvaltı için deniz kenarında güzel bir yer buldum.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.76,
+   "eos": true
+  },
+  {
+   "id": "0065",
+   "text": "Parktaki yürüyüş parkurunda günde on bin adım atmaya çalışıyorum.",
+   "hyp": "Parfüktürüş farkında günlüğün önünde günlüğün önünde de çok güzel.",
+   "wer": 1.0,
+   "cer": 0.734375,
+   "seconds": 5.04,
+   "eos": true
+  },
+  {
+   "id": "0066",
+   "text": "Mutfağı öyle bir sarımsak kokusu sarmış ki camları açmak zorunda kaldım.",
+   "hyp": "Mutfağa öyle bir sarımsak kokusu sarmış ki camları açmak zorunda kaldım.",
+   "wer": 0.09090909090909091,
+   "cer": 0.014084507042253521,
+   "seconds": 4.56,
+   "eos": true
+  },
+  {
+   "id": "0067",
+   "text": "Kasadaki sıra o kadar uzundu ki neredeyse yarım saat beklemek zorunda kaldık.",
+   "hyp": "Kazadaki sıra o kadar uzundu ki neredeyse yarım saat beklemek zorunda kaldık.",
+   "wer": 0.08333333333333333,
+   "cer": 0.013157894736842105,
+   "seconds": 3.6,
+   "eos": true
+  },
+  {
+   "id": "0068",
+   "text": "Çamaşır makinesinin kapağı sıkışmış, bunu nasıl açacağımız hakkında bir fikrin var mı?",
+   "hyp": "Çamaşır Mahkemesi'nin kapağı sıkışmış, bunlara sahip olduğu bir fikrim var mı?",
+   "wer": 0.5833333333333334,
+   "cer": 0.3333333333333333,
+   "seconds": 4.48,
+   "eos": true
+  },
+  {
+   "id": "0069",
+   "text": "Son günlerde hava kapalı olunca üstüme bir ağırlık çöküyor.",
+   "hyp": "Son günlerde hava kapalı olunca üstüne ağırlık çöküyor.",
+   "wer": 0.2222222222222222,
+   "cer": 0.08620689655172414,
+   "seconds": 3.92,
+   "eos": true
+  },
+  {
+   "id": "0070",
+   "text": "Fırından üç tane sıcak ekmek alıp hemen dönerim.",
+   "hyp": "Sırından 3 tane steak ekmek alıp hemen dönelim.",
+   "wer": 0.375,
+   "cer": 0.0851063829787234,
+   "seconds": 3.28,
+   "eos": true
+  },
+  {
+   "id": "0071",
+   "text": "Pazardaki fiyatlar bu hafta sence nasıl, çok pahalı mıydı?",
+   "hyp": "Pazardaki fiyatlar bu hafta sence nasıl? Çok pahalı mıydı?",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.28,
+   "eos": true
+  },
+  {
+   "id": "0072",
+   "text": "Yeni komşularla merdivende ayaküstü tanıştık, pek tatlı insanlar.",
+   "hyp": "Yeni komşularla merdivende ayaküstü tanıştık.  Pek tatlı insanlar.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 4.88,
+   "eos": true
+  },
+  {
+   "id": "0073",
+   "text": "Ne kadar da çabuk büyüdü bizim afacanlar!",
+   "hyp": "Ne kadar da çabuk büyüdü bizim o fiyanlar.",
+   "wer": 0.2857142857142857,
+   "cer": 0.1,
+   "seconds": 2.4,
+   "eos": true
+  },
+  {
+   "id": "0074",
+   "text": "Garsona hesabı getirmesini söyledim ama henüz gelmedi.",
+   "hyp": "Galatasaray hesabı videosunu da söyledim ama henüz gelmedi.",
+   "wer": 0.42857142857142855,
+   "cer": 0.33962264150943394,
+   "seconds": 3.44,
+   "eos": true
+  },
+  {
+   "id": "0075",
+   "text": "Sence çorbaya biraz daha nane ve karabiber eklemeli miyim?",
+   "hyp": "Sence torbayı daha zahane ve karabiber eklemeli miyim?",
+   "wer": 0.3333333333333333,
+   "cer": 0.17543859649122806,
+   "seconds": 4.88,
+   "eos": true
+  },
+  {
+   "id": "0076",
+   "text": "Dünkü voleybol maçında neden o kadar az oynadın?",
+   "hyp": "Enfimeli Apple maçında neden o kadar az oynadım?",
+   "wer": 0.375,
+   "cer": 0.2978723404255319,
+   "seconds": 4.0,
+   "eos": true
+  },
+  {
+   "id": "0077",
+   "text": "Geçen yaz kiraladığımız o küçük sahil evi tam kafa dinlemelikti.",
+   "hyp": "Yastığa aldığımız o küçük sahilde bir tam kafa dinlemelikti.",
+   "wer": 0.5,
+   "cer": 0.25396825396825395,
+   "seconds": 3.2,
+   "eos": true
+  },
+  {
+   "id": "0078",
+   "text": "Amcamlar haftaya köyden dönünce hep beraber bir akşam yemeği yiyeceğiz.",
+   "hyp": "Amcamlar haftaya köyden dönünce hep beraber bir akşam yemeği yiyeceğiz.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 4.96,
+   "eos": true
+  },
+  {
+   "id": "0079",
+   "text": "Valizi hazırlarken en sevdiğim güneş gözlüğümü kırmışım, inanamıyorum!",
+   "hyp": "Ve lise hazırlarken en sevdiğim Güneş Gözlüğü'nü kırmışım, inanamıyorum.",
+   "wer": 0.5,
+   "cer": 0.08823529411764706,
+   "seconds": 3.6,
+   "eos": true
+  },
+  {
+   "id": "0080",
+   "text": "Yarın sabah evden saat kaçta çıkmayı planlıyorsun?",
+   "hyp": "Yarın sabah evden saat kaçta çıkmayı planlıyorsun?",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 2.8,
+   "eos": true
+  },
+  {
+   "id": "0081",
+   "text": "Perşembe günü öğleden sonra müsait olursan sana uğramak isterim.",
+   "hyp": "Her şey bir gün öğleden sonra Seyit Olguç'tan sonra olarak isterim.",
+   "wer": 1.0,
+   "cer": 0.3333333333333333,
+   "seconds": 5.36,
+   "eos": true
+  },
+  {
+   "id": "0082",
+   "text": "Yeni taşındıkları evi ben şahsen pek beğenmedim.",
+   "hyp": "yöne taşındık böyle eve ben şahsen  pek beğenmedim.",
+   "wer": 0.5714285714285714,
+   "cer": 0.19148936170212766,
+   "seconds": 3.68,
+   "eos": true
+  },
+  {
+   "id": "0083",
+   "text": "Birlikte sinemaya gitmeyeli neredeyse iki ay olmuş.",
+   "hyp": "Birlikte İslam ekmeğiyle neredeyse iki ay olmuş.",
+   "wer": 0.2857142857142857,
+   "cer": 0.26,
+   "seconds": 3.52,
+   "eos": true
+  },
+  {
+   "id": "0084",
+   "text": "Her sabah durağa kadar yürümek seni yormuyor mu?",
+   "hyp": "Her sabah bu doğa kadar yürümek seni yoğunuyor.",
+   "wer": 0.5,
+   "cer": 0.2127659574468085,
+   "seconds": 3.6,
+   "eos": true
+  },
+  {
+   "id": "0085",
+   "text": "Şu köşedeki oymalı ahşap dolap sence bizim salona uyar mı?",
+   "hyp": "Türkiye'de de olmalı şartlar baksanıza bizim sanılıyor mu?",
+   "wer": 0.9,
+   "cer": 0.543859649122807,
+   "seconds": 4.56,
+   "eos": true
+  },
+  {
+   "id": "0086",
+   "text": "Gündüz uykusu bana hiç yaramıyor, kalkınca başım fena ağrıyor.",
+   "hyp": "Dümdüzlük suyuma hiç yaramıyor. Kalkınca başım fena ağrıyor.",
+   "wer": 0.3333333333333333,
+   "cer": 0.16666666666666666,
+   "seconds": 4.16,
+   "eos": true
+  },
+  {
+   "id": "0087",
+   "text": "Musluk damlatmaya devam ediyorsa tesisatçıyı bugün kesin aramalıyız.",
+   "hyp": "Musluk damlantı meydana nedir saçı?  Bugün kesin aramalıyız saçı  Bugün kesin aramalıyız",
+   "wer": 1.0,
+   "cer": 0.5223880597014925,
+   "seconds": 6.16,
+   "eos": true
+  },
+  {
+   "id": "0088",
+   "text": "O kadar yol geldik ama manzarayı görünce bütün yorgunluğum uçup gitti!",
+   "hyp": "O kadar yol geldik ama manzarayı görünce bütün yorgunluğu uçup gitti.",
+   "wer": 0.09090909090909091,
+   "cer": 0.014492753623188406,
+   "seconds": 4.96,
+   "eos": true
+  },
+  {
+   "id": "0089",
+   "text": "Yarınki toplantıyı saat üç buçuğa alırsak herkes için daha iyi olur.",
+   "hyp": "Yarınki toplantıyı saat 3.30'a alırsak herkes için daha iyi olur.",
+   "wer": 0.18181818181818182,
+   "cer": 0.07462686567164178,
+   "seconds": 4.16,
+   "eos": true
+  },
+  {
+   "id": "0090",
+   "text": "Yemeğin sosuna biraz fazla sarımsak koymuşlar, midemi yaktı.",
+   "hyp": "Yemeğin sosuna biraz fazla sarımsak koymuşlar, midemi yaktı.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.84,
+   "eos": true
+  },
+  {
+   "id": "0091",
+   "text": "Bugün hava çok mu soğuk yoksa ben mi üşüyorum?",
+   "hyp": "Bugün hava çok mu soğuk yoksa ben edemeyeceğim.",
+   "wer": 0.2222222222222222,
+   "cer": 0.24444444444444444,
+   "seconds": 6.16,
+   "eos": true
+  },
+  {
+   "id": "0092",
+   "text": "Sence de son günlerde her şey üst üste gelmiyor mu?",
+   "hyp": "Sence de son günlerde her şey üst üste gelmiyor mu?",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.04,
+   "eos": true
+  },
+  {
+   "id": "0093",
+   "text": "Çorbaya biraz daha tuz eklememe gerek var mı sence?",
+   "hyp": "Şorlu'ya biraz daha tutuklanmaya gerek var mı sence?",
+   "wer": 0.4444444444444444,
+   "cer": 0.24,
+   "seconds": 2.4,
+   "eos": true
+  },
+  {
+   "id": "0094",
+   "text": "Konser biletlerini ne zaman almayı planlıyorsun?",
+   "hyp": "Konser biletlerini ne zaman almayı planlıyorsun?",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 2.48,
+   "eos": true
+  },
+  {
+   "id": "0095",
+   "text": "Pazar sabahı erkenden kalkıp göl kenarında uzun bir yürüyüş yaptık.",
+   "hyp": "Pazartesi sabahı erken kalkıp, görkellerden uzun bir iş yaptık.",
+   "wer": 0.5,
+   "cer": 0.3333333333333333,
+   "seconds": 4.48,
+   "eos": true
+  },
+  {
+   "id": "0096",
+   "text": "Boş vakitlerimde ahşap boyama yapmak beni inanılmaz dinlendiriyor.",
+   "hyp": "boş ofislerimde ahşap boyama yapmak beni inanılmaz dinlendiriyor.",
+   "wer": 0.125,
+   "cer": 0.06153846153846154,
+   "seconds": 4.32,
+   "eos": true
+  },
+  {
+   "id": "0097",
+   "text": "İnanmıyorum, nisan ayının ortasında lapa lapa kar yağıyor!",
+   "hyp": "İnanmıyorum.  Nisan ayının ortasında dopa dola kare yağıyor.",
+   "wer": 0.375,
+   "cer": 0.10714285714285714,
+   "seconds": 4.16,
+   "eos": true
+  },
+  {
+   "id": "0098",
+   "text": "Bu kahvenin kokusu tek kelimeyle muazzam!",
+   "hyp": "Bu kahvenin kokusu tek kelime ile muazzam.",
+   "wer": 0.3333333333333333,
+   "cer": 0.05,
+   "seconds": 2.64,
+   "eos": true
+  },
+  {
+   "id": "0099",
+   "text": "Dün yıkadığın çamaşırları balkona astın mı yoksa hala makinede mi bekliyor?",
+   "hyp": "Dün yıkadığın çamaşırları balkona astın mı yoksa hala makinede mi bekliyor?",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 4.32,
+   "eos": true
+  },
+  {
+   "id": "0100",
+   "text": "Balkondaki fesleğenler açınca bütün evi mis gibi bir koku sardı.",
+   "hyp": "Balkondaki fesleğenler açınca bütün evi bir koku sardı.",
+   "wer": 0.2,
+   "cer": 0.14285714285714285,
+   "seconds": 4.88,
+   "eos": true
+  },
+  {
+   "id": "0101",
+   "text": "Trafik bu kadar sıkışıkken işe arabayla gitmek hiç mantıklı değil.",
+   "hyp": "Trafik bu kadar sıkışırken şarabayla gitmek hiç mantıklı değil.",
+   "wer": 0.3,
+   "cer": 0.06153846153846154,
+   "seconds": 3.36,
+   "eos": true
+  },
+  {
+   "id": "0102",
+   "text": "O köşe başındaki eski taş binayı sen de gördün mü?",
+   "hyp": "O köşe koşuldu ki eski taş binayı sen de gördün mü?",
+   "wer": 0.2,
+   "cer": 0.12244897959183673,
+   "seconds": 3.04,
+   "eos": true
+  },
+  {
+   "id": "0103",
+   "text": "Eğer işlerim erken biterse akşam yemeğini dışarıda yeriz.",
+   "hyp": "Eee şişlerim. Ben şişlerim. Erkan bir saate akşam yemeğini. Dışarıdayız.",
+   "wer": 1.125,
+   "cer": 0.44642857142857145,
+   "seconds": 4.24,
+   "eos": true
+  },
+  {
+   "id": "0104",
+   "text": "Arkadaşlar toplanıp sessiz sinema oynadığımız akşamlar hep çok neşeli geçiyor.",
+   "hyp": "Arkadaşlar toplanıp sessiz sinema oynadığımız akşamlar hep çok mesajı geçiyor.",
+   "wer": 0.1,
+   "cer": 0.06493506493506493,
+   "seconds": 3.6,
+   "eos": true
+  },
+  {
+   "id": "0105",
+   "text": "Son günlerde sen de kendini sürekli yorgun hissediyor musun?",
+   "hyp": "Son günlerde sen de kendine sürekli bunu hissediyor musun?",
+   "wer": 0.2222222222222222,
+   "cer": 0.1016949152542373,
+   "seconds": 4.0,
+   "eos": true
+  },
+  {
+   "id": "0106",
+   "text": "İki saattir durakta beklediğim halde o minibüs bir türlü gelmedi.",
+   "hyp": "İki saattir durakta beklediğim halde 10 milimetre bir türlü gelmedi.",
+   "wer": 0.2,
+   "cer": 0.109375,
+   "seconds": 3.68,
+   "eos": true
+  },
+  {
+   "id": "0107",
+   "text": "Kumaşı o kadar yumuşak ki dokunmaya kıyamıyorsun.",
+   "hyp": "kumaş o kadar yumuşak ki  dokunmaya gelmiyorsun.",
+   "wer": 0.2857142857142857,
+   "cer": 0.125,
+   "seconds": 4.16,
+   "eos": true
+  },
+  {
+   "id": "0108",
+   "text": "Dünkü yemekten kalanları ısıtıp öğle yemeğinde afiyetle yedik.",
+   "hyp": "Dünkü yemekten kalanları ısıtıp öğle yemeğinde afiyetle yedik.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.84,
+   "eos": true
+  },
+  {
+   "id": "0109",
+   "text": "Komşunun o tatlı köpeği neden sabahtan beri durmadan havlıyor acaba?",
+   "hyp": "Komşunun o tatlı köpeği neden sabahtan beri durmadan havlıyor acaba?",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 4.08,
+   "eos": true
+  },
+  {
+   "id": "0110",
+   "text": "Çocukken dedemin anlattığı masalları dinlerken gözlerim yavaşça kapanırdı.",
+   "hyp": "Çocukken dedemim anlattı masalları dinlerken gözlerim yavaş yavaş kapanırdı.",
+   "wer": 0.5,
+   "cer": 0.1095890410958904,
+   "seconds": 3.68,
+   "eos": true
+  },
+  {
+   "id": "0111",
+   "text": "Beraber resim kursuna yazılmaya ne dersin?",
+   "hyp": "Beraber resim kursuna yazılmaya ne dersin?",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 2.48,
+   "eos": true
+  },
+  {
+   "id": "0112",
+   "text": "Bu halıdaki kahve lekesini çıkarmak için ne kullanmamı önerirsin?",
+   "hyp": "Oradaki kafir erikesini çıkarmak için kullanımı önerirsin.",
+   "wer": 0.6666666666666666,
+   "cer": 0.265625,
+   "seconds": 4.24,
+   "eos": true
+  },
+  {
+   "id": "0113",
+   "text": "Bugün iş çıkışı spora gitmeyi düşünüyor musun?",
+   "hyp": "gün içtik, spora gitmeye düşünüyor musun?",
+   "wer": 0.5714285714285714,
+   "cer": 0.2222222222222222,
+   "seconds": 2.16,
+   "eos": true
+  },
+  {
+   "id": "0114",
+   "text": "Dışarıya çıkarken anahtarları kapının üzerinde unuttuğumu sen de fark ettin mi?",
+   "hyp": "Şırıya çıkarken anahtarları kapının üzerinde durursanız o hak ettiğinden.",
+   "wer": 0.6363636363636364,
+   "cer": 0.3076923076923077,
+   "seconds": 4.08,
+   "eos": true
+  },
+  {
+   "id": "0115",
+   "text": "Yarın öğleden sonra sağanak yağış bekleniyormuş, şemsiyeni sakın unutma.",
+   "hyp": "Yarın öğleden sonra sağanak yaş bekleniyormuş.  Temsilci sakının.",
+   "wer": 0.4444444444444444,
+   "cer": 0.17142857142857143,
+   "seconds": 3.84,
+   "eos": true
+  },
+  {
+   "id": "0116",
+   "text": "Havuza gitmeden önce yanına yedek mayo aldın mı?",
+   "hyp": "Havuza gitmeden önce yanına yedik mi aldın mı?",
+   "wer": 0.25,
+   "cer": 0.0851063829787234,
+   "seconds": 2.32,
+   "eos": true
+  },
+  {
+   "id": "0117",
+   "text": "Konser biletleri satışa çıkar çıkmaz beş dakika içinde tükenmiş!",
+   "hyp": "konser biletleri satışa şikayet şikayet çıkmaz  ki içinde tükenmiş.",
+   "wer": 0.4444444444444444,
+   "cer": 0.30158730158730157,
+   "seconds": 5.2,
+   "eos": true
+  },
+  {
+   "id": "0118",
+   "text": "Haftaya çarşamba akşamı kızlarla dışarıda yemek yiyelim mi?",
+   "hyp": "Haftaya çarşamba akşamı gelin mi?",
+   "wer": 0.5,
+   "cer": 0.4827586206896552,
+   "seconds": 3.12,
+   "eos": true
+  },
+  {
+   "id": "0119",
+   "text": "Geçen hafta sonu bizim kızlarla toplanıp uzun uzun dedikodu yaptık.",
+   "hyp": "Geçen hafta sonra bizim kızlarla toplanıp uzun bir delikoda yaktık.",
+   "wer": 0.4,
+   "cer": 0.13636363636363635,
+   "seconds": 6.16,
+   "eos": true
+  },
+  {
+   "id": "0120",
+   "text": "Eyvah, bugün çöpleri dışarı çıkarmayı tamamen unutmuşum!",
+   "hyp": "Eyvah! Bugün çöpleri dışarı çıkarmayı tamamen unutuyorum.",
+   "wer": 0.14285714285714285,
+   "cer": 0.07407407407407407,
+   "seconds": 4.4,
+   "eos": true
+  },
+  {
+   "id": "0121",
+   "text": "Yeni açılan spor salonunun aylık üyelik ücreti ne kadarmış, biliyor musun?",
+   "hyp": "Yeni açılan spor salonunun aylık üyelik ücreti ne kadarmış biliyor musun?",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.76,
+   "eos": true
+  },
+  {
+   "id": "0122",
+   "text": "İlkbahar gelince mahalledeki bütün erik ağaçları bembeyaz çiçek açtı.",
+   "hyp": "İlkbahar gelince mahalledeki bütün erik ağaçları devriyat çiçek açtı.",
+   "wer": 0.1111111111111111,
+   "cer": 0.07352941176470588,
+   "seconds": 4.64,
+   "eos": true
+  },
+  {
+   "id": "0123",
+   "text": "İşe gitmeden önce mutlaka radyoyu açıp biraz haber dinliyorum.",
+   "hyp": "İşe gitmeden önce mutlaka herhalde örgüyü açıp biraz haber dinliyorum.",
+   "wer": 0.2222222222222222,
+   "cer": 0.18032786885245902,
+   "seconds": 3.68,
+   "eos": true
+  },
+  {
+   "id": "0124",
+   "text": "Odanın duvarlarını açık maviye boyayınca içerisi çok ferahlamış.",
+   "hyp": "Odanın duvarlarını açık maviye boyayınca içerisi çok ferahlamış.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 4.16,
+   "eos": true
+  },
+  {
+   "id": "0125",
+   "text": "Sokaktaki yavru köpeklere mama vermek için her akşam aynı saatte dışarı çıkıyorum.",
+   "hyp": "Sokaktaki yavru köpeklere mama vermek için her akşam aynı saatte dışarı çıkıyorum.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 4.64,
+   "eos": true
+  },
+  {
+   "id": "0126",
+   "text": "Bu kadar yorgunluğun üstüne sence de sıcak bir çay iyi gitmez mi?",
+   "hyp": "Bu kadar yoğurdumun üstüne sadece de sıcak çay gitmez mi?  Şey gitmez mi?",
+   "wer": 0.5,
+   "cer": 0.34375,
+   "seconds": 6.48,
+   "eos": true
+  },
+  {
+   "id": "0127",
+   "text": "Sonunda hep beraber şöyle güzel bir tatil planı yapabildik!",
+   "hyp": "Sonunda hep beraber şöyle güzel bir tepkilerini yapalım.",
+   "wer": 0.3333333333333333,
+   "cer": 0.22413793103448276,
+   "seconds": 4.0,
+   "eos": true
+  },
+  {
+   "id": "0128",
+   "text": "Öğle uykusuna daldığımda rüya görmüşüm, uyanınca epey bir süre kendime gelemedim.",
+   "hyp": "Uyanınca epey bir süre kendime gelemedim.",
+   "wer": 0.45454545454545453,
+   "cer": 0.4936708860759494,
+   "seconds": 6.72,
+   "eos": true
+  },
+  {
+   "id": "0129",
+   "text": "Yağmur birden bastırınca hepimiz sırılsıklam olduk!",
+   "hyp": "Yağmur birden bastırınca hepimiz sırılsıklam olduk.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.12,
+   "eos": true
+  },
+  {
+   "id": "0130",
+   "text": "Akşamları balkonda oturup yeni aldığım o kalın romanı okumaya bayılıyorum.",
+   "hyp": "Akşamları oturup yine alıp oturup atölye gidiyorum okumaya böyle.",
+   "wer": 0.7,
+   "cer": 0.5753424657534246,
+   "seconds": 6.96,
+   "eos": true
+  },
+  {
+   "id": "0131",
+   "text": "Uzun zamandır okumak istediğim o romanı nihayet sahafta bulup aldım.",
+   "hyp": "Uzun zamandır okumak istediğim o romanı nihayet sahte bulup aldım.",
+   "wer": 0.1,
+   "cer": 0.04477611940298507,
+   "seconds": 3.84,
+   "eos": true
+  },
+  {
+   "id": "0132",
+   "text": "Akşam yemeği için taze fasulye ve pirinç pilavı pişirmeyi düşünüyorum.",
+   "hyp": "Akşam yemeği için taze fasulye ve pirinç pilavı pişirmeyi düşünüyorum.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.92,
+   "eos": true
+  },
+  {
+   "id": "0133",
+   "text": "Kekin bu kadar güzel kabarması için hamura ne kattın?",
+   "hyp": "Tekin bu kadar güzel kabarması için onlara ne kattı?",
+   "wer": 0.3333333333333333,
+   "cer": 0.11538461538461539,
+   "seconds": 2.48,
+   "eos": true
+  },
+  {
+   "id": "0134",
+   "text": "Son zamanlarda dinleyip de çok beğendiğin hareketli bir şarkı var mı?",
+   "hyp": "Son zamanlarda dinleyip de çok beğendiğin hareketli bir şarkı var mı?",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.68,
+   "eos": true
+  },
+  {
+   "id": "0135",
+   "text": "O sevdiğimiz grubun konser biletleri ne zaman satışa çıkacak?",
+   "hyp": "O sevdiğimiz grubun konser biletleri ne zaman satışa çıkacak?",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 4.56,
+   "eos": true
+  },
+  {
+   "id": "0136",
+   "text": "Vapuru kaçıracağız diye koşmaktan resmen nefes nefese kaldım!",
+   "hyp": "Taputu kaçıracağız diye. Koşmaktan anesine nefese kaldım.",
+   "wer": 0.375,
+   "cer": 0.18333333333333332,
+   "seconds": 2.4,
+   "eos": true
+  },
+  {
+   "id": "0137",
+   "text": "Sence bizim gruptaki herkes bu sürpriz partiye katılacak mı?",
+   "hyp": "Sadece bizim gruptaki herkes bu sürpriz partiye katılacak mı?",
+   "wer": 0.1111111111111111,
+   "cer": 0.05084745762711865,
+   "seconds": 3.92,
+   "eos": true
+  },
+  {
+   "id": "0138",
+   "text": "Terzideki pantolonları almaya giderken bana da haber verir misin?",
+   "hyp": "Terziki pantolonları almaya giderken  o da da  diler misin?",
+   "wer": 0.4444444444444444,
+   "cer": 0.21875,
+   "seconds": 4.32,
+   "eos": true
+  },
+  {
+   "id": "0139",
+   "text": "Yemekten sonra hep beraber tatlı yemeye gideriz.",
+   "hyp": "Yemekten sonra hep beraber tatlı yemeye gidelim.",
+   "wer": 0.14285714285714285,
+   "cer": 0.0425531914893617,
+   "seconds": 2.64,
+   "eos": true
+  },
+  {
+   "id": "0140",
+   "text": "Dün gece gökyüzü o kadar berraktı ki bütün yıldızları sayabildim.",
+   "hyp": "Dün gece gökyüzü o kadar merkti ki  Yıldız'ı seyredildim.  Ok Yıldız'ı seyredildim.",
+   "wer": 0.8,
+   "cer": 0.53125,
+   "seconds": 8.32,
+   "eos": true
+  },
+  {
+   "id": "0141",
+   "text": "Yarın öğleden sonra teyzemlerle çarşıda buluşup kahve içeceğiz.",
+   "hyp": "Diğer öğleden sonra teyzemle alet açtı doğmuş kahve için.",
+   "wer": 0.75,
+   "cer": 0.3870967741935484,
+   "seconds": 5.44,
+   "eos": true
+  },
+  {
+   "id": "0142",
+   "text": "Geçen akşam izlediğim film o kadar etkileyiciydi ki etkisinden çıkamadım.",
+   "hyp": "Geçen akşam izlediğim film o kadar değişici bir film açıklamalıydı.",
+   "wer": 0.4,
+   "cer": 0.3611111111111111,
+   "seconds": 6.4,
+   "eos": true
+  },
+  {
+   "id": "0143",
+   "text": "Dayımlar bu yaz tatilini bizimle beraber köyde geçireceklerini söylediler.",
+   "hyp": "Daimler bu yaz tatilini bizimle beraber köyde geçeceklerini söylediler.",
+   "wer": 0.2222222222222222,
+   "cer": 0.0684931506849315,
+   "seconds": 5.2,
+   "eos": true
+  },
+  {
+   "id": "0144",
+   "text": "Bizim kedi sabaha karşı acıkıp yüzümü yalayarak beni uyandırdı.",
+   "hyp": "Bizim kedi sabaha karşı ecik yüzümü yalayarak beni uyandırdı.",
+   "wer": 0.1111111111111111,
+   "cer": 0.06451612903225806,
+   "seconds": 3.6,
+   "eos": true
+  },
+  {
+   "id": "0145",
+   "text": "Annem yarın öğleden sonra memleketten bizi ziyarete geliyor.",
+   "hyp": "Aynen yarın öğleden sonra memnuniyetle bizi ziyarete geliyor.  Üzgünüm.",
+   "wer": 0.375,
+   "cer": 0.288135593220339,
+   "seconds": 4.4,
+   "eos": true
+  },
+  {
+   "id": "0146",
+   "text": "Yaptığın kekin şekeri biraz eksik gibi ama tadı fena değil.",
+   "hyp": "yaptığın kişiye göre biraz eksik gibi ama  tadı fena değil.",
+   "wer": 0.2,
+   "cer": 0.15517241379310345,
+   "seconds": 2.8,
+   "eos": true
+  },
+  {
+   "id": "0147",
+   "text": "Havalar ısınınca yazlık kıyafetleri dolaptan ne zaman çıkaracaksın?",
+   "hyp": "Ağlı ısınınca yazlık kıyafetleri dolaptan ne zaman çıkaracaksın?",
+   "wer": 0.125,
+   "cer": 0.07575757575757576,
+   "seconds": 3.92,
+   "eos": true
+  },
+  {
+   "id": "0148",
+   "text": "İlkokul öğretmenimi yıllar sonra sokakta görünce koşup hemen ellerine sarıldım.",
+   "hyp": "Okul öğretmenimi yıllar sonra sokakta görünce koşup hemen ellerine sığdım.",
+   "wer": 0.2,
+   "cer": 0.07692307692307693,
+   "seconds": 6.88,
+   "eos": true
+  },
+  {
+   "id": "0149",
+   "text": "Sahilde yürüyüş yapmak bütün stresimi alıp götürüyor.",
+   "hyp": "... sahilde yürüyüş yapmak. Bütün stresimi alıp götürüyor.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 6.08,
+   "eos": true
+  },
+  {
+   "id": "0150",
+   "text": "Bahçedeki domates fideleri nihayet çiçek açmaya başlamış.",
+   "hyp": "Bahsedeki domates pideyle  Nihayet çiçek açmaya başlamış.",
+   "wer": 0.2857142857142857,
+   "cer": 0.08928571428571429,
+   "seconds": 5.2,
+   "eos": true
+  },
+  {
+   "id": "0151",
+   "text": "Bayram tatilinde köye ailenin yanına gidecek misiniz?",
+   "hyp": "Beyan tatilinde köy ailenin yanına gideceksiniz.",
+   "wer": 0.5714285714285714,
+   "cer": 0.1346153846153846,
+   "seconds": 4.56,
+   "eos": true
+  },
+  {
+   "id": "0152",
+   "text": "Bizim kedi sabahın beşinde mama diye miyavlayıp hepimizi uyandırdı.",
+   "hyp": "Düzün Kedi sabahın beşinde namaz evimi yazlayıp sesimizi uyandırdı.",
+   "wer": 0.5555555555555556,
+   "cer": 0.22727272727272727,
+   "seconds": 3.28,
+   "eos": true
+  },
+  {
+   "id": "0153",
+   "text": "Dün gece başladığım dizi o kadar akıcıydı ki üç bölüm üst üste izlemişim.",
+   "hyp": "Dün gece başladığım izi o kadar akıcıydı ki 3 bölüm üstte izlemişim.",
+   "wer": 0.23076923076923078,
+   "cer": 0.05555555555555555,
+   "seconds": 5.44,
+   "eos": true
+  },
+  {
+   "id": "0154",
+   "text": "Bu kadar lezzetli bir mantıyı daha önce hiç yemedim!",
+   "hyp": "Bu kadar lezzetli bir mantıyı daha önce içemedim.",
+   "wer": 0.2222222222222222,
+   "cer": 0.058823529411764705,
+   "seconds": 5.84,
+   "eos": true
+  },
+  {
+   "id": "0155",
+   "text": "Yoga yapmaya başladığımdan beri sırt ağrılarım epey hafifledi.",
+   "hyp": "Yok etmeye başladığımdan beri süt ağırlığım tehdit edin.",
+   "wer": 0.75,
+   "cer": 0.36065573770491804,
+   "seconds": 4.4,
+   "eos": true
+  },
+  {
+   "id": "0156",
+   "text": "Bu kadar kötü bir servis ve soğuk yemek görmedim!",
+   "hyp": "Bu kadar kötü bir servis olup gerektiği örneğim.",
+   "wer": 0.4444444444444444,
+   "cer": 0.3125,
+   "seconds": 2.32,
+   "eos": true
+  },
+  {
+   "id": "0157",
+   "text": "Annene çok selam söyle, ellerinden öpüyorum.",
+   "hyp": "Annene çok selam söyle. Ellerinden öpüyorum.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 2.72,
+   "eos": true
+  },
+  {
+   "id": "0158",
+   "text": "Geçen hafta aldığın o kalın romanı ne çabuk bitirdin?",
+   "hyp": "Geçen hafta aldığım rakamın  eee  nasıl bitirdi?",
+   "wer": 0.7777777777777778,
+   "cer": 0.3269230769230769,
+   "seconds": 5.2,
+   "eos": true
+  },
+  {
+   "id": "0159",
+   "text": "Dün akşam gittiğimiz o yeni mekandaki tatlılar gerçekten çok başarılıydı.",
+   "hyp": "Dün akşam gittiğimiz o yeni mekanda gittik, tatlılar gerçekten çok başarılıydı.",
+   "wer": 0.2,
+   "cer": 0.08333333333333333,
+   "seconds": 4.32,
+   "eos": true
+  },
+  {
+   "id": "0160",
+   "text": "Yaz tatili için şimdiden yer ayırtmak sence mantıklı mı?",
+   "hyp": "Şafak'ın için neler yazmak, sence muhakkak mı?",
+   "wer": 0.6666666666666666,
+   "cer": 0.4909090909090909,
+   "seconds": 5.84,
+   "eos": true
+  },
+  {
+   "id": "0161",
+   "text": "Hafta sonu bütün gardırobu indirip yazlık kışlık ayrımı yapmam lazım.",
+   "hyp": "Hafta sonu bütün gardırobu indirip yazlık kışlık ayrımı yapmam lazım.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.76,
+   "eos": true
+  },
+  {
+   "id": "0162",
+   "text": "Sonbaharda dökülen yaprakların arasında yürümek bana her zaman huzur vermiştir.",
+   "hyp": "Son bu arada dökülen yaprakların arasında yürümek bana her zaman huzur vermiştir.",
+   "wer": 0.3,
+   "cer": 0.05128205128205128,
+   "seconds": 4.8,
+   "eos": true
+  },
+  {
+   "id": "0163",
+   "text": "Akşama doğru rüzgar çıkarsa balkon kapısını kapatıver.",
+   "hyp": "Açamada o rüzgar çıkarsa balkon kapısını kapatıyor.",
+   "wer": 0.42857142857142855,
+   "cer": 0.16981132075471697,
+   "seconds": 3.12,
+   "eos": true
+  },
+  {
+   "id": "0164",
+   "text": "Sabahları otobüs tıklım tıklım olduğu için bir durak erken inip yürüyorum.",
+   "hyp": "Sabahları otobüs tıklım tıklım olduğu için bir direkt erken ip yürüyorum.",
+   "wer": 0.18181818181818182,
+   "cer": 0.0684931506849315,
+   "seconds": 5.2,
+   "eos": true
+  },
+  {
+   "id": "0165",
+   "text": "Yeğenim ilk adımını atınca hepimiz sevinçten havalara uçtuk!",
+   "hyp": "Yani ilk adımını, yepyeni seyirciden havalara uçtuk.",
+   "wer": 0.5,
+   "cer": 0.3559322033898305,
+   "seconds": 4.4,
+   "eos": true
+  },
+  {
+   "id": "0166",
+   "text": "Acaba bu akşamki yemeğe salata yerine sadece yoğurt mu çıkarsak?",
+   "hyp": "Tabi bu akşamki enayi sağlıkta yerine sadece yolculuğa çıkarsak.",
+   "wer": 0.5,
+   "cer": 0.2857142857142857,
+   "seconds": 3.92,
+   "eos": true
+  },
+  {
+   "id": "0167",
+   "text": "Karşı tepedeki ormanlık alana piknik yapmaya giden bir sürü aile vardı.",
+   "hyp": "Karşı tepedeki ormanlık alanı tip yapmaya giden bir sürü ağa ile vardı.",
+   "wer": 0.36363636363636365,
+   "cer": 0.12857142857142856,
+   "seconds": 5.12,
+   "eos": true
+  },
+  {
+   "id": "0168",
+   "text": "Yarın öğleden sonra sağanak yağış bekleniyormuş, şemsiyeni aldın mı?",
+   "hyp": "Yarın öğleden sonra sahne kıyas bekleniyormuş.  Şemsiyeni aldım mı?",
+   "wer": 0.3333333333333333,
+   "cer": 0.13636363636363635,
+   "seconds": 4.16,
+   "eos": true
+  },
+  {
+   "id": "0169",
+   "text": "Köprüdeki kaza yüzünden eve kaç saatte varabildiniz?",
+   "hyp": "Köprüdeki kaza yüzünden kaç saatte varabildiniz?",
+   "wer": 0.14285714285714285,
+   "cer": 0.0784313725490196,
+   "seconds": 3.84,
+   "eos": true
+  },
+  {
+   "id": "0170",
+   "text": "Çocuklar nasıl, okulları bu sene ne zaman kapanıyor?",
+   "hyp": "Küçük payına su ve okulda da düzenlenme zamanı kapanıyor.",
+   "wer": 1.0,
+   "cer": 0.5,
+   "seconds": 4.32,
+   "eos": true
+  },
+  {
+   "id": "0171",
+   "text": "Bisikletten düşüp dizimi kanattığım o yaz hiç aklımdan çıkmıyor!",
+   "hyp": "bisikletten düşüp vücudumu kanattığımı o yasak çakmıyor, gımdan çıkmıyor.",
+   "wer": 0.5555555555555556,
+   "cer": 0.31746031746031744,
+   "seconds": 4.16,
+   "eos": true
+  },
+  {
+   "id": "0172",
+   "text": "Akşam yemeğinden sonra bulaşıkları makineye dizmek hep bana kalıyor.",
+   "hyp": "Akşam yemeğinden sonra bu aşkların makineyi dizmek için bana kalıyor.",
+   "wer": 0.4444444444444444,
+   "cer": 0.11940298507462686,
+   "seconds": 3.36,
+   "eos": true
+  },
+  {
+   "id": "0173",
+   "text": "Akşam sahilde buluşup çekirdek çitlemek hepimize çok iyi geldi.",
+   "hyp": "akşam sahilde buluşup çekirdek çitlemek  hepimize çok iyi geldi.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 4.48,
+   "eos": true
+  },
+  {
+   "id": "0174",
+   "text": "Üstündeki kazağın rengi gözlerini çok güzel ortaya çıkarmış.",
+   "hyp": "Üstteki gözlerim çok güzel ortaya çıkarmış.",
+   "wer": 0.5,
+   "cer": 0.3220338983050847,
+   "seconds": 3.52,
+   "eos": true
+  },
+  {
+   "id": "0175",
+   "text": "İki lafın belini kırarız diye kahveye çağırdım ama gelmedi.",
+   "hyp": "İki lafın bedeni kırarız diye kahraya çağırdım ama gelmedi.",
+   "wer": 0.2222222222222222,
+   "cer": 0.08620689655172414,
+   "seconds": 3.52,
+   "eos": true
+  },
+  {
+   "id": "0176",
+   "text": "Alarmı kurmayı unuttuğum için sabah az kalsın işe geç kalıyordum!",
+   "hyp": "Alarmı kurmayı unuttuğum için sabah az kalsın.  İşe geç kalın.",
+   "wer": 0.1,
+   "cer": 0.09375,
+   "seconds": 3.44,
+   "eos": true
+  },
+  {
+   "id": "0177",
+   "text": "Akşamları balkonda oturup örgü örmek en büyük keyfim oldu.",
+   "hyp": "Akşamları balkonda oturup örgü örmek en büyük keyfim oldu.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.44,
+   "eos": true
+  },
+  {
+   "id": "0178",
+   "text": "Bu yıl kış çok sert geçti, kar bir türlü kalkmadı.",
+   "hyp": "Bu yıl kış çok sert geçti.  Kahve türlü kalkmadı.",
+   "wer": 0.2,
+   "cer": 0.10416666666666667,
+   "seconds": 3.52,
+   "eos": true
+  },
+  {
+   "id": "0179",
+   "text": "Dedemin anlattığı o eski masalları dinlerken sobanın başında uyuyakalırdım.",
+   "hyp": "Dönümün anlattığı o eski masalları dinlerken sobanın başında uyuyakalırdım.",
+   "wer": 0.1111111111111111,
+   "cer": 0.05405405405405406,
+   "seconds": 5.84,
+   "eos": true
+  },
+  {
+   "id": "0180",
+   "text": "Fırından yeni çıkmış taze ekmeğin kokusu bütün mutfağı sardı.",
+   "hyp": "Fırından yeni çıkmış. Taze ekmeğin kokusu bütün mutfağa sardı.",
+   "wer": 0.1111111111111111,
+   "cer": 0.016666666666666666,
+   "seconds": 5.12,
+   "eos": true
+  },
+  {
+   "id": "0181",
+   "text": "Nasılsın, epeydir görüşemedik, hayat nasıl gidiyor?",
+   "hyp": "Nasılsın? Epeydir görüşemedik. Hayat nasıl gidiyor?",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.28,
+   "eos": true
+  },
+  {
+   "id": "0182",
+   "text": "Akşamları işten eve dönerken sen de bu kadar yoruluyor musun?",
+   "hyp": "Akşamları işten eve dönerken sen de bu kadar yoruluyor musun?",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.36,
+   "eos": true
+  },
+  {
+   "id": "0183",
+   "text": "Yemekten sonra şöyle güzel köpüklü bir Türk kahvesi içelim mi?",
+   "hyp": "Diğer ekran sonrasında şöyle güzel köpüklü bir Türk adresiyim.",
+   "wer": 0.6,
+   "cer": 0.3770491803278688,
+   "seconds": 4.24,
+   "eos": true
+  },
+  {
+   "id": "0184",
+   "text": "İşe gitmeden önce mutlaka yarım saat haberleri izlerim.",
+   "hyp": "İşe gitmeden önce mutlaka yarım saat haberleri izleyelim.",
+   "wer": 0.125,
+   "cer": 0.05555555555555555,
+   "seconds": 3.68,
+   "eos": true
+  },
+  {
+   "id": "0185",
+   "text": "Sabahları erken uyanabilmek için sence akşam kaçta uyumalıyım?",
+   "hyp": "Sabahları erken uyuyabilmek için sadece akşamkaşta uyumalıyım.",
+   "wer": 0.5,
+   "cer": 0.11475409836065574,
+   "seconds": 4.0,
+   "eos": true
+  },
+  {
+   "id": "0186",
+   "text": "Bayramda bütün kuzenler anneannemin bahçesinde toplanıp eski günleri konuşacağız.",
+   "hyp": "bayramda bütün kuzenler  annemin başkasından toplanıp eski günüyle konuşacağız.",
+   "wer": 0.3333333333333333,
+   "cer": 0.175,
+   "seconds": 5.52,
+   "eos": true
+  },
+  {
+   "id": "0187",
+   "text": "Önümüzdeki bayram tatilinde köye gitmeyi düşünüyor musunuz?",
+   "hyp": "Önümüzdeki bayram tatilinde köye gitmeyi düşünüyor musunuz?",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.92,
+   "eos": true
+  },
+  {
+   "id": "0188",
+   "text": "Sabahları uyanır uyanmaz ilk iş kendime büyük bir bardak su doldururum.",
+   "hyp": "Sabahları uyanır uyanmaz ilk işkendime büyük bir bardak su doldur.",
+   "wer": 0.2727272727272727,
+   "cer": 0.07142857142857142,
+   "seconds": 4.64,
+   "eos": true
+  },
+  {
+   "id": "0189",
+   "text": "O filmin sonu gerçekten inanılmaz derecede saçmaydı!",
+   "hyp": "O filmin sonu gerçekten inanılmaz derecede saçmaydı.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.68,
+   "eos": true
+  },
+  {
+   "id": "0190",
+   "text": "Dikkat et, o sokak kedisi birden elini tırmalayabilir!",
+   "hyp": "Dikkat et, o sokak delisi birden elini tırmayabilir.",
+   "wer": 0.25,
+   "cer": 0.07692307692307693,
+   "seconds": 3.44,
+   "eos": true
+  },
+  {
+   "id": "0191",
+   "text": "Akşam yemeğinden sonra parkta biraz egzersiz yapmayı düşünüyorum.",
+   "hyp": "Akşam şemeğinden sonra farklı biraz egzersiz yapmayı düşünüyorum.",
+   "wer": 0.25,
+   "cer": 0.0625,
+   "seconds": 4.48,
+   "eos": true
+  },
+  {
+   "id": "0192",
+   "text": "Bulaşık makinesini boşaltmayı unutunca mutfak tezgahı dünden beri öylece duruyor.",
+   "hyp": "Duaşık makinesini boşaltmayı unutunca mutfak tezgahı dünden beri öylece duruyor.",
+   "wer": 0.1,
+   "cer": 0.025,
+   "seconds": 4.8,
+   "eos": true
+  },
+  {
+   "id": "0193",
+   "text": "Hafta sonları bahçedeki domateslerle uğraşmak bütün stresimi alıp götürüyor.",
+   "hyp": "hafta sonları bahçedeki domateslerle uğraşmak bir tür stresini alıp götürüyor.",
+   "wer": 0.3333333333333333,
+   "cer": 0.06666666666666667,
+   "seconds": 4.96,
+   "eos": true
+  },
+  {
+   "id": "0194",
+   "text": "Soğuk algınlığı yüzünden bütün hafta sonunu evde yatarak geçirmek zorunda kaldım.",
+   "hyp": "Soğuk kaldığımda yüzünden bütün hafta sonunu evde yatarak geçirmek zorunda kaldım.",
+   "wer": 0.09090909090909091,
+   "cer": 0.0875,
+   "seconds": 4.16,
+   "eos": true
+  },
+  {
+   "id": "0195",
+   "text": "Kahvenin yanına şöyle güzel bir çikolatalı pasta söyleyelim mi?",
+   "hyp": "Kahvenin yanına da öyle güzel bir çikolatalı pastayı değil mi?",
+   "wer": 0.4444444444444444,
+   "cer": 0.1774193548387097,
+   "seconds": 5.2,
+   "eos": true
+  },
+  {
+   "id": "0196",
+   "text": "Bugün nedense içimde tarif edemediğim tuhaf bir sıkıntı var.",
+   "hyp": "Bugün nedense içinde tarif edemediğim tuhaf bir...",
+   "wer": 0.3333333333333333,
+   "cer": 0.22033898305084745,
+   "seconds": 3.84,
+   "eos": true
+  },
+  {
+   "id": "0197",
+   "text": "Karnıyarık yaparken patlıcanları fırında kızartırsan çok daha hafif oluyor.",
+   "hyp": "Karniyelik yaparken patlıcanları fırında kızartırsan çok daha hafif oluyor.",
+   "wer": 0.1111111111111111,
+   "cer": 0.05405405405405406,
+   "seconds": 3.76,
+   "eos": true
+  },
+  {
+   "id": "0198",
+   "text": "Balkona gelen güvercinler için pencere kenarına biraz ekmek kırıntısı bıraktım.",
+   "hyp": "Bu hafta ona gelen güvercinler için pencere kenarına biraz ekmek kırıntısı.",
+   "wer": 0.4,
+   "cer": 0.20512820512820512,
+   "seconds": 3.92,
+   "eos": true
+  },
+  {
+   "id": "0199",
+   "text": "O köşe başındaki restoranda porsiyonlar sence de çok küçük değil mi?",
+   "hyp": "O köşe başındaki restoranda porsiyonlar sence de çok küçük değil mi?",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 5.04,
+   "eos": true
+  },
+  {
+   "id": "0200",
+   "text": "İnanamıyorum, yine cüzdanımı evde unutmuşum!",
+   "hyp": "İnanmıyorum.  Yine çözünürlüğü var.  Ne çözünürlüğü var?  Efton'un üstüne.",
+   "wer": 1.8,
+   "cer": 1.0238095238095237,
+   "seconds": 8.56,
+   "eos": true
+  },
+  {
+   "id": "0201",
+   "text": "Mutfak tezgahını az önce sildim, lütfen hemen kirletme!",
+   "hyp": "Mutfak tezgahını az önce sildim.  Lütfen hemen kirletme.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 4.64,
+   "eos": true
+  },
+  {
+   "id": "0202",
+   "text": "Dişçi randevumu iptal edip önümüzdeki aya ertelemek zorunda kaldım.",
+   "hyp": "Diş şişanlarını iptal edip önümüzdeki eğerselemek zorunda kaldım.",
+   "wer": 0.4444444444444444,
+   "cer": 0.22727272727272727,
+   "seconds": 4.32,
+   "eos": true
+  },
+  {
+   "id": "0203",
+   "text": "Bu aralar akşamları dinlemek için bana önerebileceğin sakin bir çalma listen var mı?",
+   "hyp": "bu aralar akşamları dinlemek için bana verebileceğin  sakin bir çalma",
+   "wer": 0.3076923076923077,
+   "cer": 0.1927710843373494,
+   "seconds": 4.8,
+   "eos": true
+  },
+  {
+   "id": "0204",
+   "text": "Hafta sonu havalar güzel olursa pikniğe gitmeyi düşünüyoruz.",
+   "hyp": "Sokta sonu havalar güzel olursa Pitney'e gitmeyi düşünüyoruz.",
+   "wer": 0.375,
+   "cer": 0.11864406779661017,
+   "seconds": 3.68,
+   "eos": true
+  },
+  {
+   "id": "0205",
+   "text": "Dayımın düğünü için hala kendine uygun bir elbise bulamadın mı?",
+   "hyp": "Dayımın bir günü için hala kendime uygun bir elbise bulamadım.",
+   "wer": 0.5,
+   "cer": 0.14516129032258066,
+   "seconds": 3.04,
+   "eos": true
+  },
+  {
+   "id": "0206",
+   "text": "Geçen yaz gittiğimiz o sessiz sahil kasabasını çok özledim.",
+   "hyp": "Geçen yaz gittiğimiz o sessiz sahil kasabasını çok özledim.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.44,
+   "eos": true
+  },
+  {
+   "id": "0207",
+   "text": "Doğum günü sürprizi için kimleri davet etmeyi düşünüyorsun?",
+   "hyp": "Döngünün sürprizi için kimleri davet etmeyi düşünüyorsun?",
+   "wer": 0.25,
+   "cer": 0.10344827586206896,
+   "seconds": 3.52,
+   "eos": true
+  },
+  {
+   "id": "0208",
+   "text": "Zeytinyağlı dolma yaparken içine biraz da tarçın atmayı denemelisin.",
+   "hyp": "ve etim yağlı dolma yaparken  içine biraz da tarçın atmayı denemelisin.",
+   "wer": 0.3333333333333333,
+   "cer": 0.07462686567164178,
+   "seconds": 4.48,
+   "eos": true
+  },
+  {
+   "id": "0209",
+   "text": "Akvaryumun suyunu en son ne zaman değiştirdiğimizi hatırlayan var mı?",
+   "hyp": "Akvaryumun suyunu en son ne zaman değiştirdiğimizi hatırlayan var mı?",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.52,
+   "eos": true
+  },
+  {
+   "id": "0210",
+   "text": "O filmin son sahnesinde ne kadar çok ağladım anlatamam!",
+   "hyp": "Bu filmin son sayesinde ne kadar çok ağlatan olmadığını.",
+   "wer": 0.4444444444444444,
+   "cer": 0.2962962962962963,
+   "seconds": 2.88,
+   "eos": true
+  },
+  {
+   "id": "0211",
+   "text": "Kardeşim liseden mezun olunca evin bütün havası birden değişti.",
+   "hyp": "Kardeşim liseden mezun olunca evin bütün havası birden değişti.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.6,
+   "eos": true
+  },
+  {
+   "id": "0212",
+   "text": "Banyonun lambası patlamış, yarın iş çıkışı yenisini alıp takarım.",
+   "hyp": "Aylin'in lambası katlanmış.  Yani şey...  Tekrar edeyim.",
+   "wer": 1.0,
+   "cer": 0.5555555555555556,
+   "seconds": 5.76,
+   "eos": true
+  },
+  {
+   "id": "0213",
+   "text": "Tam durağa yetişecekken minibüsün kapıları kapanıp gitmez mi!",
+   "hyp": "Tam durağa yetişecekken nefesini kapatıp gitmezdin lan.",
+   "wer": 0.625,
+   "cer": 0.36666666666666664,
+   "seconds": 4.08,
+   "eos": true
+  },
+  {
+   "id": "0214",
+   "text": "Bana kalırsa o elbisenin rengi sana hiç yakışmamış.",
+   "hyp": "Bana kalırsa o elbisenin işe yakışmamış.",
+   "wer": 0.375,
+   "cer": 0.26,
+   "seconds": 3.84,
+   "eos": true
+  },
+  {
+   "id": "0215",
+   "text": "Şu bulmacanın zor seviyesini çözebilen var mı aranızda?",
+   "hyp": "Şu bu maçın zor seviyesini çözebilenler aranızda.",
+   "wer": 0.625,
+   "cer": 0.18518518518518517,
+   "seconds": 4.08,
+   "eos": true
+  },
+  {
+   "id": "0216",
+   "text": "Ne yalan söyleyeyim, bu yemeğin tadı bana biraz yavan geldi.",
+   "hyp": "ne yalan söyleyeyim  bu yemeğin tadı bana biraz yalan geldi",
+   "wer": 0.1,
+   "cer": 0.017241379310344827,
+   "seconds": 4.08,
+   "eos": true
+  },
+  {
+   "id": "0217",
+   "text": "Hafta sonu havalar güzelleşirse çocukları parka götürelim mi?",
+   "hyp": "Hafta sonu hava da güzelleşirse çocukları fark edetirelim mi?",
+   "wer": 0.5,
+   "cer": 0.15,
+   "seconds": 3.2,
+   "eos": true
+  },
+  {
+   "id": "0218",
+   "text": "Kardeşim üniversiteyi kazandığından beri evin neşesi iyice yerine geldi.",
+   "hyp": "Kardeşimin örseği kazandığından beri evin neşesi iyice yerine geldi.",
+   "wer": 0.2222222222222222,
+   "cer": 0.11267605633802817,
+   "seconds": 4.72,
+   "eos": true
+  },
+  {
+   "id": "0219",
+   "text": "Bugün hava o kadar güzel ki insan kendini dışarı atmak istiyor.",
+   "hyp": "Bugün hava o kadar güzel ki insan kendine dışarı atmak istiyor.",
+   "wer": 0.09090909090909091,
+   "cer": 0.016129032258064516,
+   "seconds": 2.96,
+   "eos": true
+  },
+  {
+   "id": "0220",
+   "text": "Yeni başladığım örgü kursunda atkıyı sonunda bitirebildim, çok mutluyum!",
+   "hyp": "Yine bahsettiğim örgü kursunda 6 yıl sonunda bitirebildim, çok mutluyum.",
+   "wer": 0.4444444444444444,
+   "cer": 0.18571428571428572,
+   "seconds": 3.76,
+   "eos": true
+  },
+  {
+   "id": "0221",
+   "text": "Akşam yemeği için markete uğrayıp eksikleri tamamlamam gerekiyor.",
+   "hyp": "Akşam yemeği için markete uğrayıp eksikleri tamamlama gerekiyor.",
+   "wer": 0.125,
+   "cer": 0.015625,
+   "seconds": 3.76,
+   "eos": true
+  },
+  {
+   "id": "0222",
+   "text": "Evdeki boş saksıları boyamak için hangi renk akrilik boya almalıyım?",
+   "hyp": "Eldeki boş taksitleri boyamak için hangi renk akıllık boya almalıyız?",
+   "wer": 0.4,
+   "cer": 0.14925373134328357,
+   "seconds": 3.6,
+   "eos": true
+  },
+  {
+   "id": "0223",
+   "text": "Bisiklet yolunu kullanarak sahilden ofise gitmek gerçekten çok keyifli oluyor.",
+   "hyp": "Bisiklet solunu kullanarak sahilden gitmek gerçekten çok tehlikeli oluyor.",
+   "wer": 0.3,
+   "cer": 0.15584415584415584,
+   "seconds": 4.32,
+   "eos": true
+  },
+  {
+   "id": "0224",
+   "text": "Düğün günü yağan o sağanak yağmur hepimizin saçını başını dağıtmıştı.",
+   "hyp": "Gün günü, Sernak Yavruş bir şeyin saçını başını dağıtmıştı.  Saçını başını dağıtmıştı.",
+   "wer": 0.8,
+   "cer": 0.6029411764705882,
+   "seconds": 8.8,
+   "eos": true
+  },
+  {
+   "id": "0225",
+   "text": "Dün akşam halı saha maçında ayağımı burktuğum için bugün zor yürüyorum.",
+   "hyp": "Dün akşama bu sağlığı sağlamasından yandıktan için bugün zor yürüyorum.",
+   "wer": 0.5454545454545454,
+   "cer": 0.35714285714285715,
+   "seconds": 3.52,
+   "eos": true
+  },
+  {
+   "id": "0226",
+   "text": "Pazar kahvaltısı için deniz kenarında şirin bir yer keşfettik.",
+   "hyp": "Pazar kalkısı için deniz kenarında şimdi bir yer keşfettik.",
+   "wer": 0.2222222222222222,
+   "cer": 0.11475409836065574,
+   "seconds": 3.52,
+   "eos": true
+  },
+  {
+   "id": "0227",
+   "text": "Menüdeki zeytinyağlıları kim denemek ister?",
+   "hyp": "Menüde ki zeytinyağları kim denemek ister?",
+   "wer": 0.6,
+   "cer": 0.07142857142857142,
+   "seconds": 2.72,
+   "eos": true
+  },
+  {
+   "id": "0228",
+   "text": "Doktorun verdiği öksürük şurubunu günde iki defa içmesi lazımmış.",
+   "hyp": "Doktorun verdiği öksürük şurubunu günde iki defa içmesi lazımmış.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 4.24,
+   "eos": true
+  },
+  {
+   "id": "0229",
+   "text": "Üniversite yıllarımda aynı evde altı kişi kaldığımız o daracık salonu unutamam.",
+   "hyp": "Üniversite yıllarımda aynı evde 6 kişi kaldığımız oğul aracık salonu unutamam.",
+   "wer": 0.18181818181818182,
+   "cer": 0.05128205128205128,
+   "seconds": 4.32,
+   "eos": true
+  },
+  {
+   "id": "0230",
+   "text": "Gece yatmadan önce evi şöyle bir toparlamazsam rahat uyuyamıyorum.",
+   "hyp": "Gece yatmadan önce evi şöyle bir toparlamasam rahatlıyorum.",
+   "wer": 0.3333333333333333,
+   "cer": 0.12307692307692308,
+   "seconds": 4.24,
+   "eos": true
+  },
+  {
+   "id": "0231",
+   "text": "Her sabah koşuya çıkmak için o motivasyonu nasıl buluyorsun?",
+   "hyp": "Hasıl bakmış ve çıkmak için o motivasyonu nasıl buluyorsun?",
+   "wer": 0.3333333333333333,
+   "cer": 0.2033898305084746,
+   "seconds": 2.64,
+   "eos": true
+  },
+  {
+   "id": "0232",
+   "text": "Akşamüstü kuaföre uğrayıp saçlarımı biraz kestirmek istiyorum.",
+   "hyp": "Açımışlık Kuvvetleri Uygu'yu ipsasen meçhulüm.  Reaf keserim ve beyaz keserim.",
+   "wer": 1.5714285714285714,
+   "cer": 0.9016393442622951,
+   "seconds": 6.16,
+   "eos": true
+  },
+  {
+   "id": "0233",
+   "text": "Son saniyede atılan o basketle maçı nasıl kazandık ama!",
+   "hyp": "Son saniyede atılan o basketin amaçını nasıl kazandık?",
+   "wer": 0.3333333333333333,
+   "cer": 0.16666666666666666,
+   "seconds": 3.92,
+   "eos": true
+  },
+  {
+   "id": "0234",
+   "text": "Akvaryumun suyunu değiştirdikten sonra balıklar daha bir hareketlendi sanki.",
+   "hyp": "Hatta bu suyunu değiştirdikten sonra balıklar daha iyi hareketlendi sanki.",
+   "wer": 0.3333333333333333,
+   "cer": 0.14666666666666667,
+   "seconds": 3.76,
+   "eos": true
+  },
+  {
+   "id": "0235",
+   "text": "Kuşun kafesini en son ne zaman temizlediğini hatırlıyor musun?",
+   "hyp": "Kuşun kafesini en son ne zaman temizlediğini hatırlıyor musun?",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.36,
+   "eos": true
+  },
+  {
+   "id": "0236",
+   "text": "Yağmurdan sonra toprak kokusunu içine çekmeyi sen de sever misin?",
+   "hyp": "yağmurdan sonra. Topusunu içeri çekmeyi  sen de sever misin?",
+   "wer": 0.3,
+   "cer": 0.15625,
+   "seconds": 3.52,
+   "eos": true
+  },
+  {
+   "id": "0237",
+   "text": "Anahtarlarımı nerede bıraktığımı sabahtan beri bir türlü bulamıyorum.",
+   "hyp": "Anahtarlarımı nerede bıraktığımı sabahtan beri bir türlü bulamıyorum.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.2,
+   "eos": true
+  },
+  {
+   "id": "0238",
+   "text": "Ne kadar ıhlamur içsem de şu boğaz ağrımdan bir türlü kurtulamıyorum!",
+   "hyp": "Ne kadar hızlanırsam da bu ağzı ağrımdan bir türlü kurtulamıyorum.",
+   "wer": 0.45454545454545453,
+   "cer": 0.20588235294117646,
+   "seconds": 6.88,
+   "eos": true
+  },
+  {
+   "id": "0239",
+   "text": "Sakın geç kalma, otobüs on dakika sonra kalkıyor!",
+   "hyp": "Sakın geç kalma, oturup sonra kalkıyorum.",
+   "wer": 0.5,
+   "cer": 0.3404255319148936,
+   "seconds": 2.08,
+   "eos": true
+  },
+  {
+   "id": "0240",
+   "text": "Uzun zamandır denemek istediğim o ahşap oyma setini nihayet sipariş ettim.",
+   "hyp": "Uzun zamandır denemek istediğim o aşağı oyma setini nihayet sipariş ettim.",
+   "wer": 0.09090909090909091,
+   "cer": 0.0410958904109589,
+   "seconds": 5.28,
+   "eos": true
+  },
+  {
+   "id": "0241",
+   "text": "Salonun ortasındaki o büyük halıyı tek başına nasıl temizleyeceksin?",
+   "hyp": "Salonun ortasındaki o büyük halıyı tek başına nasıl temizleyeceksin?",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.92,
+   "eos": true
+  },
+  {
+   "id": "0242",
+   "text": "Kışın lapa lapa kar yağarken camın önünde çay içmeye bayılıyorum.",
+   "hyp": "Şimdi fıla fıla bir kariyerlik engemenin önünde çay içmeye başlıyorum.",
+   "wer": 0.7,
+   "cer": 0.4375,
+   "seconds": 3.92,
+   "eos": true
+  },
+  {
+   "id": "0243",
+   "text": "Sence otel rezervasyonunu şimdiden yapsak daha mı ucuza gelir?",
+   "hyp": "Sence otel rezervasyonunu şimdiden yapsak daha mı mucize gelir?",
+   "wer": 0.1111111111111111,
+   "cer": 0.04918032786885246,
+   "seconds": 5.12,
+   "eos": true
+  },
+  {
+   "id": "0244",
+   "text": "Kuru temizlemeciden gömlekleri alıp oradan da manava uğramam gerekiyor.",
+   "hyp": "Kuru temizleme içinden gömlekleri alıp oradan da uğraman gerekiyor.",
+   "wer": 0.4444444444444444,
+   "cer": 0.17142857142857143,
+   "seconds": 3.28,
+   "eos": true
+  },
+  {
+   "id": "0245",
+   "text": "Sabahları uyanır uyanmaz ilk işim sade bir kahve yapmak olur.",
+   "hyp": "Sabahları uyanır, ilk işim sade bir kahve yapmak olur.",
+   "wer": 0.1,
+   "cer": 0.13333333333333333,
+   "seconds": 3.36,
+   "eos": true
+  },
+  {
+   "id": "0246",
+   "text": "Bütün pencereleri silip perdeleri yıkamak tüm günümü aldı.",
+   "hyp": "Bütün pencereleri silip perdeli yıkamak tüm günüm aldı.",
+   "wer": 0.25,
+   "cer": 0.05263157894736842,
+   "seconds": 4.24,
+   "eos": true
+  },
+  {
+   "id": "0247",
+   "text": "Bavulları akşamdan hazırlarsak sabah yola çıkarken hiç acele etmeyiz.",
+   "hyp": "Bunları akşamdan hazırlarsak hiç acele etmeyiz.",
+   "wer": 0.4444444444444444,
+   "cer": 0.3382352941176471,
+   "seconds": 6.32,
+   "eos": true
+  },
+  {
+   "id": "0248",
+   "text": "Yıllar sonra eski dostları bir arada görmek harikaydı!",
+   "hyp": "Yıllar sonra eski dostları bir arada görmek harikaydı.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.12,
+   "eos": true
+  },
+  {
+   "id": "0249",
+   "text": "Ailen nasıl, babanın sağlığı biraz daha düzeldi mi?",
+   "hyp": "Aile anası da babanı sağlıyor. Biraz daha düzeldi mi?",
+   "wer": 0.625,
+   "cer": 0.1836734693877551,
+   "seconds": 2.4,
+   "eos": true
+  },
+  {
+   "id": "0250",
+   "text": "Makedonya'ya dünyanın kapılarını da açıyor.",
+   "hyp": "Makedonya dünyanın kapılarını da açıyor.",
+   "wer": 0.16666666666666666,
+   "cer": 0.07142857142857142,
+   "seconds": 2.16,
+   "eos": true
+  },
+  {
+   "id": "0251",
+   "text": "Schengen'e geçiş hazırlıkları sürüyor.",
+   "hyp": "işin genel geçiş hazırlıkları sürüyor.",
+   "wer": 0.4,
+   "cer": 0.1891891891891892,
+   "seconds": 2.0,
+   "eos": true
+  },
+  {
+   "id": "0252",
+   "text": "Tadiç'in çağrısına uyuldu mu?",
+   "hyp": "Çin çağrısına uyuldu mu?",
+   "wer": 0.4,
+   "cer": 0.17857142857142858,
+   "seconds": 1.76,
+   "eos": true
+  },
+  {
+   "id": "0253",
+   "text": "Adaylar Kasım ayı başlarında duyurulacak.",
+   "hyp": "Adaylar Kasım ayı başlarında duyurulacak.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 2.24,
+   "eos": true
+  },
+  {
+   "id": "0254",
+   "text": "Ailenin ülkeden ayrılması yasak.",
+   "hyp": "Ailenin ülkeden ayrılması yasak.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 2.08,
+   "eos": true
+  },
+  {
+   "id": "0255",
+   "text": "Ancak Yunanlılar aynı fikirde değil.",
+   "hyp": "Ancak insanlar aynı, aynı şekilde değil.",
+   "wer": 0.6,
+   "cer": 0.34285714285714286,
+   "seconds": 2.48,
+   "eos": true
+  },
+  {
+   "id": "0256",
+   "text": "Ancak bazıları buna katılmıyor.",
+   "hyp": "Ancak bazıları buna katılmıyor.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 2.0,
+   "eos": true
+  },
+  {
+   "id": "0257",
+   "text": "Bakan gördüğü zarardan toparlanabilmiş değil.",
+   "hyp": "Bakan gördüğü üzerlerden toparlanabilmiş değil.",
+   "wer": 0.2,
+   "cer": 0.11363636363636363,
+   "seconds": 2.32,
+   "eos": true
+  },
+  {
+   "id": "0258",
+   "text": "Barış ertelendi mi?",
+   "hyp": "Böyle serten değil mi?",
+   "wer": 1.0,
+   "cer": 0.6111111111111112,
+   "seconds": 1.2,
+   "eos": true
+  },
+  {
+   "id": "0259",
+   "text": "Başbakan, bu girişimi bizzat destekliyor.",
+   "hyp": "Başbakan bu girişime güzel destekliyor.",
+   "wer": 0.4,
+   "cer": 0.15384615384615385,
+   "seconds": 3.28,
+   "eos": true
+  },
+  {
+   "id": "0260",
+   "text": "Bu iddialara yanıtınız nedir?",
+   "hyp": "Bu iddialara yanıtınız nedir?",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 2.0,
+   "eos": true
+  },
+  {
+   "id": "0261",
+   "text": "Bu seçimlerin yeni özelliği budur.",
+   "hyp": "Bu seçimlerin yeni özelliği budur.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 2.24,
+   "eos": true
+  },
+  {
+   "id": "0262",
+   "text": "Bu tamamen doğru değil.",
+   "hyp": "Bu tamamen doğru değil.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 1.28,
+   "eos": true
+  },
+  {
+   "id": "0263",
+   "text": "Bu yıl hedefler daha iddialı.",
+   "hyp": "Bu yıl hedefler daha iddialı.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 2.4,
+   "eos": true
+  },
+  {
+   "id": "0264",
+   "text": "Bunun için geri geleceğiz!",
+   "hyp": "Bunun için geri geleceğiz.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 1.52,
+   "eos": true
+  },
+  {
+   "id": "0265",
+   "text": "Burada kazanan yok.",
+   "hyp": "Aldı kazanan yok.",
+   "wer": 0.3333333333333333,
+   "cer": 0.2777777777777778,
+   "seconds": 1.2,
+   "eos": true
+  },
+  {
+   "id": "0266",
+   "text": "Bölgesel girişimlere dahil olabilecek mi?",
+   "hyp": "Belgesel girişimlere dahil olacak mı?",
+   "wer": 0.6,
+   "cer": 0.175,
+   "seconds": 3.28,
+   "eos": true
+  },
+  {
+   "id": "0267",
+   "text": "Değişim dönemi başlamıştı.",
+   "hyp": "Değişik döneme başlamıştı.",
+   "wer": 0.6666666666666666,
+   "cer": 0.08,
+   "seconds": 1.6,
+   "eos": true
+  },
+  {
+   "id": "0268",
+   "text": "Durum kötüleşirse ne yapacaksınız?",
+   "hyp": "Kötüleşirse ne yapacaksınız?  Kötüleşirse...",
+   "wer": 0.5,
+   "cer": 0.5454545454545454,
+   "seconds": 4.16,
+   "eos": true
+  },
+  {
+   "id": "0269",
+   "text": "Erkekler kesinlikle orada olacaktır.",
+   "hyp": "Erkekler kesinlikle orada olacaktır.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 2.16,
+   "eos": true
+  },
+  {
+   "id": "0270",
+   "text": "Fedailerinden birisi ise hayatını kaybetmişti.",
+   "hyp": "Deneylerinden bir ses ise hayatını kaybetmiştir.",
+   "wer": 0.8,
+   "cer": 0.17777777777777778,
+   "seconds": 3.76,
+   "eos": true
+  },
+  {
+   "id": "0271",
+   "text": "Gıda fiyatları yüksek.",
+   "hyp": "da fiyatları yüksek.",
+   "wer": 0.3333333333333333,
+   "cer": 0.09523809523809523,
+   "seconds": 1.36,
+   "eos": true
+  },
+  {
+   "id": "0272",
+   "text": "Karar sizi şaşırttı mı?",
+   "hyp": "Kardeşi şaşırttı mı?",
+   "wer": 0.5,
+   "cer": 0.2727272727272727,
+   "seconds": 1.44,
+   "eos": true
+  },
+  {
+   "id": "0273",
+   "text": "Krivokapiç ise talebi reddetti.",
+   "hyp": "Kırık okur bitse, eğer derdi,  eee  eee  eee",
+   "wer": 2.0,
+   "cer": 0.9,
+   "seconds": 7.12,
+   "eos": true
+  },
+  {
+   "id": "0274",
+   "text": "Kuzeyde durumun şiddetlenmesini bekliyor musunuz?",
+   "hyp": "Kuzeyde durumun şiddetlenmesini bekliyor musunuz?",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 2.56,
+   "eos": true
+  },
+  {
+   "id": "0275",
+   "text": "Kızgın sürücüler olayı mahkemeye götürdüler.",
+   "hyp": "kızgın sürücüler olayı mahkemeye götürdüler.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 2.56,
+   "eos": true
+  },
+  {
+   "id": "0276",
+   "text": "Lisedeki öğrencileri, müdürleriyle gurur duyuyor.",
+   "hyp": "Lisedeki öğrencileri müdürlüğü duyuyor.",
+   "wer": 0.4,
+   "cer": 0.2553191489361702,
+   "seconds": 2.56,
+   "eos": true
+  },
+  {
+   "id": "0277",
+   "text": "Manastır şu anda elden geçiriliyor.",
+   "hyp": "Master şu anda elden geçiriliyor.",
+   "wer": 0.2,
+   "cer": 0.08823529411764706,
+   "seconds": 2.56,
+   "eos": true
+  },
+  {
+   "id": "0278",
+   "text": "Onlara güvenmememiz gerektiğini gösterdiler.",
+   "hyp": "Onlara güvenmemiz gerektiğini gösterdiler.",
+   "wer": 0.25,
+   "cer": 0.046511627906976744,
+   "seconds": 2.4,
+   "eos": true
+  },
+  {
+   "id": "0279",
+   "text": "Onlara nerede çalıştığımızı bile soruyorlar.",
+   "hyp": "Kişisel medyayla çalıştığımızı bile soruyorlar.",
+   "wer": 0.4,
+   "cer": 0.32558139534883723,
+   "seconds": 6.0,
+   "eos": true
+  },
+  {
+   "id": "0280",
+   "text": "Priştine seyahat ve turizme odaklanıyor.",
+   "hyp": "Fristin'e seyahat ve turizme odaklanıyor.",
+   "wer": 0.4,
+   "cer": 0.07692307692307693,
+   "seconds": 2.72,
+   "eos": true
+  },
+  {
+   "id": "0281",
+   "text": "Profesör Özeren bu değerlendirmeye katılıyor.",
+   "hyp": "Profesör o zaman değerlendirmeye katılıyor.",
+   "wer": 0.4,
+   "cer": 0.18181818181818182,
+   "seconds": 2.24,
+   "eos": true
+  },
+  {
+   "id": "0282",
+   "text": "Proje, inşaatın farklı safhalarında ilerliyor.",
+   "hyp": "Proje, inşaatın farklı salgılarında ilerliyor.",
+   "wer": 0.2,
+   "cer": 0.06818181818181818,
+   "seconds": 2.32,
+   "eos": true
+  },
+  {
+   "id": "0283",
+   "text": "Saldırının görüntüleri tüm dünyaya yayıldı.",
+   "hyp": "Saldırının görüntüleri tüm dünyaya eğildi.",
+   "wer": 0.2,
+   "cer": 0.11904761904761904,
+   "seconds": 2.24,
+   "eos": true
+  },
+  {
+   "id": "0284",
+   "text": "Selimaj yaklaşık otuz avro harcıyor.",
+   "hyp": "Selimaj yaklaşık 30 avro harcıyor.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 2.56,
+   "eos": true
+  },
+  {
+   "id": "0285",
+   "text": "Sonra da aptalca hatalar.",
+   "hyp": "Sonra da abartıcı haber.",
+   "wer": 0.5,
+   "cer": 0.4166666666666667,
+   "seconds": 1.68,
+   "eos": true
+  },
+  {
+   "id": "0286",
+   "text": "Sınır hizmetlerinin işlevleri artırıldı.",
+   "hyp": "Sınır hizmetlerinin işlevleri arttırıldı.",
+   "wer": 0.25,
+   "cer": 0.02564102564102564,
+   "seconds": 2.88,
+   "eos": true
+  },
+  {
+   "id": "0287",
+   "text": "Tutuklananların ikisi de Sırp vatandaşı.",
+   "hyp": "Tutuklamanın kişisel spot anlayışı.",
+   "wer": 1.0,
+   "cer": 0.46153846153846156,
+   "seconds": 2.08,
+   "eos": true
+  },
+  {
+   "id": "0288",
+   "text": "Yasada korsancılık suç sınıfına sokuluyor.",
+   "hyp": "Yasa da korsancılık sınıfına sokuluyor.",
+   "wer": 0.6,
+   "cer": 0.12195121951219512,
+   "seconds": 4.48,
+   "eos": true
+  },
+  {
+   "id": "0289",
+   "text": "Yasaların Ağustos ayında onaylanması bekleniyor.",
+   "hyp": "Piyasaların toz ayında onaylanması bekleniyor.",
+   "wer": 0.4,
+   "cer": 0.14893617021276595,
+   "seconds": 5.28,
+   "eos": true
+  },
+  {
+   "id": "0290",
+   "text": "Yeniden inşa çalışmaları yeni başladı.",
+   "hyp": "Yeniden işaretçilerimiz yeni başladı.",
+   "wer": 0.4,
+   "cer": 0.35135135135135137,
+   "seconds": 2.56,
+   "eos": true
+  },
+  {
+   "id": "0291",
+   "text": "Yenilgiden sonraki gün.",
+   "hyp": "Yeni ilgiden sonraki gün.",
+   "wer": 0.6666666666666666,
+   "cer": 0.09090909090909091,
+   "seconds": 1.6,
+   "eos": true
+  },
+  {
+   "id": "0292",
+   "text": "İstisnasız olarak dost canlısı insanlar.",
+   "hyp": "İstisnasız olarak dost kanlısı insanlar.",
+   "wer": 0.2,
+   "cer": 0.02564102564102564,
+   "seconds": 2.48,
+   "eos": true
+  },
+  {
+   "id": "0293",
+   "text": "İşlemi diğer hamurla tekrarlayın.",
+   "hyp": "işlemi yaranıza tekrarlayın.",
+   "wer": 0.5,
+   "cer": 0.3125,
+   "seconds": 2.16,
+   "eos": true
+  },
+  {
+   "id": "0294",
+   "text": "Kadın kaçıp Bulgaristan'a dönmeyi başarmış.",
+   "hyp": "Kadın kaçıp Bulgaristan'a dönmeyi başarmış.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 2.32,
+   "eos": true
+  },
+  {
+   "id": "0295",
+   "text": "Kosova'da Kasım ayında seçimler yapılacak.",
+   "hyp": "Kasım ayında seçimler yapılacak.",
+   "wer": 0.3333333333333333,
+   "cer": 0.24390243902439024,
+   "seconds": 2.56,
+   "eos": true
+  },
+  {
+   "id": "0296",
+   "text": "Ancak herkes aynı görüşte değil.",
+   "hyp": "Ancak herkes aynı görüşte değil.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 2.64,
+   "eos": true
+  },
+  {
+   "id": "0297",
+   "text": "Anlaşma sağlanması yıllar sürdü.",
+   "hyp": "Anlaşılıklı sağlamlısı yıllar sürdü.",
+   "wer": 0.5,
+   "cer": 0.2903225806451613,
+   "seconds": 3.84,
+   "eos": true
+  },
+  {
+   "id": "0298",
+   "text": "Ardından emlak vergisi adını aldı.",
+   "hyp": "Ardından emlak vergisi adını aldı.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 2.16,
+   "eos": true
+  },
+  {
+   "id": "0299",
+   "text": "Arnavut kamu kuruluşları alarma geçirildi.",
+   "hyp": "Arnavut kamu kuruluşları alarma geçirildi.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 2.32,
+   "eos": true
+  },
+  {
+   "id": "0300",
+   "text": "Ayrıca elli istihkamcı da yaralandı.",
+   "hyp": "Ece'ye evli istek yansıdı, yaralandı.",
+   "wer": 1.0,
+   "cer": 0.42857142857142855,
+   "seconds": 2.72,
+   "eos": true
+  },
+  {
+   "id": "0301",
+   "text": "Bana borcun var.",
+   "hyp": "Ben de borcum var.",
+   "wer": 1.0,
+   "cer": 0.3333333333333333,
+   "seconds": 1.04,
+   "eos": true
+  },
+  {
+   "id": "0302",
+   "text": "Başını hızlı hızlı salladı.",
+   "hyp": "başını hızlı salladı.",
+   "wer": 0.25,
+   "cer": 0.23076923076923078,
+   "seconds": 1.36,
+   "eos": true
+  },
+  {
+   "id": "0303",
+   "text": "Ben öyle istiyorum.",
+   "hyp": "Ben böyle istiyorum.",
+   "wer": 0.3333333333333333,
+   "cer": 0.05555555555555555,
+   "seconds": 1.84,
+   "eos": true
+  },
+  {
+   "id": "0304",
+   "text": "Bir hastanın başını bekliyor gibiydi.",
+   "hyp": "Bir aslının başını bekliyor gibiydi.",
+   "wer": 0.2,
+   "cer": 0.08333333333333333,
+   "seconds": 1.76,
+   "eos": true
+  },
+  {
+   "id": "0305",
+   "text": "Bir saniye lütfen.",
+   "hyp": "Bir saniye lütfen.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 1.2,
+   "eos": true
+  },
+  {
+   "id": "0306",
+   "text": "Bu bakımdan Kosova ile kıyaslanamaz.",
+   "hyp": "bu bakımdan kısa olayda kıyaslamış.",
+   "wer": 0.6,
+   "cer": 0.34285714285714286,
+   "seconds": 2.0,
+   "eos": true
+  },
+  {
+   "id": "0307",
+   "text": "Bu ilginin sonuçları ne oldu?",
+   "hyp": "Bu ilginin sonuçları ne oldu?",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 1.68,
+   "eos": true
+  },
+  {
+   "id": "0308",
+   "text": "Buna hazır mısın?",
+   "hyp": "muazzamsın.",
+   "wer": 1.0,
+   "cer": 0.5625,
+   "seconds": 0.96,
+   "eos": true
+  },
+  {
+   "id": "0309",
+   "text": "Bunu neden yaptığımı bilmiyorum.",
+   "hyp": "Bunu neden yaptığımı bilmiyorum.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 2.4,
+   "eos": true
+  },
+  {
+   "id": "0310",
+   "text": "Bunun dışındaki her şey lüks.",
+   "hyp": "Bunun içindeki her şey lüks.",
+   "wer": 0.2,
+   "cer": 0.17857142857142858,
+   "seconds": 2.0,
+   "eos": true
+  },
+  {
+   "id": "0311",
+   "text": "Burada her şey var.",
+   "hyp": "her şeyimiz.",
+   "wer": 0.75,
+   "cer": 0.6111111111111112,
+   "seconds": 1.36,
+   "eos": true
+  },
+  {
+   "id": "0312",
+   "text": "Burası ruhumu doyuruyor.",
+   "hyp": "Burası uygun mu duyuyor?",
+   "wer": 1.0,
+   "cer": 0.34782608695652173,
+   "seconds": 1.52,
+   "eos": true
+  },
+  {
+   "id": "0313",
+   "text": "Etkinlik yirmi Aralık'ta sona eriyor.",
+   "hyp": "Şirkinlik 20 aralıkta sona eriyor.",
+   "wer": 0.5,
+   "cer": 0.1111111111111111,
+   "seconds": 2.72,
+   "eos": true
+  },
+  {
+   "id": "0314",
+   "text": "Fazla naz aşık usandırır.",
+   "hyp": "Kazan'a da aşık usandırır.",
+   "wer": 0.75,
+   "cer": 0.25,
+   "seconds": 1.92,
+   "eos": true
+  },
+  {
+   "id": "0315",
+   "text": "Genelde ağırlık bağımsız filmlere veriliyor.",
+   "hyp": "Genelde ağırlık bağımsız filmlere veriliyor.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 2.48,
+   "eos": true
+  },
+  {
+   "id": "0316",
+   "text": "Harika bir gün.",
+   "hyp": "Hayırlı günler.",
+   "wer": 1.0,
+   "cer": 0.7857142857142857,
+   "seconds": 0.8,
+   "eos": true
+  },
+  {
+   "id": "0317",
+   "text": "Hırvat tarımı ayakta kalabilecek mi?",
+   "hyp": "Hırsat tarımı ayakta kalabilecek mi?",
+   "wer": 0.2,
+   "cer": 0.02857142857142857,
+   "seconds": 1.92,
+   "eos": true
+  },
+  {
+   "id": "0318",
+   "text": "Ne bağırıyon? Ölmüş işte!",
+   "hyp": "Ne bağırıyorsun? Ölmüş, ölmüş işte.",
+   "wer": 0.5,
+   "cer": 0.391304347826087,
+   "seconds": 2.4,
+   "eos": true
+  },
+  {
+   "id": "0319",
+   "text": "Ne bu, şaka mı?",
+   "hyp": "Çakma.  Çakma.",
+   "wer": 1.0,
+   "cer": 0.6923076923076923,
+   "seconds": 3.36,
+   "eos": true
+  },
+  {
+   "id": "0320",
+   "text": "Ne demek istediğini bilmiyorum.",
+   "hyp": "demek istediğini bilmiyorum.",
+   "wer": 0.25,
+   "cer": 0.1,
+   "seconds": 1.92,
+   "eos": true
+  },
+  {
+   "id": "0321",
+   "text": "Ne gerekiyorsa yaparım.",
+   "hyp": "Ne gerekiyorsa yaparım.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 1.36,
+   "eos": true
+  },
+  {
+   "id": "0322",
+   "text": "Nihayet kaptan köprüsüne kadar çıktı.",
+   "hyp": "Nihayet Kaptan Köprüsü'ne kadar çıktı.",
+   "wer": 0.4,
+   "cer": 0.027777777777777776,
+   "seconds": 4.16,
+   "eos": true
+  },
+  {
+   "id": "0323",
+   "text": "O gayet iyi.",
+   "hyp": "Ogeci.",
+   "wer": 1.0,
+   "cer": 0.6363636363636364,
+   "seconds": 0.88,
+   "eos": true
+  },
+  {
+   "id": "0324",
+   "text": "O ne yapıyor?",
+   "hyp": "Ne yapıyor?",
+   "wer": 0.3333333333333333,
+   "cer": 0.16666666666666666,
+   "seconds": 0.96,
+   "eos": true
+  },
+  {
+   "id": "0325",
+   "text": "Peki ya sonra?",
+   "hyp": "Peki ya sonra?",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 0.96,
+   "eos": true
+  },
+  {
+   "id": "0326",
+   "text": "Sakin olmaya çalışın.",
+   "hyp": "Sakin olmaya çalışın.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 1.36,
+   "eos": true
+  },
+  {
+   "id": "0327",
+   "text": "Sanıkların tümü suçlamaları reddetti.",
+   "hyp": "Sanıkların tümü suçlamalarını elde etti.",
+   "wer": 0.75,
+   "cer": 0.16666666666666666,
+   "seconds": 2.16,
+   "eos": true
+  },
+  {
+   "id": "0328",
+   "text": "Sizin buna tepkiniz ne olacak?",
+   "hyp": "Sizin bulu tekniniz ne olacak?",
+   "wer": 0.4,
+   "cer": 0.13793103448275862,
+   "seconds": 3.12,
+   "eos": true
+  },
+  {
+   "id": "0329",
+   "text": "Sonuç elde etmek zorundayız.",
+   "hyp": "Sonuç elde etmek zorundayız.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 1.68,
+   "eos": true
+  },
+  {
+   "id": "0330",
+   "text": "Soru sormak yok.",
+   "hyp": "Altyazı M.K.",
+   "wer": 1.0,
+   "cer": 0.8,
+   "seconds": 1.2,
+   "eos": true
+  },
+  {
+   "id": "0331",
+   "text": "Teşkilata yığınla başvuru var.",
+   "hyp": "teşkilatı yüzüne başvuru var.",
+   "wer": 0.5,
+   "cer": 0.20689655172413793,
+   "seconds": 2.24,
+   "eos": true
+  },
+  {
+   "id": "0332",
+   "text": "Ummadığın taş baş yarar.",
+   "hyp": "1 gün ters başlayacağız.",
+   "wer": 1.0,
+   "cer": 0.7391304347826086,
+   "seconds": 1.28,
+   "eos": true
+  },
+  {
+   "id": "0333",
+   "text": "Vurmak da yiğitlik, kaçmak da.",
+   "hyp": "Ölmekte yiğitlik, kaçmakta.",
+   "wer": 0.8,
+   "cer": 0.32142857142857145,
+   "seconds": 4.72,
+   "eos": true
+  },
+  {
+   "id": "0334",
+   "text": "Ziyaretçilere rehberli gezi olanağı sunuluyor.",
+   "hyp": "Ziyaretçilere rehberli gezi olanağı sunuluyor.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 2.8,
+   "eos": true
+  },
+  {
+   "id": "0335",
+   "text": "Çantaları taşıyamayacakları kadar ağırdı.",
+   "hyp": "Çantaları taşıyamayacakları ağırdı.",
+   "wer": 0.25,
+   "cer": 0.15,
+   "seconds": 2.48,
+   "eos": true
+  },
+  {
+   "id": "0336",
+   "text": "Çingenenin ipini kendisine çektirirler.",
+   "hyp": "Çimgelenin ipini kendisine çektirirler.",
+   "wer": 0.25,
+   "cer": 0.05263157894736842,
+   "seconds": 2.4,
+   "eos": true
+  },
+  {
+   "id": "0337",
+   "text": "Özür dilerim, özür dilerim.",
+   "hyp": "özür dilerim özür dilerim  özür dilerim",
+   "wer": 0.5,
+   "cer": 0.52,
+   "seconds": 2.64,
+   "eos": true
+  },
+  {
+   "id": "0338",
+   "text": "İki gelirle bile zor geçiniyorlar.",
+   "hyp": "Giderler derler zor geçsin yavru olsun.",
+   "wer": 1.2,
+   "cer": 0.6363636363636364,
+   "seconds": 2.08,
+   "eos": true
+  },
+  {
+   "id": "0339",
+   "text": "Sabah uyanır uyanmaz ilk iş kahvemi demledim.",
+   "hyp": "Sabah uyanır. Sabah uyanmaz ilk iş kahve müdüm.",
+   "wer": 0.42857142857142855,
+   "cer": 0.29545454545454547,
+   "seconds": 2.64,
+   "eos": true
+  },
+  {
+   "id": "0340",
+   "text": "Bugün ev temizliği yapmaktan gerçekten çok yoruldum!",
+   "hyp": "Dün el temizliği yapmaktan gerçekten çok yoruldum.",
+   "wer": 0.2857142857142857,
+   "cer": 0.0784313725490196,
+   "seconds": 2.64,
+   "eos": true
+  },
+  {
+   "id": "0341",
+   "text": "Akşam yemeği için ne pişirsem diye düşünmekten usandım.",
+   "hyp": "Takvim yemeği için ne pişirsem diye düşündükten sonra",
+   "wer": 0.375,
+   "cer": 0.18518518518518517,
+   "seconds": 2.64,
+   "eos": true
+  },
+  {
+   "id": "0342",
+   "text": "Kahvaltıdan sonra çamaşırları asmayı unuttun mu yoksa?",
+   "hyp": "Kahvaltıdan sonra çamaşırları asmayı unuttun mu yoksa?",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 2.8,
+   "eos": true
+  },
+  {
+   "id": "0343",
+   "text": "İşten gelir gelmez hemen pijamalarımı giyip koltuğa yığılıyorum.",
+   "hyp": "Üstten geri gelmesem ben piyanolarımı giydirip koltuğa yolluyorum.",
+   "wer": 0.875,
+   "cer": 0.31746031746031744,
+   "seconds": 2.96,
+   "eos": true
+  },
+  {
+   "id": "0344",
+   "text": "Bütün gün evde pijamayla dolaşmak harika bir his!",
+   "hyp": "Bütün günün evde PM'lere ulaşmak harika değil.",
+   "wer": 0.75,
+   "cer": 0.375,
+   "seconds": 2.88,
+   "eos": true
+  },
+  {
+   "id": "0345",
+   "text": "Yarın sabah erken kalkıp spora gitmeyi planlıyor musun?",
+   "hyp": "yardımcısı varken  kaptan spora gitmeyi planlıyor musun?",
+   "wer": 0.5,
+   "cer": 0.25925925925925924,
+   "seconds": 4.24,
+   "eos": true
+  },
+  {
+   "id": "0346",
+   "text": "Bulaşık makinesini boşaltmak evin en sevmediğim işi.",
+   "hyp": "Özellikle Meknes'in boşalttığı gibi. En sevmediğim şey.",
+   "wer": 0.8571428571428571,
+   "cer": 0.45098039215686275,
+   "seconds": 3.68,
+   "eos": true
+  },
+  {
+   "id": "0347",
+   "text": "Akşamları dizi izlerken çay içmeye bayılıyorum.",
+   "hyp": "Arkadaşlar bizi izlerken çay içmeye bayılıyorum.",
+   "wer": 0.3333333333333333,
+   "cer": 0.13043478260869565,
+   "seconds": 2.72,
+   "eos": true
+  },
+  {
+   "id": "0348",
+   "text": "Hafta sonu temizlik yaparken müzik açmak çok eğlenceli oluyor.",
+   "hyp": "hafta sonu temizlik yaparken biz kasımı çok edencele oluyor.",
+   "wer": 0.3333333333333333,
+   "cer": 0.18032786885245902,
+   "seconds": 3.52,
+   "eos": true
+  },
+  {
+   "id": "0349",
+   "text": "Gece uyumadan önce kitap okumayı alışkanlık haline getirdim.",
+   "hyp": "Gece uyumadan önce kitap okumayı alışkanlıkla ele getirdim.",
+   "wer": 0.25,
+   "cer": 0.0847457627118644,
+   "seconds": 2.88,
+   "eos": true
+  },
+  {
+   "id": "0350",
+   "text": "Çöpleri dışarı çıkarmak bugün senin sıran değil miydi?",
+   "hyp": "Çöpleri dışarı çıkarmak bugün senin sıranın değil miydi?",
+   "wer": 0.125,
+   "cer": 0.03773584905660377,
+   "seconds": 2.96,
+   "eos": true
+  },
+  {
+   "id": "0351",
+   "text": "Bayramda bütün sülale bizim evde toplanacak.",
+   "hyp": "Bayramda bütün sizlerle bizim evde toplanacak.",
+   "wer": 0.16666666666666666,
+   "cer": 0.09302325581395349,
+   "seconds": 3.2,
+   "eos": true
+  },
+  {
+   "id": "0352",
+   "text": "Kuzenlerle uzun zamandır görüşemiyoruz, çok özledim.",
+   "hyp": "Bu senlerle uzun zamandır görüşemiyoruz. Çok özledim.",
+   "wer": 0.3333333333333333,
+   "cer": 0.06,
+   "seconds": 2.72,
+   "eos": true
+  },
+  {
+   "id": "0353",
+   "text": "Amcamlar bu hafta sonu memleketten dönüyor mu?",
+   "hyp": "Amcamlar bu hafta sonu memleketten dönüyor.",
+   "wer": 0.14285714285714285,
+   "cer": 0.06666666666666667,
+   "seconds": 2.24,
+   "eos": true
+  },
+  {
+   "id": "0354",
+   "text": "Teyzem yine harika yemekler yapmış, bayıldım!",
+   "hyp": "Teyzem yine harika yemekler  yaptı.",
+   "wer": 0.3333333333333333,
+   "cer": 0.2558139534883721,
+   "seconds": 3.76,
+   "eos": true
+  },
+  {
+   "id": "0355",
+   "text": "Akraba ziyaretleri bazen insanı gerçekten çok yoruyor.",
+   "hyp": "Akraba ziyaretleri bazen insanı gerçekten çok yoruyor.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.2,
+   "eos": true
+  },
+  {
+   "id": "0356",
+   "text": "Dayımın çocukları ne kadar da büyümüş.",
+   "hyp": "çeşitleri ne kadar da büyümüş.",
+   "wer": 0.3333333333333333,
+   "cer": 0.3783783783783784,
+   "seconds": 4.32,
+   "eos": true
+  },
+  {
+   "id": "0357",
+   "text": "Hafta sonu kayınvalidemlere yemeğe gideceğiz.",
+   "hyp": "Hafta sonu kayınvalidemlere yemeğe gideceğiz.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 2.4,
+   "eos": true
+  },
+  {
+   "id": "0358",
+   "text": "Dedemin anlattığı o eski hikayeleri dinlemek çok keyifli.",
+   "hyp": "Demin anlattığı o eski hikayeleri dinlemek çok keyifli.",
+   "wer": 0.125,
+   "cer": 0.03571428571428571,
+   "seconds": 3.28,
+   "eos": true
+  },
+  {
+   "id": "0359",
+   "text": "Halalarım bir araya gelince dedikodunun dibine vuruyorlar!",
+   "hyp": "Havaların bir araya gelince zikonun birine vuruyorlar.",
+   "wer": 0.42857142857142855,
+   "cer": 0.15789473684210525,
+   "seconds": 2.4,
+   "eos": true
+  },
+  {
+   "id": "0360",
+   "text": "Siz de bayramda büyüklerin ellerini öpmeye gidecek misiniz?",
+   "hyp": "Sizler hayranları büyüklerin ellerine akıp benekleyecek misiniz?",
+   "wer": 0.75,
+   "cer": 0.3275862068965517,
+   "seconds": 2.88,
+   "eos": true
+  },
+  {
+   "id": "0361",
+   "text": "İnsanın arkasında dağ gibi bir ailesi olması ne güzel.",
+   "hyp": "İnsan markasının o dağa gibi ailesi olması ne güzel.",
+   "wer": 0.5555555555555556,
+   "cer": 0.22641509433962265,
+   "seconds": 4.08,
+   "eos": true
+  },
+  {
+   "id": "0362",
+   "text": "Yarın akşam yemeğe abimler de gelecekmiş, harika!",
+   "hyp": "Yarın akşam yemeğe aldığımlar da gelecekmiş.  Harika.",
+   "wer": 0.2857142857142857,
+   "cer": 0.14893617021276595,
+   "seconds": 3.36,
+   "eos": true
+  },
+  {
+   "id": "0363",
+   "text": "Nereye gidelim, kahve içmek için bildiğin güzel bir yer var mı?",
+   "hyp": "Nereye gidelim? Kahve içmek için bildiğin güzel bir yer var mı?",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.52,
+   "eos": true
+  },
+  {
+   "id": "0364",
+   "text": "Uzun zaman oldu seninle böyle baş başa oturup dertleşmeyeli.",
+   "hyp": "Uzun zaman seninle böyle baş başa oturup  Dertleşmeyeli",
+   "wer": 0.1111111111111111,
+   "cer": 0.0847457627118644,
+   "seconds": 3.36,
+   "eos": true
+  },
+  {
+   "id": "0365",
+   "text": "O kadar çok şey birikti ki anlatacak, hangisinden başlasam bilemiyorum!",
+   "hyp": "O kadar çok şeyi birlikte anlatacağız. Hangisinden başlasam bilemiyorum.",
+   "wer": 0.4,
+   "cer": 0.13043478260869565,
+   "seconds": 3.68,
+   "eos": true
+  },
+  {
+   "id": "0366",
+   "text": "Tatlı yemeyecek miyiz, benim canım şöyle bol çikolatalı bir şeyler çekiyor.",
+   "hyp": "Tatlayamayacak mıyız benim canım?  Şöyle bol çikolatalı şeyler çıkıyor.",
+   "wer": 0.45454545454545453,
+   "cer": 0.1917808219178082,
+   "seconds": 4.96,
+   "eos": true
+  },
+  {
+   "id": "0367",
+   "text": "Hesabı bu sefer ben ödüyorum, sakın itiraz etme lütfen.",
+   "hyp": "Hesabı bu sefer ben ödüyorum.  Sakın itiraz etme lütfen.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.76,
+   "eos": true
+  },
+  {
+   "id": "0368",
+   "text": "Haftaya yine buluşalım, bu bana gerçekten çok iyi geldi.",
+   "hyp": "Haftaya yine buluşalım. Bu bana gerçekten çok iyi geldi.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.2,
+   "eos": true
+  },
+  {
+   "id": "0369",
+   "text": "Son anlattığın olaydan sonra ne yaptın, çok merak ettim?",
+   "hyp": "Bursa'nın amatör noktadan sonra ne yaptın?  Malum abi, sonra ne yaptın?",
+   "wer": 1.0,
+   "cer": 0.6851851851851852,
+   "seconds": 3.28,
+   "eos": true
+  },
+  {
+   "id": "0370",
+   "text": "Hava çok güzel, yürüyüş mü yapsak yoksa bir yerde mi otursak?",
+   "hyp": "Hava çok yürüyüş mü yapsak yoksa yerde mi otursak?",
+   "wer": 0.18181818181818182,
+   "cer": 0.1694915254237288,
+   "seconds": 3.36,
+   "eos": true
+  },
+  {
+   "id": "0371",
+   "text": "Seni gördüğüme o kadar sevindim ki, inanamazsın!",
+   "hyp": "Seni gördüğüme o kadar sevindim ki inanamazsın.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 2.64,
+   "eos": true
+  },
+  {
+   "id": "0372",
+   "text": "Ne zamandır görüşmüyoruz, hayatında yeni bir gelişme falan var mı?",
+   "hyp": "Ne zamandır görüşmüyoruz.  Hayatında yeni bir gelişme sağlanmaz.",
+   "wer": 0.3,
+   "cer": 0.125,
+   "seconds": 3.76,
+   "eos": true
+  },
+  {
+   "id": "0373",
+   "text": "Boş ver şimdi işi gücü, biraz da kendimizden bahsedelim.",
+   "hyp": "Doş ver şimdi, işi güçlüyüm.  Biraz da kendimizden bahsedelim.",
+   "wer": 0.2222222222222222,
+   "cer": 0.1111111111111111,
+   "seconds": 4.96,
+   "eos": true
+  },
+  {
+   "id": "0374",
+   "text": "Biraz daha oturalım, hemen kalkmak zorunda değilsin değil mi?",
+   "hyp": "Biraz daha oturalım.  Hemen kalkmak zorunda değilsin değil mi?",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.44,
+   "eos": true
+  },
+  {
+   "id": "0375",
+   "text": "Akşama ne pişirsem diye düşünmekten gerçekten çok sıkıldım.",
+   "hyp": "aşırı ne nefşirsem diye düşünmekten gerçekten çok sıkıldım.",
+   "wer": 0.25,
+   "cer": 0.1206896551724138,
+   "seconds": 3.12,
+   "eos": true
+  },
+  {
+   "id": "0376",
+   "text": "Tavadaki soğanlar kavruldu mu diye bir bakar mısın?",
+   "hyp": "Tabadaki yer buldu mu da bir bakar mısın?",
+   "wer": 0.5,
+   "cer": 0.3,
+   "seconds": 3.76,
+   "eos": true
+  },
+  {
+   "id": "0377",
+   "text": "Yemeğin altını çok açmışsın, az kalsın dibi tutuyordu!",
+   "hyp": "Yemeğin altını çok açmışsın. Az kalsın bir de tutuyordum.",
+   "wer": 0.375,
+   "cer": 0.11538461538461539,
+   "seconds": 3.44,
+   "eos": true
+  },
+  {
+   "id": "0378",
+   "text": "Bu akşam dışarıdan söylemeyelim, evde makarna falan yaparız.",
+   "hyp": "Bu akşam bir şeyler daha söylemeyelim.  Elif'e makarna falan yaparız.",
+   "wer": 0.625,
+   "cer": 0.25862068965517243,
+   "seconds": 4.64,
+   "eos": true
+  },
+  {
+   "id": "0379",
+   "text": "Çorbanın tuzu biraz eksik olmuş sanki, sence de öyle mi?",
+   "hyp": "Çorbamızda da heksik olmuş sanki, sence de öyle mi?",
+   "wer": 0.4,
+   "cer": 0.2222222222222222,
+   "seconds": 2.48,
+   "eos": true
+  },
+  {
+   "id": "0380",
+   "text": "Ocağın üstünü temizlemekten ellerim mahvoldu yemin ederim!",
+   "hyp": "Bu kendisini temizlemekten ellerim mahvoldu yemin ederim.",
+   "wer": 0.2857142857142857,
+   "cer": 0.17543859649122806,
+   "seconds": 2.96,
+   "eos": true
+  },
+  {
+   "id": "0381",
+   "text": "Fırından yeni çıkan ekmeğin kokusu bütün evi sardı.",
+   "hyp": "Sırından yeni çıkan ekmeğin kokusu bütün evi serdi.",
+   "wer": 0.25,
+   "cer": 0.06,
+   "seconds": 4.08,
+   "eos": true
+  },
+  {
+   "id": "0382",
+   "text": "Dolapta hiç yumurta kalmamış, marketten alıp gelir misin?",
+   "hyp": "Dolapta hiç yumurta kalmamış. Marketten alıp gelir misin?",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 2.8,
+   "eos": true
+  },
+  {
+   "id": "0383",
+   "text": "Sarımsakları ince ince doğrayıp zeytinyağında hafifçe soteledim.",
+   "hyp": "Sevim sağlıklarının ince ince ince doğrayacağı ki inandığı kişiye söyledim.",
+   "wer": 1.1428571428571428,
+   "cer": 0.6031746031746031,
+   "seconds": 4.56,
+   "eos": true
+  },
+  {
+   "id": "0384",
+   "text": "Bulaşıkları makineye dizmek yemek yapmaktan daha zor geliyor!",
+   "hyp": "Bu ışıkları makineye dizmekten daha zor geliyor.",
+   "wer": 0.625,
+   "cer": 0.26666666666666666,
+   "seconds": 3.68,
+   "eos": true
+  },
+  {
+   "id": "0385",
+   "text": "Kekin kabarması için fırının kapağını hiç açmadın, değil mi?",
+   "hyp": "Kekin kabarması için iş açmadım değil mi?",
+   "wer": 0.4444444444444444,
+   "cer": 0.3448275862068966,
+   "seconds": 5.12,
+   "eos": true
+  },
+  {
+   "id": "0386",
+   "text": "Doğrama tahtasını yıkadıktan sonra hemen tezgaha kuruması için bıraktım.",
+   "hyp": "Doğma tatlısını yıkadıktan sonra hemen tez yağ kuruması için bıraktım.",
+   "wer": 0.4444444444444444,
+   "cer": 0.1267605633802817,
+   "seconds": 3.76,
+   "eos": true
+  },
+  {
+   "id": "0387",
+   "text": "Hava çok güzel, çıkıp bir yerlerde kahve içelim mi?",
+   "hyp": "Kağıt ekledim. TVI'larda kahve içelim mi?",
+   "wer": 0.6666666666666666,
+   "cer": 0.5102040816326531,
+   "seconds": 3.28,
+   "eos": true
+  },
+  {
+   "id": "0388",
+   "text": "İş çıkışı sahilde oturup sıcak bir çay içmeye ne dersin?",
+   "hyp": "İş çıkışı sahilinde oturup psikiyatri çayı içmeye ne dersin?",
+   "wer": 0.4,
+   "cer": 0.21818181818181817,
+   "seconds": 2.88,
+   "eos": true
+  },
+  {
+   "id": "0389",
+   "text": "Bugün dışarıda kahve içmek için harika bir gün gerçekten!",
+   "hyp": "Bugün dışarıda kahve içmek için harika bir gün gerçekten.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.68,
+   "eos": true
+  },
+  {
+   "id": "0390",
+   "text": "Akşama doğru köşedeki kafede buluşup birer yorgunluk kahvesi içelim.",
+   "hyp": "Akşama doğru köşedeki kaderde buluşup  değerlendirelim.",
+   "wer": 0.5555555555555556,
+   "cer": 0.34328358208955223,
+   "seconds": 3.28,
+   "eos": true
+  },
+  {
+   "id": "0391",
+   "text": "Uzun zamandır dışarıda karşılıklı çay içip sohbet etmemiştik.",
+   "hyp": "Uzun zamandır dışarıda karşılıklı çek sohbet etmemiştik.",
+   "wer": 0.25,
+   "cer": 0.11666666666666667,
+   "seconds": 4.4,
+   "eos": true
+  },
+  {
+   "id": "0392",
+   "text": "Yağmurlu havada dışarıda oturup kahve yudumlamayı çok seviyorum.",
+   "hyp": "Yağmurlu hava da dışarıda olup kafreyi dinlememeyi çok seviyorum.",
+   "wer": 0.625,
+   "cer": 0.25396825396825395,
+   "seconds": 2.64,
+   "eos": true
+  },
+  {
+   "id": "0393",
+   "text": "Şöyle manzaralı bir yere gidip taze demlenmiş çay içelim mi?",
+   "hyp": "Şöyle bir alcalama, bir elgip tarzı denilmemiş.",
+   "wer": 0.8,
+   "cer": 0.559322033898305,
+   "seconds": 3.84,
+   "eos": true
+  },
+  {
+   "id": "0394",
+   "text": "Hazırlan hemen, çıkıp dışarıda güzel bir kahve içiyoruz!",
+   "hyp": "Hazırlan hemen. Çıkıp dışarıda güzel güzel bir kahve içiyoruz.",
+   "wer": 0.125,
+   "cer": 0.1111111111111111,
+   "seconds": 4.0,
+   "eos": true
+  },
+  {
+   "id": "0395",
+   "text": "Hafta sonu sabahları dışarıda çay içmek bana çok iyi geliyor.",
+   "hyp": "Hafta sonu sabahları dışarıda çay içmek bana çok iyi geliyor.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.76,
+   "eos": true
+  },
+  {
+   "id": "0396",
+   "text": "Soğuk havada dışarıda sıcak çay içmenin keyfi bambaşka oluyor.",
+   "hyp": "Soğuk havada dışarıda sıcakça içmenin keyfi bambaşka oluyor.",
+   "wer": 0.2222222222222222,
+   "cer": 0.03278688524590164,
+   "seconds": 3.6,
+   "eos": true
+  },
+  {
+   "id": "0397",
+   "text": "Öğle arasında dışarı çıkıp bir kahve molası verelim mi?",
+   "hyp": "Öğle arasında dışarı çıkıp bir kahve molası verelim mi?",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 2.72,
+   "eos": true
+  },
+  {
+   "id": "0398",
+   "text": "Ne zamandır dışarıda oturup rahat rahat kahve içememiştik ya!",
+   "hyp": "Ne zamandır dışarıda oturup rahat rahat kahve içememiştik ya.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.6,
+   "eos": true
+  },
+  {
+   "id": "0399",
+   "text": "Bugün hava o kadar sıcak ki nefes alamıyorum.",
+   "hyp": "Bugün o kadar sıcak ki nefes alamıyorum.",
+   "wer": 0.125,
+   "cer": 0.11363636363636363,
+   "seconds": 2.72,
+   "eos": true
+  },
+  {
+   "id": "0400",
+   "text": "Yarın yağmur yağacak diyorlar, şemsiyeni yanına aldın mı?",
+   "hyp": "Yardım yapıyorlar.  Geceni yanına aldın mı?",
+   "wer": 0.625,
+   "cer": 0.38181818181818183,
+   "seconds": 2.72,
+   "eos": true
+  },
+  {
+   "id": "0401",
+   "text": "Kışın bu dondurucu soğuklarından artık gerçekten çok sıkıldım!",
+   "hyp": "Kışın bu dondurucu soğuklarından artık gerçekten çok sıkıldım.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.36,
+   "eos": true
+  },
+  {
+   "id": "0402",
+   "text": "Bahar gelince her yer çiçek açıyor ama alerjim mahvediyor.",
+   "hyp": "Aleykümselam  Aleykümselam",
+   "wer": 1.0,
+   "cer": 0.7719298245614035,
+   "seconds": 3.52,
+   "eos": true
+  },
+  {
+   "id": "0403",
+   "text": "Sonbaharda sararan yaprakları izlemek bana hep huzur veriyor.",
+   "hyp": "Sonbaharda sararan yaprakları izlemek bana hep huzur veriyor.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 4.0,
+   "eos": true
+  },
+  {
+   "id": "0404",
+   "text": "Sabah günlük güneşlikti, birden nasıl böyle fırtına koptu?",
+   "hyp": "Sabah günlük güneşlikti. Birden nasıl böyle hesaplama koptu.",
+   "wer": 0.125,
+   "cer": 0.14285714285714285,
+   "seconds": 3.92,
+   "eos": true
+  },
+  {
+   "id": "0405",
+   "text": "İnanmıyorum, dışarıda lapa lapa kar yağıyor hemen cama koş!",
+   "hyp": "İnanmıyorum. Dışarıda lapa lapa kar yağıyor. Hemen cama koş.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.76,
+   "eos": true
+  },
+  {
+   "id": "0406",
+   "text": "Dışarı çıkarken hava durumuna hiç bakmadın mı sen?",
+   "hyp": "dışarı çıkarken hava durumuna hiç bakmadım ya",
+   "wer": 0.375,
+   "cer": 0.12244897959183673,
+   "seconds": 2.32,
+   "eos": true
+  },
+  {
+   "id": "0407",
+   "text": "Havanın sıcağından ziyade nemi insanı daha çok bunaltıyor bence.",
+   "hyp": "Havanın sıcağından ziyade nemi insanı daha çok günah atıyor bence.",
+   "wer": 0.2222222222222222,
+   "cer": 0.07936507936507936,
+   "seconds": 4.48,
+   "eos": true
+  },
+  {
+   "id": "0408",
+   "text": "Eskiden mevsimler tam vaktinde yaşanırdı, şimdi her şey birbirine girdi.",
+   "hyp": "Eskiden mevsimler tam vaktinde yaşanırdı, şimdi her şey birbirine girdi.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.92,
+   "eos": true
+  },
+  {
+   "id": "0409",
+   "text": "Hafta sonu hava güzel olursa hep beraber pikniğe gidelim mi?",
+   "hyp": "Hafta sonu hava güzel olursa beraber pikniğe gidelim.",
+   "wer": 0.2,
+   "cer": 0.11864406779661017,
+   "seconds": 4.08,
+   "eos": true
+  },
+  {
+   "id": "0410",
+   "text": "Rüzgar öyle sert esiyor ki yürürken dengemi zor sağladım.",
+   "hyp": "rüzgarı da  sahte süreceğim diyeceğimiz o. Sağ olun.",
+   "wer": 1.0,
+   "cer": 0.6428571428571429,
+   "seconds": 4.08,
+   "eos": true
+  },
+  {
+   "id": "0411",
+   "text": "Yaz tatili için şimdiden plan yapmaya başladık bile.",
+   "hyp": "Yaz tatili için bilen plan yapmaya başladık bile.",
+   "wer": 0.125,
+   "cer": 0.09803921568627451,
+   "seconds": 3.36,
+   "eos": true
+  },
+  {
+   "id": "0412",
+   "text": "Bu sene de köye mi gideceksiniz yoksa deniz kenarına mı?",
+   "hyp": "Bu sene de köye mi gideceksiniz yoksa deniz kenarında mı?",
+   "wer": 0.1,
+   "cer": 0.01818181818181818,
+   "seconds": 3.12,
+   "eos": true
+  },
+  {
+   "id": "0413",
+   "text": "Keşke bütün yılım tatil yaparak geçse ne güzel olurdu!",
+   "hyp": "keşke bütün yılım katil yaparak  geçse ne güzel olurdu",
+   "wer": 0.1111111111111111,
+   "cer": 0.018867924528301886,
+   "seconds": 3.28,
+   "eos": true
+  },
+  {
+   "id": "0414",
+   "text": "Erken rezervasyon yaptırmazsak otel fiyatları çok fena uçuyor.",
+   "hyp": "Erken rezervasyon yaptırmazsa o tarz fiyatları çok fena oluşuyor.",
+   "wer": 0.5,
+   "cer": 0.13114754098360656,
+   "seconds": 3.2,
+   "eos": true
+  },
+  {
+   "id": "0415",
+   "text": "Geçen seferki doğa turundan gerçekten memnun kaldınız mı?",
+   "hyp": "Dizans eserinde olduğumda gerçekten memnun kaldım.",
+   "wer": 0.75,
+   "cer": 0.39285714285714285,
+   "seconds": 2.32,
+   "eos": true
+  },
+  {
+   "id": "0416",
+   "text": "Bavulumu hazırlarken hep gereksiz bir sürü eşya koyuyorum.",
+   "hyp": "Olmasalarken hep gereksiz bir süreç yapıyorum.",
+   "wer": 0.625,
+   "cer": 0.3508771929824561,
+   "seconds": 2.32,
+   "eos": true
+  },
+  {
+   "id": "0417",
+   "text": "O kumsaldaki gün batımı manzarası tek kelimeyle harikaydı!",
+   "hyp": "Okumsaldaki gün batımı manzarası tek kelime ile helvetli.",
+   "wer": 0.625,
+   "cer": 0.19298245614035087,
+   "seconds": 3.52,
+   "eos": true
+  },
+  {
+   "id": "0418",
+   "text": "Uçak biletlerini aylar öncesinden almak daha mantıklı değil mi?",
+   "hyp": "Bu çerçevelerden daha ilerlediğinden almak alantıklı değil mi?",
+   "wer": 0.6666666666666666,
+   "cer": 0.46774193548387094,
+   "seconds": 3.44,
+   "eos": true
+  },
+  {
+   "id": "0419",
+   "text": "Uzun yolculuklarda yanıma her zaman kalın bir kitap alırım.",
+   "hyp": "Uzun yolculuklarda yanıma her zaman kalan bir kitap alırım.",
+   "wer": 0.1111111111111111,
+   "cer": 0.017241379310344827,
+   "seconds": 3.12,
+   "eos": true
+  },
+  {
+   "id": "0420",
+   "text": "Sonunda bütün yorgunluğumu atacağım harika bir hafta sonu başlıyor!",
+   "hyp": "Sonunda bütün yorgunluğumu atacağım. Harika bir haftason başlıyor.",
+   "wer": 0.2222222222222222,
+   "cer": 0.030303030303030304,
+   "seconds": 3.6,
+   "eos": true
+  },
+  {
+   "id": "0421",
+   "text": "Kamp alanında sıcak su bulma şansımız var mı sence?",
+   "hyp": "Şamp alanında sıcak su bulma şansınız var mı sence?",
+   "wer": 0.2222222222222222,
+   "cer": 0.04,
+   "seconds": 2.72,
+   "eos": true
+  },
+  {
+   "id": "0422",
+   "text": "Arabayla geze geze gitmek bana her zaman daha keyifli geliyor.",
+   "hyp": "Ağır ağır ağır ağır ağır gitmek bana her zaman daha keyifli.",
+   "wer": 0.6,
+   "cer": 0.4262295081967213,
+   "seconds": 5.68,
+   "eos": true
+  },
+  {
+   "id": "0423",
+   "text": "Otobüs çok kalabalıktı, durakta inip yürümeye karar verdim.",
+   "hyp": "otobüs çok kalabalıktı  duraklanıp yürümeye karar verdim",
+   "wer": 0.25,
+   "cer": 0.07017543859649122,
+   "seconds": 5.68,
+   "eos": true
+  },
+  {
+   "id": "0424",
+   "text": "Trafik felaket olunca otobüsten inip tabanvay yaptık tabii!",
+   "hyp": "Trafik ve hareket olunca otobüsten inip tabağına yaktık.",
+   "wer": 0.625,
+   "cer": 0.27586206896551724,
+   "seconds": 6.32,
+   "eos": true
+  },
+  {
+   "id": "0425",
+   "text": "Bu trafikte otobüs bekleyeceğime yürürüm daha iyi vallahi.",
+   "hyp": "Bu trafikte otobüs bekleyeceğime gülüm daha iyi vallahi.",
+   "wer": 0.125,
+   "cer": 0.07017543859649122,
+   "seconds": 2.8,
+   "eos": true
+  },
+  {
+   "id": "0426",
+   "text": "Her akşam bu trafiği çekmektense yürümek sence de mantıklı değil mi?",
+   "hyp": "Bu trafiği çektikten sonra yürümek sence de mantıklı değil mi?",
+   "wer": 0.36363636363636365,
+   "cer": 0.2537313432835821,
+   "seconds": 4.32,
+   "eos": true
+  },
+  {
+   "id": "0427",
+   "text": "Otobüs hiç ilerlemiyor, şoföre söyleyip insek mi acaba?",
+   "hyp": "Otobüs siderlemiyor. Şoför söyledik, insek mi acaba?",
+   "wer": 0.5,
+   "cer": 0.1509433962264151,
+   "seconds": 3.52,
+   "eos": true
+  },
+  {
+   "id": "0428",
+   "text": "Sabahtan beri trafikteyiz, keşke baştan yürüyerek gelseydik yahu!",
+   "hyp": "Sokustan beri çocuklarınız keşke baştan yürüyerek yazsaydık yahu.",
+   "wer": 0.375,
+   "cer": 0.31746031746031744,
+   "seconds": 3.2,
+   "eos": true
+  },
+  {
+   "id": "0429",
+   "text": "Yağmur yağmasa otobüse binmezdim ama yürüyüş yalan oldu bugün.",
+   "hyp": "Yağmur yağmasa otobüse binmezdim ama yürüyüş yalan oldu.",
+   "wer": 0.1111111111111111,
+   "cer": 0.09836065573770492,
+   "seconds": 3.44,
+   "eos": true
+  },
+  {
+   "id": "0430",
+   "text": "Trafik o kadar kilit ki otobüsler yerinden bile kıpırdayamıyor.",
+   "hyp": "Trafiko da kilitli, güzel yerinden bile kutu değmiyor.",
+   "wer": 0.8888888888888888,
+   "cer": 0.3387096774193548,
+   "seconds": 3.84,
+   "eos": true
+  },
+  {
+   "id": "0431",
+   "text": "Havalar ısınınca otobüsü bırakıp her gün yürüyüş yapmayı düşünüyorum.",
+   "hyp": "otobüsü bırakıp tabi bir İngilizce yapmayı düşünüyorum.",
+   "wer": 0.5555555555555556,
+   "cer": 0.4852941176470588,
+   "seconds": 5.28,
+   "eos": true
+  },
+  {
+   "id": "0432",
+   "text": "Sen de otobüsten inip benimle yürümek ister misin?",
+   "hyp": "Sen de otobüsten inip benimle yürürlük ister misin?",
+   "wer": 0.125,
+   "cer": 0.061224489795918366,
+   "seconds": 3.84,
+   "eos": true
+  },
+  {
+   "id": "0433",
+   "text": "İki durak arası zaten kısa, otobüs beklemeyip yürüyelim bence!",
+   "hyp": "İki durak arasında zaten kısa. Otur güzel beklemeyi.  Yürüyelim bence.",
+   "wer": 0.4444444444444444,
+   "cer": 0.18333333333333332,
+   "seconds": 4.16,
+   "eos": true
+  },
+  {
+   "id": "0434",
+   "text": "Trafik açılana kadar yürüsek çoktan eve varmıştık aslında.",
+   "hyp": "Trafik açılana kadar yürüsek de pop'tan eve almıştık aslında.",
+   "wer": 0.5,
+   "cer": 0.14035087719298245,
+   "seconds": 3.28,
+   "eos": true
+  },
+  {
+   "id": "0435",
+   "text": "Boş zamanlarımda genelde kitap okumayı tercih ediyorum.",
+   "hyp": "Duruş zamanlarımda genelde kitap okumayı tercih ediyorum.",
+   "wer": 0.14285714285714285,
+   "cer": 0.07407407407407407,
+   "seconds": 2.64,
+   "eos": true
+  },
+  {
+   "id": "0436",
+   "text": "Sen de hafta sonları doğa yürüyüşüne çıkıyor musun?",
+   "hyp": "Sen de artık da zonları doğayı düşüne çıkıyor musun?",
+   "wer": 0.625,
+   "cer": 0.24,
+   "seconds": 2.56,
+   "eos": true
+  },
+  {
+   "id": "0437",
+   "text": "Ahşap boyama kursu gerçekten inanılmaz eğlenceli geçiyor!",
+   "hyp": "Ahşap boyama kursu gerçekten inanılmaz eğlenceli geçiyor.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.44,
+   "eos": true
+  },
+  {
+   "id": "0438",
+   "text": "İşten arta kalan vakitlerde yeni tarifler denemeye bayılırım.",
+   "hyp": "İçten arsa kalan vakitlerde yeni tariflenmeye bayılırım.",
+   "wer": 0.5,
+   "cer": 0.11666666666666667,
+   "seconds": 3.6,
+   "eos": true
+  },
+  {
+   "id": "0439",
+   "text": "Akşamları dizi izlemek en büyük keyfim oldu diyebilirim.",
+   "hyp": "Akşamları dizi izlemek en büyük keyfi olabilebilirim.",
+   "wer": 0.375,
+   "cer": 0.10909090909090909,
+   "seconds": 3.12,
+   "eos": true
+  },
+  {
+   "id": "0440",
+   "text": "Son zamanlarda örgü örmeye merak sardım, çok dinlendirici.",
+   "hyp": "Son zamanlarda örgü örmeye merak sardım. Çok dinlendirici.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.68,
+   "eos": true
+  },
+  {
+   "id": "0441",
+   "text": "Senin hiç düzenli olarak ilgilendiğin bir hobin var mı?",
+   "hyp": "Senin iç düzenli olarak ilgilendiğin bir yapabiliğin var mı?",
+   "wer": 0.2222222222222222,
+   "cer": 0.16666666666666666,
+   "seconds": 4.0,
+   "eos": true
+  },
+  {
+   "id": "0442",
+   "text": "Kamp yapmak bütün stresimi alıp götürüyor resmen!",
+   "hyp": "Kamp yapmak bütün stresimi alıp götürüyor resmen.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.12,
+   "eos": true
+  },
+  {
+   "id": "0443",
+   "text": "Boş vaktim olunca hemen bisiklete binip sahile iniyorum.",
+   "hyp": "Boş vaktim olun ki ben bisikte mixa ile iniyorum.",
+   "wer": 0.75,
+   "cer": 0.2727272727272727,
+   "seconds": 3.12,
+   "eos": true
+  },
+  {
+   "id": "0444",
+   "text": "Gitar çalmayı öğrenmek düşündüğümden çok daha zormuş meğer.",
+   "hyp": "Bir tane tane öğrenmek istedim ben. Çok daha zormuşum yani.",
+   "wer": 0.875,
+   "cer": 0.4482758620689655,
+   "seconds": 2.56,
+   "eos": true
+  },
+  {
+   "id": "0445",
+   "text": "Pazar günleri evde bitkilerimle ilgilenmek bana terapi gibi geliyor.",
+   "hyp": "Sana tümleri dediklerimle ilgilenmek bana terapi gibi geliyor.",
+   "wer": 0.4444444444444444,
+   "cer": 0.16417910447761194,
+   "seconds": 6.16,
+   "eos": true
+  },
+  {
+   "id": "0446",
+   "text": "Yeni bir hobi edinmek için kurs araştırmaya başladın mı?",
+   "hyp": "Yeni bir hobi edinmek için kurs araştırmaya başladın mı?",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 2.72,
+   "eos": true
+  },
+  {
+   "id": "0447",
+   "text": "Bugün spora gitmeye hiç üşenmedim doğrusu.",
+   "hyp": "Bugün spora gitmeye hiç üşenmedim doğrusu.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 2.24,
+   "eos": true
+  },
+  {
+   "id": "0448",
+   "text": "Akşam serinliğinde yürüyüş yapmak sana da iyi geliyor mu?",
+   "hyp": "Akşam serinliğinde yürüyüş yapmak sana da iyi geliyor mu?",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 2.96,
+   "eos": true
+  },
+  {
+   "id": "0449",
+   "text": "Yarın sabah erkenden kalkıp koşuya çıkmayı planlıyorum.",
+   "hyp": "Yarın sabah erkenden kalkıp koşuya çıkmayı planlıyorum.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.28,
+   "eos": true
+  },
+  {
+   "id": "0450",
+   "text": "O kadar ağırlık kaldırdım ki her yerim tutulmuş!",
+   "hyp": "O kadar da dikkatli olun ki yerim tutulmuş.",
+   "wer": 0.5,
+   "cer": 0.3829787234042553,
+   "seconds": 2.8,
+   "eos": true
+  },
+  {
+   "id": "0451",
+   "text": "Haftada kaç gün antrenman yapmaya vakit bulabiliyorsun?",
+   "hyp": "Haftada kaç gün antrenman yapmaya açık buluyorsun?",
+   "wer": 0.2857142857142857,
+   "cer": 0.16666666666666666,
+   "seconds": 2.56,
+   "eos": true
+  },
+  {
+   "id": "0452",
+   "text": "Sürekli aynı egzersizleri yapmaktan gerçekten çok sıkıldım.",
+   "hyp": "Sürekli aynı egzersizleri yapmaktan gerçekten çok sıkıldım.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.44,
+   "eos": true
+  },
+  {
+   "id": "0453",
+   "text": "Biraz ısınmadan sakın ağır hareketlere geçmeye kalkma!",
+   "hyp": "Biraz ısınmadan sakın ağır hareketlere geçmeye kalkma.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.92,
+   "eos": true
+  },
+  {
+   "id": "0454",
+   "text": "Yeni başladığım yoga programı sayesinde acayip esnedim.",
+   "hyp": "Yeni başladığım yoga programı sayesinde acayip esnedim.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.2,
+   "eos": true
+  },
+  {
+   "id": "0455",
+   "text": "Ağırlık çalıştıktan sonra esneme hareketlerini yapıyor musun?",
+   "hyp": "Ağırlık çalıştıktan sonra esneme hareketlerini yapıyor musun?",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.04,
+   "eos": true
+  },
+  {
+   "id": "0456",
+   "text": "Bu aralar sporu çok boşladım, acilen toparlanmam lazım.",
+   "hyp": "Bu aralar soru çok boşladım, acilen toparlanmam lazım.",
+   "wer": 0.125,
+   "cer": 0.018867924528301886,
+   "seconds": 3.28,
+   "eos": true
+  },
+  {
+   "id": "0457",
+   "text": "Seninle beraber düzenli olarak yüzmeye gitsek harika olmaz mı?",
+   "hyp": "Sizinle beraber düzenli olarak hızlıca kare kovulmasın.",
+   "wer": 0.6666666666666666,
+   "cer": 0.39344262295081966,
+   "seconds": 6.0,
+   "eos": true
+  },
+  {
+   "id": "0458",
+   "text": "Koşu bandında yarım saat ter dökmek bütün stresimi alıyor!",
+   "hyp": "Koşu bandında yarım saatler dökmek bütün stresimi alıyor.",
+   "wer": 0.2222222222222222,
+   "cer": 0.03508771929824561,
+   "seconds": 3.6,
+   "eos": true
+  },
+  {
+   "id": "0459",
+   "text": "Bugün nedense içimde garip bir sıkıntı var.",
+   "hyp": "Bugün nedense içinde garip bir sıkıntı var.",
+   "wer": 0.14285714285714285,
+   "cer": 0.023809523809523808,
+   "seconds": 2.64,
+   "eos": true
+  },
+  {
+   "id": "0460",
+   "text": "Sence bu konuda çok mu abartılı düşünüyorum?",
+   "hyp": "Bence bu konuda çok mu olgasını düşünüyorum.",
+   "wer": 0.2857142857142857,
+   "cer": 0.16279069767441862,
+   "seconds": 4.64,
+   "eos": true
+  },
+  {
+   "id": "0461",
+   "text": "Bazen aklımdan geçenleri kimseye anlatmak gelmiyor içimden.",
+   "hyp": "Bazen aklımdan geçenlere kimseyi anlatmak gelmiyor içimden.",
+   "wer": 0.2857142857142857,
+   "cer": 0.034482758620689655,
+   "seconds": 3.04,
+   "eos": true
+  },
+  {
+   "id": "0462",
+   "text": "Ne kadar uğraşsam da o olumsuz düşüncelerden kurtulamıyorum!",
+   "hyp": "Ne kadar uğraşsam da olumsuz düşüncelerden kurtulamıyorum.",
+   "wer": 0.125,
+   "cer": 0.03389830508474576,
+   "seconds": 3.04,
+   "eos": true
+  },
+  {
+   "id": "0463",
+   "text": "Sürekli aynı şeyleri düşünmekten gerçekten çok yoruldum artık.",
+   "hyp": "Sürekli aynı şeyleri düşünmekten gerçekten çok yoruldum.",
+   "wer": 0.125,
+   "cer": 0.09836065573770492,
+   "seconds": 3.2,
+   "eos": true
+  },
+  {
+   "id": "0464",
+   "text": "İçimdeki bu tuhaf hissi sana nasıl tarif edebilirim ki?",
+   "hyp": "İçimdeki mutluluk sesinden nasıl tarif edebilirim ki?",
+   "wer": 0.4444444444444444,
+   "cer": 0.24074074074074073,
+   "seconds": 2.48,
+   "eos": true
+  },
+  {
+   "id": "0465",
+   "text": "Mutluluktan havalara uçacağım bir haber alsam keşke bugün!",
+   "hyp": "Mutluluktan havalara düşeceğim bir haber alsam.  Bugün",
+   "wer": 0.25,
+   "cer": 0.21052631578947367,
+   "seconds": 3.92,
+   "eos": true
+  },
+  {
+   "id": "0466",
+   "text": "Onun ne hissettiğini gerçekten anlamak o kadar zor mu?",
+   "hyp": "Onun ne hissettiğini gerçekten anlamak o kadar zor.",
+   "wer": 0.1111111111111111,
+   "cer": 0.05660377358490566,
+   "seconds": 2.72,
+   "eos": true
+  },
+  {
+   "id": "0467",
+   "text": "Aklımdaki bütün şüpheleri silip atmak bana çok iyi geldi.",
+   "hyp": "Aptumdaki bütün şüpheleri silip atmak bana çok iyi geldi.",
+   "wer": 0.1111111111111111,
+   "cer": 0.05357142857142857,
+   "seconds": 2.64,
+   "eos": true
+  },
+  {
+   "id": "0468",
+   "text": "Sence de bazen duygularımız mantığımızın önüne geçmiyor mu?",
+   "hyp": "Sence de bazen duygularımız mantığımızın önüne geçmiyor mu?",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.44,
+   "eos": true
+  },
+  {
+   "id": "0469",
+   "text": "Böyle zamanlarda içimden sadece sessizce oturup ağlamak geliyor.",
+   "hyp": "Öyle zamanlarda içinden sadece sessizce oturup ağlamak geliyor.",
+   "wer": 0.25,
+   "cer": 0.031746031746031744,
+   "seconds": 3.36,
+   "eos": true
+  },
+  {
+   "id": "0470",
+   "text": "Kendimi o kadar yalnız hissediyorum ki anlatamam sana!",
+   "hyp": "Kendimi o kadar yalnız hissediyorum ki ama tamam sana.",
+   "wer": 0.25,
+   "cer": 0.05660377358490566,
+   "seconds": 2.48,
+   "eos": true
+  },
+  {
+   "id": "0471",
+   "text": "Yarın öğleden sonra buluşup kahve içelim mi?",
+   "hyp": "Yarın öğleden sonra buluşup kahve içelim mi?",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 2.8,
+   "eos": true
+  },
+  {
+   "id": "0472",
+   "text": "Haftaya dişçi randevumu iptal etmek zorunda kaldım.",
+   "hyp": "Haftaya dışarıya randevumu iptal etmek zorunda kaldım.",
+   "wer": 0.14285714285714285,
+   "cer": 0.12,
+   "seconds": 3.04,
+   "eos": true
+  },
+  {
+   "id": "0473",
+   "text": "Hafta sonu için henüz bir plan yapmadım aslında.",
+   "hyp": "Hafta sonu için ne yazık bir plan yapadım aslında.",
+   "wer": 0.375,
+   "cer": 0.14893617021276595,
+   "seconds": 2.96,
+   "eos": true
+  },
+  {
+   "id": "0474",
+   "text": "Akşamki yemeğe kaçta gideceğimizi bana mutlaka haber ver!",
+   "hyp": "Akşamki yemeğe başlayabileceğimiz bana mutlaka haber verin.",
+   "wer": 0.375,
+   "cer": 0.17857142857142858,
+   "seconds": 3.68,
+   "eos": true
+  },
+  {
+   "id": "0475",
+   "text": "Toplantıdan sonra hemen çıkıp senin yanına geleceğim.",
+   "hyp": "Toplantıdan sonra hemen senin yanına geleceğim.",
+   "wer": 0.14285714285714285,
+   "cer": 0.11538461538461539,
+   "seconds": 2.96,
+   "eos": true
+  },
+  {
+   "id": "0476",
+   "text": "Kuaför randevunu ne zamana aldığını hatırlıyor musun?",
+   "hyp": "Kufer randevunun ne zamandığını hatırlıyor musun?",
+   "wer": 0.5714285714285714,
+   "cer": 0.1346153846153846,
+   "seconds": 2.96,
+   "eos": true
+  },
+  {
+   "id": "0477",
+   "text": "Bu cuma akşamı sinemaya gitme fikrine ne dersin?",
+   "hyp": "Cuma akşamı sinemaya gitmek istedim.",
+   "wer": 0.625,
+   "cer": 0.3404255319148936,
+   "seconds": 4.96,
+   "eos": true
+  },
+  {
+   "id": "0478",
+   "text": "Randevu saatine geç kalmamak için erkenden yola çıkmalıyız.",
+   "hyp": "Randevu saatine karşı tanımamak için erkeğinden de yola çıkmalıyız.",
+   "wer": 0.5,
+   "cer": 0.22413793103448276,
+   "seconds": 3.84,
+   "eos": true
+  },
+  {
+   "id": "0479",
+   "text": "Doğum günü partisi için harika bir sürpriz planladık!",
+   "hyp": "Doğum günü partisi için harika bir spüs küs planladık.",
+   "wer": 0.25,
+   "cer": 0.11538461538461539,
+   "seconds": 3.92,
+   "eos": true
+  },
+  {
+   "id": "0480",
+   "text": "Doktor kontrolüm beklediğimden çok daha uzun sürdü maalesef.",
+   "hyp": "Doktor dolu beklediğinden çok daha uzun sürdü maalesef.",
+   "wer": 0.25,
+   "cer": 0.13559322033898305,
+   "seconds": 3.52,
+   "eos": true
+  },
+  {
+   "id": "0481",
+   "text": "Tatil planlarını konuşmak için akşam bize gelsene!",
+   "hyp": "Tatil planlarını konuşmak için akşam bize gelsene.",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 2.56,
+   "eos": true
+  },
+  {
+   "id": "0482",
+   "text": "Görüşmeyi ertelemek istersen bana önceden haber verir misin?",
+   "hyp": "Görüşmeyi ertelemek istersen bana önceden haber verir misin?",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 3.76,
+   "eos": true
+  },
+  {
+   "id": "0483",
+   "text": "Selam, nasılsın, görüşmeyeli epey uzun zaman oldu.",
+   "hyp": "Selam, nasılsın?  Görüşmeyle epey uzun zaman oldu.",
+   "wer": 0.14285714285714285,
+   "cer": 0.0425531914893617,
+   "seconds": 3.68,
+   "eos": true
+  },
+  {
+   "id": "0484",
+   "text": "Günaydın, bugün nasılsın bakalım, her şey yolunda mı?",
+   "hyp": "Günaydın  Bugün nasılsın bakalım  Her şey yolundan",
+   "wer": 0.25,
+   "cer": 0.06,
+   "seconds": 4.48,
+   "eos": true
+  },
+  {
+   "id": "0485",
+   "text": "Ooo kimleri görüyorum, nerelerdesin sen kaç zamandır!",
+   "hyp": "Bu kimleri görüyorum.  Neler desen sen kaç zaman bulursun.",
+   "wer": 0.7142857142857143,
+   "cer": 0.29411764705882354,
+   "seconds": 2.56,
+   "eos": true
+  },
+  {
+   "id": "0486",
+   "text": "Merhaba, işler nasıl gidiyor, bir yaramazlık yok ya?",
+   "hyp": "Herhalde şey nasıl gidiyor, bir yaramazlık yok yani.",
+   "wer": 0.375,
+   "cer": 0.1836734693877551,
+   "seconds": 4.08,
+   "eos": true
+  },
+  {
+   "id": "0487",
+   "text": "Naber, bugün keyfin yerinde mi, nasıl hissediyorsun?",
+   "hyp": "Naber? Bugün keyfin yerinde mi? Nasıl hissediyorsun?",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 4.0,
+   "eos": true
+  },
+  {
+   "id": "0488",
+   "text": "Hayırlı sabahlar, evdekiler nasıl, herkes iyi mi?",
+   "hyp": "Hayırlı sabahlar. Herkes iyi mi?  Herkes iyi mi?",
+   "wer": 0.42857142857142855,
+   "cer": 0.2826086956521739,
+   "seconds": 4.0,
+   "eos": true
+  },
+  {
+   "id": "0489",
+   "text": "Selamlar, umarım iyisindir, ben de gayet iyiyim.",
+   "hyp": "Selamlar. Umarım gitsinler. Ben de gayet iyiyim.",
+   "wer": 0.14285714285714285,
+   "cer": 0.1111111111111111,
+   "seconds": 2.72,
+   "eos": true
+  },
+  {
+   "id": "0490",
+   "text": "Vay canına, seni buralarda görmek ne büyük sürpriz!",
+   "hyp": "Vay canına, seni buralarda görmek bir süpürsün.",
+   "wer": 0.375,
+   "cer": 0.24489795918367346,
+   "seconds": 2.56,
+   "eos": true
+  },
+  {
+   "id": "0491",
+   "text": "İyi akşamlar, günün nasıl geçti, çok yoruldun mu?",
+   "hyp": "İyi akşamlar.  Senin nasıl geçti?  Çok yoruldun mu?",
+   "wer": 0.125,
+   "cer": 0.06521739130434782,
+   "seconds": 3.2,
+   "eos": true
+  },
+  {
+   "id": "0492",
+   "text": "Görüşmeyeli hayatında neler değişti merak ediyorum doğrusu.",
+   "hyp": "Görüşmeyeli hayatta, iyi işler merak ediyorum da olsun.",
+   "wer": 0.7142857142857143,
+   "cer": 0.3275862068965517,
+   "seconds": 4.32,
+   "eos": true
+  },
+  {
+   "id": "0493",
+   "text": "Merhabalar, keyifler nasıl, her şey yolunda gidiyor mu?",
+   "hyp": "Merhabalar, keyifler nasıl? Her şey yolunda gidiyor mu?",
+   "wer": 0.0,
+   "cer": 0.0,
+   "seconds": 4.08,
+   "eos": true
+  },
+  {
+   "id": "0494",
+   "text": "Selam, bayağıdır hiç konuşamıyoruz, sağlığın sıhhatin yerinde mi?",
+   "hyp": "Selam, bayağıdır hiç konuşamıyoruz. Sağlığın sırhatın yerinde mi?",
+   "wer": 0.125,
+   "cer": 0.03225806451612903,
+   "seconds": 4.4,
+   "eos": true
+  }
+ ]
+}
