@@ -15,7 +15,7 @@ The loss is only on the audio tokens and EOS. The speaker tag is MALE, FEMALE or
 
 ## Presentation
 
-`page/` is the Demo Day presentation (one HTML page, 7 scenes, with audio).
+`page/` is the Demo Day presentation (one HTML page, 8 scenes, with audio).
 Open it here: **https://0xyene.github.io/yz50/demo-day/page/**
 
 To open it locally, serve the folder and open it in a browser:
@@ -25,6 +25,14 @@ cd page && python3 -m http.server 8792
 ```
 
 Then go to http://localhost:8792. Keys: → / ← move between scenes, F is full screen, number keys play the clips on a scene.
+
+Scene 7 ("Dene") is live: you type a sentence and the model says it. The model runs on your own computer through `speak/server.py`:
+
+```bash
+python3 speak/server.py        # http://127.0.0.1:8793, uses the Apple GPU (MPS) if there is one
+```
+
+The server reads 04c checkpoints from `speak/ckpt/` or `~/Downloads/` (`finetune_c_step01500.pt`, about 224 MB, not in this repo). On GitHub Pages this scene is off.
 
 ## Notebooks
 

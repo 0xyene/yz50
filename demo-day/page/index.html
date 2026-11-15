@@ -156,6 +156,27 @@ h2{font-size:50px;line-height:1.08;font-weight:700;letter-spacing:-.025em}
 .readout q{color:var(--ink);font-style:italic}
 .side6{position:absolute;left:1080px;top:372px;width:448px;display:flex;flex-direction:column;gap:12px}
 
+/* dene: canlı model */
+.try{display:grid;grid-template-columns:860px 1fr;gap:40px;margin-top:34px}
+.try textarea{width:100%;height:150px;resize:none;border:1px solid var(--line);border-radius:16px;background:var(--card);padding:20px 22px;font:500 28px/1.35 var(--sans);color:var(--ink);outline:none;transition:border-color .3s}
+.try textarea:focus{border-color:var(--ink)}
+.row{display:flex;gap:10px;align-items:center;margin-top:14px;flex-wrap:wrap}
+.pill{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:9px 16px;font:500 15px var(--sans);color:var(--mute);cursor:pointer;transition:all .25s}
+.pill.on{border-color:var(--ink);color:var(--ink)}
+.pill.me.on{border-color:var(--me);color:var(--me)}
+.go{margin-left:auto;border:0;background:var(--me);color:#fff;border-radius:999px;padding:13px 26px;font:650 17px var(--sans);cursor:pointer;transition:opacity .25s,transform .25s var(--ease)}
+.go:hover{transform:translateY(-1px)} .go:disabled{opacity:.45;cursor:default;transform:none}
+.stat{margin-top:16px;font:15px var(--mono);color:var(--mute);min-height:22px}
+.stat.err{color:var(--me)}
+.stat .dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--me);margin-right:8px;animation:blink 1s ease-in-out infinite}
+@keyframes blink{50%{opacity:.25}}
+.outs{display:flex;flex-direction:column;gap:12px;max-height:560px;overflow:hidden}
+.outs .au{animation:rise .5s var(--ease)}
+@keyframes rise{from{opacity:0;transform:translateY(10px)}}
+.ideas{display:flex;flex-direction:column;gap:8px;margin-top:22px}
+.ideas span{font-size:15px;color:var(--mute);cursor:pointer;transition:color .2s}
+.ideas span:hover{color:var(--ink)}
+
 /* kapanış */
 .end h1{font-size:110px}
 .recap{display:flex;gap:56px;margin-top:70px}
@@ -203,8 +224,8 @@ function drawWave(cv, pk, prog, color){
 function audioCard(file, title, small, opts = {}){
   const c = el('div', 'au' + (opts.me ? ' me' : ''));
   c.innerHTML = `<div class="h"><div class="pl"></div><div class="ti">${title}${small ? `<small>${small}</small>` : ''}</div></div><canvas></canvas><div class="miss">ses dosyası bekleniyor: audio/${file}</div>`;
-  const url = 'audio/' + file, cv = c.querySelector('canvas'), color = opts.me ? '#e2552d' : '#15171c';
-  if (!DATA.have[file]){ c.classList.add('missing'); return c; }
+  const url = opts.url || 'audio/' + file, cv = c.querySelector('canvas'), color = opts.me ? '#e2552d' : '#15171c';
+  if (!opts.url && !DATA.have[file]){ c.classList.add('missing'); return c; }
   let pk = null;
   peaks(url, 90).then(p => { pk = p; drawWave(cv, pk, 0, color); });
   c.play = () => {
@@ -399,6 +420,49 @@ const SCENES = [
     root.append(side);
     ['Digit1', 'Digit2', 'Digit3'].forEach((k, i) => keys[k] = () => cards[i].play && cards[i].play());
  }},
+ { name: 'Dene', build(root){
+    root.append(el('div', 'kicker in', 'Canlı · model bu bilgisayarda çalışıyor'),
+      el('h2', 'in', 'Bir cümle yaz, <span class="me">modelim benim sesimle söylesin.</span>'));
+    const API = 'http://127.0.0.1:8793', wrap = el('div', 'try in'), left = el('div', ''), outs = el('div', 'outs');
+    const ta = el('textarea'); ta.value = 'Merhaba, ben Alperen ve bu model benim sesimle konuşuyor.'; ta.spellcheck = false;
+    const row = el('div', 'row'), go = el('button', 'go', 'Söylet ↵'), st = el('div', 'stat');
+    const ideas = el('div', 'ideas');
+    ['Bu cümleyi ben söylemedim, modelim söyledi.', 'Merhaba YZ 50, bugün demo günü.', 'On iki hafta önce tek bir nöronla başladım.', 'Hesabınıza bin iki yüz elli lira yatırılmıştır.']
+      .forEach(t => { const s = el('span', '', '→ ' + t); s.onclick = () => { ta.value = t; run(); }; ideas.append(s); });
+    left.append(ta, row, st, ideas); wrap.append(left, outs); root.append(wrap);
+    let ckpts = [], ck = null, seed = 0, busy = false, myGen = gen;
+    const label = n => { const m = n.match(/step0*(\d+)/); const s = m ? +m[1] : null;
+      return s === 1500 ? 'adım 1500 · en çok ben' : s === 300 ? 'adım 300 · en net' : s ? 'adım ' + s : n; };
+    function pills(){ row.innerHTML = '';
+      ckpts.forEach(n => { const p = el('div', 'pill' + (n === ck ? ' on' : '') + (/1500/.test(n) ? ' me' : ''), label(n)); p.onclick = () => { ck = n; pills(); }; row.append(p); });
+      row.append(go); }
+    fetch(API + '/status').then(r => r.json()).then(d => {
+      ckpts = d.ckpts.filter(n => !n.startsWith('zz_')); if (!ckpts.length) ckpts = d.ckpts;
+      ck = ckpts.find(n => /1500/.test(n)) || ckpts[ckpts.length - 1];
+      pills(); st.textContent = ckpts.length ? `hazır · ${d.device === 'mps' ? 'Apple GPU' : d.device} · yazıp Enter'a bas` : 'checkpoint yok: speak/ckpt/ ya da İndirilenler';
+      if (!ckpts.length){ st.className = 'stat err'; go.disabled = true; }
+    }).catch(() => { row.append(go); go.disabled = true; st.className = 'stat err';
+      st.innerHTML = location.hostname.endsWith('github.io') ? 'Bu sahne modeli benim bilgisayarımda çalıştırır; GitHub sayfasında kapalı.' : 'Model sunucusu kapalı: <b>python3 speak/server.py</b>'; });
+    async function run(){
+      const text = ta.value.trim(); if (!text || busy || go.disabled) return;
+      busy = true; go.disabled = true; const t0 = performance.now();
+      const tick = setInterval(() => st.innerHTML = `<span class="dot"></span>model ses token'larını tek tek yazıyor… ${((performance.now() - t0) / 1000).toFixed(1)} sn`, 100);
+      try {
+        const r = await fetch(API + '/speak', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ text, ckpt: ck, seed }) });
+        if (!r.ok) throw new Error((await r.json()).error);
+        const info = JSON.parse(r.headers.get('X-Info') || '{}'), url = URL.createObjectURL(await r.blob());
+        if (myGen !== gen) return;
+        const c = audioCard('', `"${text}"`, `${label(info.ckpt)} · ${info.seconds} sn ses · ${info.gen} sn'de üretildi${info.ended ? '' : ' · süre sınırına takıldı'}`, { url, me: /1500/.test(info.ckpt) });
+        outs.prepend(c); while (outs.children.length > 4) outs.lastChild.remove();
+        st.className = 'stat'; st.textContent = `bitti · ${Math.round(info.seconds * 100)} ses token'ı · aynı cümle tekrar: farklı bir örnek`;
+        seed++; setTimeout(() => c.play && c.play(), 150);
+      } catch (e) { st.className = 'stat err'; st.textContent = 'hata: ' + e.message; }
+      finally { clearInterval(tick); busy = false; go.disabled = false; }
+    }
+    go.onclick = run;
+    ta.addEventListener('keydown', e => { if (e.key === 'Enter' && !e.shiftKey){ e.preventDefault(); run(); } });
+    setTimeout(() => ta.focus(), 700);
+ }},
  { name: 'Kapanış', build(root){
     const e = el('div', 'end');
     e.append(el('div', 'kicker in', 'YZ50 · Demo Day · 15 Kasım 2026'), el('h1', 'in', 'Teşekkürler.'));
@@ -426,6 +490,7 @@ function show(i){
 }
 addEventListener('keydown', e => {
   if (e.metaKey || e.ctrlKey || e.altKey) return;
+  if (e.target.closest && e.target.closest('textarea, input')) return;      // yazarken sahne değişmesin
   if (e.code === 'ArrowRight' || e.code === 'Space' || e.code === 'PageDown'){ e.preventDefault(); show(cur + 1); }
   else if (e.code === 'ArrowLeft' || e.code === 'PageUp'){ e.preventDefault(); show(cur - 1); }
   else if (e.code === 'KeyF'){ document.fullscreenElement ? document.exitFullscreen() : document.documentElement.requestFullscreen(); }
