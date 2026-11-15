@@ -184,6 +184,8 @@ h2{font-size:50px;line-height:1.08;font-weight:700;letter-spacing:-.025em}
 .recap div span{font-size:16px;color:var(--mute)}
 .repo{margin-top:80px;font:500 30px var(--mono)}
 .repo span{color:var(--mute)}
+.credits{margin-top:28px;max-width:1300px;font-size:14px;line-height:1.6;color:var(--faint)}
+.credits b{color:var(--mute);font-weight:600}
 </style>
 </head>
 <body>
@@ -365,8 +367,8 @@ const SCENES = [
     setTimeout(() => rows.forEach(([r, w], i) => setTimeout(() => r.querySelector('i').style.width = (w / 26 * 100) + '%', i * 120)), 700);
     const cv = el('div', 'caveat in');
     cv.append(el('p', '', '<b>Ölçü:</b> model 495 cümleyi okur, Whisper large-v3 yazıya döker, kelime hatası sayılır. Düşük daha iyi.'),
-      el('p', '', '<b>Dürüst not:</b> ön eğitim verisi VoxCPM2 (2B) ile üretilmiş sentetik konuşma. Netliğin bir kısmı bu büyük öğretmenden geliyor. Ölçü yalnız anlaşılırlık, doğallık değil.'),
-      el('p', 'note', 'Test cümlelerinden hiçbiri eğitim verisinde yok (kontrol edildi). FreyaTTS, XTTS, F5 sayıları Freya README\'sinden.'));
+      el('p', '', '<b>Dürüst not:</b> ön eğitim verisi VoxCPM2 (2B) ile üretilmiş sentetik konuşma. Veri seti ayrıca Whisper ile süzülmüş: yalnız karakter hatası %5 ya da altında olan klipler tutulmuş. Yani öğretmen net konuşuyordu ve veri, hakemin anladığı kliplerden seçilmişti. Ölçü yalnız anlaşılırlık, doğallık değil.'),
+      el('p', 'note', 'Test cümlelerinden hiçbiri eğitim verisinde yok (kontrol edildi). FreyaTTS, XTTS, F5 sayıları Freya README\'sinden. Test seti: Freya-TR-Eval, CC BY 4.0.'));
     const a = audioCard('freya_0000.wav', 'Test cümlesi · hatasız', '"Yemekten sonra bulaşıkları makineye dizme işini bugün ben hallederim."');
     a.style.marginTop = '8px'; cv.append(a);
     root.append(cv);
@@ -469,7 +471,8 @@ const SCENES = [
     const r = el('div', 'recap in');
     [['12', 'hafta, sıfırdan'], ['99M', 'parametre, kendi GPT\'m'], ['356 sa', 'konuşmayla ön eğitim'], ['%3.5', 'WER, Freya-TR-Eval'], ['15 dk', 'kendi sesim, temiz']]
       .forEach(([b, s]) => r.append(el('div', '', `<b>${b}</b><span>${s}</span>`)));
-    e.append(r, el('div', 'repo in', 'github.com/0xyene/<b>yz50</b> <span>· demo-day/</span>'));
+    e.append(r, el('div', 'repo in', 'github.com/0xyene/<b>yz50</b> <span>· demo-day/</span>'),
+      el('div', 'credits in', 'Ön eğitim verisi: <b>Alania Turkish Synthetic Speech</b>, PatientDesk AI (CC BY 4.0; Mimi token\'larına çevrildi) · Codec: <b>Mimi</b>, Kyutai (CC BY 4.0) · Test: <b>Freya-TR-Eval</b>, Freya (CC BY 4.0) · Hakem: Whisper large-v3, OpenAI · Ses benzerliği: WavLM, Microsoft'));
     root.append(e);
  }},
 ];
