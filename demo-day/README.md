@@ -16,7 +16,9 @@ The loss is only on the audio tokens and EOS. The speaker tag is MALE, FEMALE or
 ## Presentation
 
 `page/` is the Demo Day presentation (one HTML page, 7 scenes, with audio).
-To open it, serve the folder and open it in a browser:
+Open it here: **https://0xyene.github.io/yz50/demo-day/page/**
+
+To open it locally, serve the folder and open it in a browser:
 
 ```bash
 cd page && python3 -m http.server 8792
