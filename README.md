@@ -4,6 +4,8 @@ My weekly assignment work for **[YZ50](https://yz50.ai/)** — a 12-week intensi
 
 The curriculum follows Andrej Karpathy's *Zero to Hero* path: a single neuron written without libraries, then autograd, PyTorch, character-level language models, embeddings and backpropagation by hand, ending in a small GPT built from the ground up. Mentored by researchers from Freya (YC S25).The program's stated goal is producing AI models in Turkey, not just users of them.
 
+**Try the Demo Day model:** [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/0xyene/yz50/blob/main/demo-day/yz50_tts_demo.ipynb) — type a Turkish sentence and hear it in my voice (Runtime → Run all). [Presentation with audio](https://0xyene.github.io/yz50/demo-day/page/) · [Model on Hugging Face](https://huggingface.co/oxyene/yz50-tts)
+
 
 | Week | Topic | Files | Video (Turkish) |
 |---|---|---|---|
